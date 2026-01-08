@@ -7,8 +7,8 @@ import type { UseIndexLogicReturn } from '@/components/headless/HeadlessIndex';
 /**
  * EDITABLE UI - IndexUI
  * 
- * PÃ¡gina principal con Hero section Ãºnicamente.
- * Otras secciones estÃ¡n en pÃ¡ginas separadas.
+ * Página principal con Hero section únicamente.
+ * Otras secciones están en páginas separadas.
  */
 
 interface IndexUIProps {
@@ -36,8 +36,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               className="h-32 w-auto mx-auto drop-shadow-2xl animate-pulse"
             />
           </div>
-          <div style={{ letterSpacing: '0px', backgroundColor: 'transparent', borderWidth: '0px',
-              color: '#78841a', }} className="inline-block bg-accent text-primary px-8 py-3 rounded-full mb-6 font-bold text-xl shadow-2xl border-4 border-accent/50">Miel de Alta Monta�a</div>
+          <div className="inline-block bg-accent text-primary px-8 py-3 rounded-full mb-6 font-bold text-xl shadow-2xl border-4 border-accent">Miel de Alta Montaña</div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl font-ruwudu">
             A 3,000 Metros de Altura
           </h1>
@@ -45,7 +44,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
             En las Faldas del Nevado de Toluca
           </p>
           <p className="text-lg md:text-xl text-white/95 mb-8 max-w-3xl mx-auto drop-shadow-md font-medium">
-            Miel 100% pura, cruda y natural. Elaborada con pasiÃ³n por manos de mujeres.
+            Miel 100% pura, cruda y natural. Elaborada con pasión por manos de mujeres.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -75,7 +74,9 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               className="bg-white rounded-2xl p-8 shadow-2xl border-4 border-accent hover:shadow-[0_20px_60px_rgba(212,168,67,0.4)] transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
               onClick={() => navigate('/nuestro-proyecto')}
             >
-              <div className="text-6xl mb-4 text-center">ðŸ</div>
+              <div className="mb-4 text-center">
+                <img src="/beehives-icon.png" alt="Colmenas" className="h-24 w-24 mx-auto object-contain" />
+              </div>
               <h3 className="text-2xl font-bold text-center mb-4 text-primary font-ruwudu">
                 Apicultura Silvestre
               </h3>
@@ -88,12 +89,14 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               className="bg-white rounded-2xl p-8 shadow-2xl border-4 border-primary hover:shadow-[0_20px_60px_rgba(74,84,45,0.4)] transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
               onClick={() => navigate('/productos')}
             >
-              <div className="text-6xl mb-4 text-center">ðŸ¯</div>
+              <div className="mb-4 text-center">
+                <img src="/honey-jar-icon.png" alt="Miel" className="h-24 w-24 mx-auto object-contain" />
+              </div>
               <h3 className="text-2xl font-bold text-center mb-4 text-accent font-ruwudu">
                 Productos Naturales
               </h3>
               <p className="text-primary/80 text-center font-medium">
-                Miel 100% pura, cruda y natural. Libre de quÃ­micos, antibiÃ³ticos y con ingredientes puros de montaÃ±a.
+                Miel 100% pura, cruda y natural. Libre de químicos, antibióticos y con ingredientes puros de montaña.
               </p>
             </div>
 
@@ -101,12 +104,14 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               className="bg-white rounded-2xl p-8 shadow-2xl border-4 border-terracota hover:shadow-[0_20px_60px_rgba(196,91,91,0.4)] transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
               onClick={() => navigate('/contacto')}
             >
-              <div className="text-6xl mb-4 text-center">ðŸ’</div>
+              <div className="mb-4 text-center">
+                <img src="/women-hands-icon.png" alt="Manos de mujeres" className="h-24 w-24 mx-auto object-contain" />
+              </div>
               <h3 className="text-2xl font-bold text-center mb-4 text-terracota font-ruwudu">
                 Empresa de Mujeres
               </h3>
               <p className="text-primary/80 text-center font-medium">
-                Dos generaciones de mujeres apicultoras con mÃ¡s de 16 aÃ±os de experiencia. ContÃ¡ctanos y conoce mÃ¡s.
+                Dos generaciones de mujeres apicultoras con más de 16 años de experiencia. Contáctanos y conoce más.
               </p>
             </div>
           </div>

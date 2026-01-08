@@ -34,7 +34,7 @@ const Products = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-ruwudu drop-shadow-lg">
                       Nuestras Colecciones
                     </h2>
-                    <div className="w-32 h-2 bg-gradient-to-r from-accent via-white to-terracota mx-auto rounded-full shadow-lg"></div>
+                    <div className="w-32 h-2 bg-accent mx-auto rounded-full shadow-lg"></div>
                   </div>
                   
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -60,7 +60,7 @@ const Products = () => {
                       : 'Todos los Productos'
                     }
                   </h2>
-                  <div className="w-32 h-2 bg-gradient-to-r from-accent via-terracota to-accent mx-auto rounded-full mb-6 shadow-lg"></div>
+                  <div className="w-32 h-2 bg-accent mx-auto rounded-full mb-6 shadow-lg"></div>
                   <p className="text-white/90 max-w-2xl mx-auto text-lg font-medium">
                     Descubre nuestra selección de mieles artesanales de alta montaña
                   </p>

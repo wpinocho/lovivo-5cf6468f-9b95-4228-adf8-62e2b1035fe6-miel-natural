@@ -13,7 +13,7 @@ export const AboutSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-ruwudu drop-shadow-lg">
             Nuestro Proyecto
           </h2>
-          <div className="w-32 h-2 bg-gradient-to-r from-accent via-terracota to-accent mx-auto rounded-full mb-4 shadow-lg"></div>
+          <div className="w-32 h-2 bg-accent mx-auto rounded-full mb-4 shadow-lg"></div>
           <p className="text-xl text-white/90 font-medium">
             La historia detrás de cada gota de miel
           </p>
@@ -48,7 +48,8 @@ export const AboutSection = () => {
             
             <div className="bg-terracota/90 border-4 border-terracota/50 p-6 rounded-xl shadow-2xl">
               <h4 className="text-2xl font-bold text-white mb-3 flex items-center gap-2 font-ruwudu">
-                💐 Empresa de Mujeres
+                <img src="/women-hands-icon.png" alt="Manos" className="h-10 w-10 inline-block" />
+                Empresa de Mujeres
               </h4>
               <p className="text-white/95 leading-relaxed font-medium">
                 APIS TERRA es el fruto del amor y dedicación de dos generaciones de mujeres. 

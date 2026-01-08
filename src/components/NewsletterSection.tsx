@@ -21,12 +21,12 @@ export const NewsletterSection = () => {
             {logic.success ? (
               <div className="space-y-4">
                 <div className="flex justify-center">
-                  <div className="bg-gradient-to-br from-accent to-primary rounded-full p-4 shadow-lg">
+                  <div className="bg-accent rounded-full p-4 shadow-lg">
                     <Mail className="h-8 w-8 text-white" />
                   </div>
                 </div>
                 <h3 className="text-3xl font-bold text-white font-ruwudu drop-shadow-lg">
-                  ¡Gracias por suscribirte! 🐝
+                  ¡Gracias por suscribirte!
                 </h3>
                 <p className="text-white/90 text-lg font-medium">
                   Pronto recibirás nuestras novedades y ofertas especiales de la alta montaña.
@@ -39,7 +39,7 @@ export const NewsletterSection = () => {
                     ¿Quieres recibir nuestras novedades?
                   </h3>
                   <p className="text-lg text-white/90 font-medium">
-                    Suscríbete y recibe ofertas exclusivas directamente de nuestro apiario 🍯
+                    Suscríbete y recibe ofertas exclusivas directamente de nuestro apiario
                   </p>
                 </div>
                 

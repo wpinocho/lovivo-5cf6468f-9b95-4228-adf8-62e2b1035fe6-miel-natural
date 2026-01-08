@@ -32,7 +32,7 @@ export const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-ruwudu drop-shadow-lg">
             Contacto
           </h2>
-          <div className="w-32 h-2 bg-gradient-to-r from-accent via-white to-terracota mx-auto rounded-full mb-4 shadow-lg"></div>
+          <div className="w-32 h-2 bg-accent mx-auto rounded-full mb-4 shadow-lg"></div>
           <p className="text-white/90 mt-4 max-w-2xl mx-auto text-lg font-medium">
             ¿Tienes alguna pregunta? Nos encantaría escucharte
           </p>
@@ -137,7 +137,7 @@ export const ContactSection = () => {
               </div>
 
               <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-primary font-bold shadow-xl text-lg border-4 border-accent/70" size="lg">
-                ✉️ Enviar Mensaje
+                Enviar Mensaje
               </Button>
             </form>
           </div>
