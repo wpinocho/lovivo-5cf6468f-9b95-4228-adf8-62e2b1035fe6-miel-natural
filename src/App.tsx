@@ -12,6 +12,9 @@ import { PixelProvider } from "@/contexts/PixelContext";
 import { PostHogProvider } from "@/contexts/PostHogContext";
 import { AuthProvider } from "@/contexts/AuthContext";
 import Index from "./pages/Index";
+import About from "./pages/About";
+import Products from "./pages/Products";
+import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
@@ -49,6 +52,9 @@ const App = () => (
                     <PageViewTracker />
                     <Routes>
                       <Route path="/" element={<Index />} />
+                      <Route path="/nuestro-proyecto" element={<About />} />
+                      <Route path="/productos" element={<Products />} />
+                      <Route path="/contacto" element={<Contact />} />
                       <Route path="/products/:slug" element={<Product />} />
                       <Route path="/cart" element={<Cart />} />
                       <Route path="/checkout" element={<Checkout />} />

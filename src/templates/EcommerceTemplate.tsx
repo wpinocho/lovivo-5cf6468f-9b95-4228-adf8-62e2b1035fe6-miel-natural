@@ -4,14 +4,13 @@ import { BrandLogoLeft } from '@/components/BrandLogoLeft'
 import { SocialLinks } from '@/components/SocialLinks'
 import { FloatingCart } from '@/components/FloatingCart'
 import { ProfileMenu } from '@/components/ProfileMenu'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { ShoppingCart } from 'lucide-react'
 import { useCartUI } from '@/components/CartProvider'
 import { useCart } from '@/contexts/CartContext'
 import { useCollections } from '@/hooks/useCollections'
-import { Input } from '@/components/ui/input'
-import { ScrollLink } from '@/components/ScrollLink'
+import { cn } from '@/lib/utils'
 
 /**
  * EDITABLE TEMPLATE - EcommerceTemplate
@@ -43,6 +42,7 @@ export const EcommerceTemplate = ({
   const { getTotalItems } = useCart()
   const totalItems = getTotalItems()
   const { hasCollections, loading: loadingCollections } = useCollections()
+  const location = useLocation()
 
   const header = (
     <div className={`py-4 bg-background/95 backdrop-blur ${headerClassName}`}>
@@ -54,24 +54,33 @@ export const EcommerceTemplate = ({
           {/* Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-6">
-              <ScrollLink 
-                to="/#about" 
-                className="text-foreground/70 hover:text-accent transition-colors font-medium"
+              <Link 
+                to="/nuestro-proyecto" 
+                className={cn(
+                  "text-foreground/70 hover:text-accent transition-colors font-medium",
+                  location.pathname === '/nuestro-proyecto' && "text-accent font-bold"
+                )}
               >
                 Nuestro Proyecto
-              </ScrollLink>
-              <ScrollLink 
-                to="/#products" 
-                className="text-foreground/70 hover:text-accent transition-colors font-medium"
+              </Link>
+              <Link 
+                to="/productos" 
+                className={cn(
+                  "text-foreground/70 hover:text-accent transition-colors font-medium",
+                  location.pathname === '/productos' && "text-accent font-bold"
+                )}
               >
                 Productos
-              </ScrollLink>
-              <ScrollLink 
-                to="/#contact" 
-                className="text-foreground/70 hover:text-accent transition-colors font-medium"
+              </Link>
+              <Link 
+                to="/contacto" 
+                className={cn(
+                  "text-foreground/70 hover:text-accent transition-colors font-medium",
+                  location.pathname === '/contacto' && "text-accent font-bold"
+                )}
               >
                 Contacto
-              </ScrollLink>
+              </Link>
             </nav>
           </div>
 
@@ -132,24 +141,24 @@ export const EcommerceTemplate = ({
           <div>
             <h3 className="font-semibold mb-4 text-white text-lg">Enlaces</h3>
             <div className="space-y-2">
-              <ScrollLink 
-                to="/#about" 
+              <Link 
+                to="/nuestro-proyecto" 
                 className="block text-white/70 hover:text-white transition-colors"
               >
                 Nuestro Proyecto
-              </ScrollLink>
-              <ScrollLink 
-                to="/#products" 
+              </Link>
+              <Link 
+                to="/productos" 
                 className="block text-white/70 hover:text-white transition-colors"
               >
                 Productos
-              </ScrollLink>
-              <ScrollLink 
-                to="/#contact" 
+              </Link>
+              <Link 
+                to="/contacto" 
                 className="block text-white/70 hover:text-white transition-colors"
               >
                 Contacto
-              </ScrollLink>
+              </Link>
             </div>
           </div>
 
