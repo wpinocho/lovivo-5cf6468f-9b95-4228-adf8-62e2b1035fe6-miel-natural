@@ -26,10 +26,10 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
   return (
     <HeadlessProductCard product={product}>
       {(logic) => (
-        <Card className="bg-white border border-gray-200">
+        <Card className="bg-card border-border hover:shadow-lg transition-shadow duration-300">
           <CardContent className="p-4">
             <Link to={`/products/${logic.product.slug}`} className="block">
-              <div className="aspect-square bg-gray-100 rounded-md mb-3 overflow-hidden relative">
+              <div className="aspect-square bg-muted rounded-md mb-3 overflow-hidden relative">
                 {(logic.matchingVariant?.image || (logic.product.images && logic.product.images.length > 0)) ? (
                   <img
                     src={(logic.matchingVariant?.image as any) || logic.product.images![0]}
@@ -37,36 +37,36 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                     className="w-full h-full object-cover"
                   />
                 ) : (
-                  <div className="w-full h-full flex items-center justify-center text-gray-400">
-                    No image
+                  <div className="w-full h-full flex items-center justify-center text-muted-foreground">
+                    Sin imagen
                   </div>
                 )}
 
                 {/* Badges */}
                 <div className="absolute top-2 left-2 flex flex-col gap-1">
                   {logic.discountPercentage && (
-                    <span className="bg-red-500 text-white text-xs px-2 py-1 rounded font-medium">
+                    <span className="bg-accent text-white text-xs px-2 py-1 rounded font-medium">
                       -{logic.discountPercentage}%
                     </span>
                   )}
                   {logic.product.featured && (
-                    <span className="bg-orange-500 text-white text-xs px-2 py-1 rounded font-medium">
-                      Featured
+                    <span className="bg-primary text-white text-xs px-2 py-1 rounded font-medium">
+                      Destacado
                     </span>
                   )}
                   {!logic.inStock && (
-                    <span className="bg-gray-600 text-white text-xs px-2 py-1 rounded font-medium">
-                      Out of stock
+                    <span className="bg-secondary text-white text-xs px-2 py-1 rounded font-medium">
+                      Agotado
                     </span>
                   )}
                 </div>
               </div>
 
-              <h3 className="text-black font-medium text-sm mb-1 line-clamp-2">
+              <h3 className="text-foreground font-semibold text-base mb-1 line-clamp-2">
                 {logic.product.title}
               </h3>
               {logic.product.description && (
-                <p className="text-gray-600 text-xs mb-3 line-clamp-2">
+                <p className="text-muted-foreground text-sm mb-3 line-clamp-2">
                   {logic.product.description.replace(/<[^>]*>/g, '')}
                 </p>
               )}
@@ -129,26 +129,25 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
 
             <div className="flex items-center justify-between">
               <div className="flex flex-col">
-                <span className="text-black font-semibold">
+                <span className="text-foreground font-bold text-lg">
                   {logic.formatMoney(logic.currentPrice)}
                 </span>
                 {logic.currentCompareAt && logic.currentCompareAt > logic.currentPrice && (
-                  <span className="text-gray-400 text-xs line-through">
+                  <span className="text-muted-foreground text-sm line-through">
                     {logic.formatMoney(logic.currentCompareAt)}
                   </span>
                 )}
               </div>
               <Button
-                variant="outline"
                 size="sm"
                 onClick={() => {
-                  logic.onAddToCartSuccess() // Hook para features adicionales
+                  logic.onAddToCartSuccess()
                   logic.handleAddToCart()
                 }}
                 disabled={!logic.canAddToCart}
-                className="text-black border-black hover:bg-black hover:text-white disabled:opacity-50"
+                className="bg-primary hover:bg-primary/90 text-white disabled:opacity-50"
               >
-                {logic.inStock ? 'Add' : 'Out of stock'}
+                {logic.inStock ? 'Agregar' : 'Agotado'}
               </Button>
             </div>
           </CardContent>

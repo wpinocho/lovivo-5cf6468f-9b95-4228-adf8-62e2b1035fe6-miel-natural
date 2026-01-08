@@ -45,7 +45,7 @@ export const EcommerceTemplate = ({
   const { hasCollections, loading: loadingCollections } = useCollections()
 
   const header = (
-    <div className={`py-2 ${headerClassName}`}>
+    <div className={`py-4 bg-background/95 backdrop-blur ${headerClassName}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -54,26 +54,24 @@ export const EcommerceTemplate = ({
           {/* Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-6">
-              {!loadingCollections && hasCollections && (
-                <ScrollLink 
-                  to="/#collections" 
-                  className="text-foreground/70 hover:text-foreground transition-colors"
-                >
-                  Collections
-                </ScrollLink>
-              )}
+              <ScrollLink 
+                to="/#about" 
+                className="text-foreground/70 hover:text-accent transition-colors font-medium"
+              >
+                Nuestro Proyecto
+              </ScrollLink>
               <ScrollLink 
                 to="/#products" 
-                className="text-foreground/70 hover:text-foreground transition-colors"
+                className="text-foreground/70 hover:text-accent transition-colors font-medium"
               >
-                Products
+                Productos
               </ScrollLink>
-              <Link 
-                to="/blog" 
-                className="text-foreground/70 hover:text-foreground transition-colors"
+              <ScrollLink 
+                to="/#contact" 
+                className="text-foreground/70 hover:text-accent transition-colors font-medium"
               >
-                Blog
-              </Link>
+                Contacto
+              </ScrollLink>
             </nav>
           </div>
 
@@ -113,45 +111,61 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`bg-black text-white py-12 ${footerClassName}`}>
+    <div className={`bg-secondary text-white py-12 ${footerClassName}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <BrandLogoLeft />
-            <p className="mt-4 text-white/70">
-              Your trusted online store
+            <div className="mb-4">
+              <img 
+                src="/logo.png" 
+                alt="APIS TERRA" 
+                className="h-16 w-auto brightness-0 invert"
+              />
+            </div>
+            <p className="mt-4 text-white/80 leading-relaxed">
+              Miel artesanal 100% natural de las sierras. Productos elaborados con pasión y respeto por la naturaleza.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-white">Links</h3>
+            <h3 className="font-semibold mb-4 text-white text-lg">Enlaces</h3>
             <div className="space-y-2">
-              <Link 
-                to="/" 
+              <ScrollLink 
+                to="/#about" 
                 className="block text-white/70 hover:text-white transition-colors"
               >
-                Home
-              </Link>
-              <Link 
-                to="/blog" 
+                Nuestro Proyecto
+              </ScrollLink>
+              <ScrollLink 
+                to="/#products" 
                 className="block text-white/70 hover:text-white transition-colors"
               >
-                Blog
-              </Link>
+                Productos
+              </ScrollLink>
+              <ScrollLink 
+                to="/#contact" 
+                className="block text-white/70 hover:text-white transition-colors"
+              >
+                Contacto
+              </ScrollLink>
             </div>
           </div>
 
           {/* Social Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-white">Follow Us</h3>
+            <h3 className="font-semibold mb-4 text-white text-lg">Síguenos</h3>
             <SocialLinks />
+            <div className="mt-6 space-y-2 text-sm text-white/70">
+              <p>contacto@apisterra.com</p>
+              <p>+52 123 456 7890</p>
+            </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-white/20 text-center text-white/70">
-          <p>&copy; 2025 Your Store. All rights reserved.</p>
+          <p>&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
         </div>
       </div>
     </div>
