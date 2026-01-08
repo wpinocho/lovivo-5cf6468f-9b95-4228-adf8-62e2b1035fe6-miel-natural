@@ -106,7 +106,6 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
                 ))}
               </div>
             </div>
-          </div>
         </section>
       )}
 
