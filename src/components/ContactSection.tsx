@@ -26,14 +26,14 @@ export const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
+    <section id="contact" className="py-20 bg-gradient-to-br from-accent/20 via-background to-terracota/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-ruwudu drop-shadow-lg">
             Contacto
           </h2>
-          <div className="w-24 h-1.5 bg-gradient-to-r from-accent via-primary to-terracota mx-auto rounded-full mb-4"></div>
-          <p className="text-muted-foreground mt-4 max-w-2xl mx-auto text-lg">
+          <div className="w-32 h-2 bg-gradient-to-r from-accent via-white to-terracota mx-auto rounded-full mb-4 shadow-lg"></div>
+          <p className="text-white/90 mt-4 max-w-2xl mx-auto text-lg font-medium">
             ¿Tienes alguna pregunta? Nos encantaría escucharte
           </p>
         </div>
@@ -42,43 +42,43 @@ export const ContactSection = () => {
           {/* Información de contacto */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-foreground mb-6">
+              <h3 className="text-3xl font-bold text-accent mb-6 font-ruwudu">
                 Hablemos
               </h3>
-              <p className="text-muted-foreground mb-8">
+              <p className="text-white/90 mb-8 font-medium text-lg">
                 Estamos aquí para responder tus preguntas sobre nuestros productos 
                 y procesos. No dudes en contactarnos.
               </p>
             </div>
 
             <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="bg-accent/20 p-3 rounded-lg border-2 border-accent/30">
-                  <Mail className="h-6 w-6 text-accent" />
+              <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-accent">
+                <div className="bg-accent p-3 rounded-lg">
+                  <Mail className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                  <p className="text-muted-foreground">contacto@apisterra.com</p>
+                  <h4 className="font-bold text-primary mb-1 text-lg">Email</h4>
+                  <p className="text-primary/80 font-medium">contacto@apisterra.com</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="bg-primary/20 p-3 rounded-lg border-2 border-primary/30">
-                  <Phone className="h-6 w-6 text-primary" />
+              <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-primary">
+                <div className="bg-primary p-3 rounded-lg">
+                  <Phone className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Teléfono</h4>
-                  <p className="text-muted-foreground">+52 123 456 7890</p>
+                  <h4 className="font-bold text-primary mb-1 text-lg">Teléfono</h4>
+                  <p className="text-primary/80 font-medium">+52 123 456 7890</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="bg-terracota/20 p-3 rounded-lg border-2 border-terracota/30">
-                  <MapPin className="h-6 w-6 text-terracota" />
+              <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-terracota">
+                <div className="bg-terracota p-3 rounded-lg">
+                  <MapPin className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-1">Ubicación</h4>
-                  <p className="text-muted-foreground">
+                  <h4 className="font-bold text-primary mb-1 text-lg">Ubicación</h4>
+                  <p className="text-primary/80 font-medium">
                     Faldas del Nevado de Toluca<br />
                     3,000 metros de altura<br />
                     Estado de México
@@ -89,10 +89,10 @@ export const ContactSection = () => {
           </div>
 
           {/* Formulario de contacto */}
-          <div className="bg-card rounded-xl shadow-2xl p-8 border-2 border-accent/20">
+          <div className="bg-white rounded-xl shadow-2xl p-8 border-4 border-accent">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                <label htmlFor="name" className="block text-sm font-bold text-primary mb-2">
                   Nombre
                 </label>
                 <Input
@@ -107,7 +107,7 @@ export const ContactSection = () => {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                <label htmlFor="email" className="block text-sm font-bold text-primary mb-2">
                   Email
                 </label>
                 <Input
@@ -122,7 +122,7 @@ export const ContactSection = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                <label htmlFor="message" className="block text-sm font-bold text-primary mb-2">
                   Mensaje
                 </label>
                 <textarea
@@ -136,7 +136,7 @@ export const ContactSection = () => {
                 />
               </div>
 
-              <Button type="submit" className="w-full bg-gradient-to-r from-accent to-primary hover:from-accent/90 hover:to-primary/90 text-white font-bold shadow-lg" size="lg">
+              <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-primary font-bold shadow-xl text-lg border-4 border-accent/70" size="lg">
                 ✉️ Enviar Mensaje
               </Button>
             </form>

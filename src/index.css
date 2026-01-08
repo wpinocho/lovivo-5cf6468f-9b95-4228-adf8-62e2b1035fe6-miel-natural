@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,8 +14,9 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 42 25% 96%;
-    --foreground: 73 30% 25%;
+    /* Verde oliva claro #85945e como fondo principal */
+    --background: 73 23% 47%;
+    --foreground: 0 0% 100%;
 
     --card: 0 0% 100%;
     --card-foreground: 73 30% 25%;
@@ -21,44 +24,41 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 73 30% 25%;
 
-    --primary: 73 23% 56%;
+    /* Verde oscuro #4a542d */
+    --primary: 73 30% 25%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 73 30% 25%;
+    /* Verde oliva más oscuro para contraste */
+    --secondary: 73 30% 35%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 73 15% 90%;
-    --muted-foreground: 73 10% 45%;
+    --muted: 73 15% 70%;
+    --muted-foreground: 73 30% 20%;
 
-    --accent: 43 74% 49%;
+    /* Dorado miel #d4a843 */
+    --accent: 43 65% 55%;
     --accent-foreground: 73 30% 25%;
 
-    --terracota: 0 42% 56%;
+    /* Terracota rosado #c45b5b */
+    --terracota: 0 48% 56%;
     --terracota-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 75 15% 88%;
-    --input: 75 15% 88%;
-    --ring: 75 17% 45%;
+    --border: 73 20% 65%;
+    --input: 0 0% 100%;
+    --ring: 43 65% 55%;
 
-    --radius: 0.375rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -111,5 +111,11 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ruwudu', serif;
+    font-weight: 400;
   }
 }

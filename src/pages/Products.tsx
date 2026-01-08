@@ -28,13 +28,13 @@ const Products = () => {
           <EcommerceTemplate pageTitle="Nuestros Productos" showCart={true}>
             {/* Collections Section */}
             {!loadingCollections && collections.length > 0 && (
-              <section className="py-16 bg-gradient-to-br from-terracota/5 via-background to-primary/5">
+              <section className="py-16 bg-gradient-to-br from-terracota/30 via-accent/20 to-primary/30">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-ruwudu drop-shadow-lg">
                       Nuestras Colecciones
                     </h2>
-                    <div className="w-24 h-1.5 bg-gradient-to-r from-terracota via-accent to-primary mx-auto rounded-full"></div>
+                    <div className="w-32 h-2 bg-gradient-to-r from-accent via-white to-terracota mx-auto rounded-full shadow-lg"></div>
                   </div>
                   
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -51,17 +51,17 @@ const Products = () => {
             )}
 
             {/* Products Section */}
-            <section className="py-20 bg-background">
+            <section className="py-20 bg-gradient-to-br from-primary/20 via-background to-accent/20">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
-                  <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+                  <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-ruwudu drop-shadow-lg">
                     {selectedCollectionId 
                       ? `Productos de ${collections.find(c => c.id === selectedCollectionId)?.name || 'Colección'}` 
                       : 'Todos los Productos'
                     }
                   </h2>
-                  <div className="w-24 h-1.5 bg-gradient-to-r from-accent via-primary to-terracota mx-auto rounded-full mb-6"></div>
-                  <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
+                  <div className="w-32 h-2 bg-gradient-to-r from-accent via-terracota to-accent mx-auto rounded-full mb-6 shadow-lg"></div>
+                  <p className="text-white/90 max-w-2xl mx-auto text-lg font-medium">
                     Descubre nuestra selección de mieles artesanales de alta montaña
                   </p>
                 </div>
@@ -71,7 +71,7 @@ const Products = () => {
                     <Button 
                       variant="outline" 
                       onClick={handleShowAllProducts}
-                      className="border-primary text-primary hover:bg-primary hover:text-white"
+                      className="border-4 border-accent bg-accent text-primary hover:bg-accent/90 font-bold text-lg px-8 shadow-xl"
                     >
                       Ver Todos los Productos
                     </Button>

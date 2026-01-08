@@ -45,7 +45,7 @@ export const EcommerceTemplate = ({
   const location = useLocation()
 
   const header = (
-    <div className={`py-4 bg-background/95 backdrop-blur ${headerClassName}`}>
+    <div className={`py-4 bg-primary/95 backdrop-blur shadow-lg border-b-4 border-accent ${headerClassName}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -57,8 +57,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/nuestro-proyecto" 
                 className={cn(
-                  "text-foreground/70 hover:text-accent transition-colors font-medium",
-                  location.pathname === '/nuestro-proyecto' && "text-accent font-bold"
+                  "text-white/80 hover:text-accent transition-colors font-semibold text-lg",
+                  location.pathname === '/nuestro-proyecto' && "text-accent font-bold drop-shadow"
                 )}
               >
                 Nuestro Proyecto
@@ -66,8 +66,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/productos" 
                 className={cn(
-                  "text-foreground/70 hover:text-accent transition-colors font-medium",
-                  location.pathname === '/productos' && "text-accent font-bold"
+                  "text-white/80 hover:text-accent transition-colors font-semibold text-lg",
+                  location.pathname === '/productos' && "text-accent font-bold drop-shadow"
                 )}
               >
                 Productos
@@ -75,8 +75,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/contacto" 
                 className={cn(
-                  "text-foreground/70 hover:text-accent transition-colors font-medium",
-                  location.pathname === '/contacto' && "text-accent font-bold"
+                  "text-white/80 hover:text-accent transition-colors font-semibold text-lg",
+                  location.pathname === '/contacto' && "text-accent font-bold drop-shadow"
                 )}
               >
                 Contacto
@@ -93,12 +93,12 @@ export const EcommerceTemplate = ({
                 variant="ghost"
                 size="icon"
                 onClick={openCart}
-                className="relative"
+                className="relative text-white hover:text-accent hover:bg-white/10"
                 aria-label="Ver carrito"
               >
                 <ShoppingCart className="h-5 w-5" />
                 {totalItems > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-primary text-primary-foreground text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                  <span className="absolute -top-2 -right-2 bg-accent text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-white shadow-lg">
                     {totalItems > 99 ? '99+' : totalItems}
                   </span>
                 )}
@@ -110,7 +110,7 @@ export const EcommerceTemplate = ({
         {/* Page Title */}
         {pageTitle && (
           <div className="mt-6">
-            <h1 className="text-3xl font-bold text-foreground">
+            <h1 className="text-3xl font-bold text-white font-ruwudu">
               {pageTitle}
             </h1>
           </div>
@@ -120,7 +120,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`bg-secondary text-white py-12 ${footerClassName}`}>
+    <div className={`bg-primary text-white py-12 border-t-4 border-accent shadow-2xl ${footerClassName}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -129,33 +129,33 @@ export const EcommerceTemplate = ({
               <img 
                 src="/logo.png" 
                 alt="APIS TERRA" 
-                className="h-16 w-auto brightness-0 invert"
+                className="h-16 w-auto brightness-0 invert drop-shadow-lg"
               />
             </div>
-            <p className="mt-4 text-white/90 leading-relaxed font-medium">
+            <p className="mt-4 text-white/95 leading-relaxed font-semibold text-base">
               Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca. Elaborada con pasión por mujeres apicultoras.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-white text-lg">Enlaces</h3>
-            <div className="space-y-2">
+            <h3 className="font-bold mb-4 text-accent text-xl font-ruwudu">Enlaces</h3>
+            <div className="space-y-3">
               <Link 
                 to="/nuestro-proyecto" 
-                className="block text-white/70 hover:text-white transition-colors"
+                className="block text-white/80 hover:text-accent transition-colors font-semibold text-lg"
               >
                 Nuestro Proyecto
               </Link>
               <Link 
                 to="/productos" 
-                className="block text-white/70 hover:text-white transition-colors"
+                className="block text-white/80 hover:text-accent transition-colors font-semibold text-lg"
               >
                 Productos
               </Link>
               <Link 
                 to="/contacto" 
-                className="block text-white/70 hover:text-white transition-colors"
+                className="block text-white/80 hover:text-accent transition-colors font-semibold text-lg"
               >
                 Contacto
               </Link>
@@ -164,18 +164,18 @@ export const EcommerceTemplate = ({
 
           {/* Social Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-white text-lg">Síguenos</h3>
+            <h3 className="font-bold mb-4 text-accent text-xl font-ruwudu">Síguenos</h3>
             <SocialLinks />
-            <div className="mt-6 space-y-2 text-sm text-white/80">
-              <p className="font-medium">📧 contacto@apisterra.com</p>
-              <p className="font-medium">📱 +52 123 456 7890</p>
-              <p className="font-medium">🏔️ Nevado de Toluca, 3,000 msnm</p>
+            <div className="mt-6 space-y-2 text-sm text-white/95">
+              <p className="font-bold">📧 contacto@apisterra.com</p>
+              <p className="font-bold">📱 +52 123 456 7890</p>
+              <p className="font-bold">🏔️ Nevado de Toluca, 3,000 msnm</p>
             </div>
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-white/20 text-center text-white/70">
-          <p>&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
+        <div className="mt-8 pt-8 border-t-2 border-accent/50 text-center text-white/90">
+          <p className="font-semibold">&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
         </div>
       </div>
     </div>
