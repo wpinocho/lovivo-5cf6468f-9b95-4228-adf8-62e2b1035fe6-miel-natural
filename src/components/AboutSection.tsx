@@ -7,108 +7,104 @@
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-20 bg-background">
+    <section id="about" className="py-20 bg-gradient-to-br from-accent/5 via-background to-primary/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Nuestro Proyecto
           </h2>
-          <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
+          <div className="w-24 h-1.5 bg-gradient-to-r from-primary via-accent to-terracota mx-auto rounded-full mb-4"></div>
+          <p className="text-xl text-muted-foreground">
+            La historia detrás de cada gota de miel
+          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Texto descriptivo */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-foreground">
-              Miel Artesanal de las Sierras
+            <h3 className="text-3xl font-bold text-foreground bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              Apicultura Silvestre a 3,000 Metros
             </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              En APIS TERRA trabajamos con pasión para ofrecerte la miel más pura y 
-              natural. Nuestras abejas recolectan el néctar de flores silvestres en 
-              campos libres de pesticidas, creando productos únicos y llenos de sabor.
+            
+            <div className="bg-accent/10 border-l-4 border-accent p-4 rounded-r-lg">
+              <p className="text-foreground/90 leading-relaxed italic font-medium">
+                "Donde el aire es más puro y el cielo más cercano, nuestras abejas danzan entre flores silvestres que solo crecen en las alturas."
+              </p>
+            </div>
+            
+            <p className="text-muted-foreground leading-relaxed text-lg">
+              En las majestuosas faldas del <strong className="text-foreground">Nevado de Toluca</strong>, 
+              a 3,000 metros sobre el nivel del mar, practicamos una apicultura silvestre que respeta 
+              el ritmo ancestral de la naturaleza. Aquí, donde la baja humedad y la altitud extrema 
+              desafían la vida, nuestras abejas realizan un trabajo extraordinario.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Cada frasco de miel es el resultado de un proceso artesanal cuidadoso, 
-              desde la colmena hasta tu mesa. Infusionamos nuestras mieles con hierbas 
-              aromáticas seleccionadas para crear experiencias de sabor inolvidables.
+            
+            <p className="text-muted-foreground leading-relaxed text-lg">
+              La altura exige más. Cada gota de néctar recolectada representa el triple de esfuerzo, 
+              cada vuelo es una hazaña contra vientos de montaña. Esta dedicación incansable se traduce 
+              en una <strong className="text-accent">miel única, más densa, más aromática</strong>, 
+              con propiedades que solo la montaña puede ofrecer.
             </p>
+            
+            <div className="bg-terracota/10 border border-terracota/30 p-5 rounded-lg">
+              <h4 className="text-xl font-bold text-terracota mb-3 flex items-center gap-2">
+                💐 Empresa de Mujeres
+              </h4>
+              <p className="text-muted-foreground leading-relaxed">
+                APIS TERRA es el fruto del amor y dedicación de dos generaciones de mujeres. 
+                Mi madre, con <strong className="text-foreground">más de 16 años de experiencia</strong> 
+                en apicultura, me enseñó que cuidar de las abejas es cuidar de la tierra. Juntas, 
+                madre e hija, continuamos este legado de respeto y pasión por la naturaleza.
+              </p>
+            </div>
+            
             <div className="flex flex-wrap gap-4 pt-4">
               <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-sm font-medium text-foreground">100% Natural</span>
+                <div className="w-2 h-2 bg-accent rounded-full animate-pulse"></div>
+                <span className="text-sm font-semibold text-foreground">Apicultura Silvestre</span>
               </div>
               <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-sm font-medium text-foreground">Sin Aditivos</span>
+                <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+                <span className="text-sm font-semibold text-foreground">3,000 msnm</span>
               </div>
               <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-sm font-medium text-foreground">Producción Artesanal</span>
+                <div className="w-2 h-2 bg-terracota rounded-full animate-pulse"></div>
+                <span className="text-sm font-semibold text-foreground">Hecho por Mujeres</span>
               </div>
             </div>
           </div>
 
-          {/* Placeholder para fotos del apiario */}
+          {/* Galería de fotos del apiario */}
           <div className="space-y-4">
-            <div className="aspect-[4/3] bg-muted rounded-lg overflow-hidden shadow-lg">
-              <div className="w-full h-full flex flex-col items-center justify-center text-muted-foreground p-8 text-center">
-                <svg 
-                  className="w-16 h-16 mb-4 opacity-40" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
-                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" 
-                  />
-                </svg>
-                <p className="text-sm font-medium">
-                  Espacio reservado para fotos del apiario
-                </p>
-                <p className="text-xs mt-2 opacity-70">
-                  Agrega imágenes de tu producción aquí
-                </p>
-              </div>
+            <div className="aspect-[4/3] bg-muted rounded-xl overflow-hidden shadow-2xl border-4 border-accent/20">
+              <img 
+                src="/about-bees.jpg" 
+                alt="Abejas trabajando en flores de alta montaña" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
             </div>
             
             <div className="grid grid-cols-2 gap-4">
-              <div className="aspect-square bg-muted rounded-lg overflow-hidden shadow-md">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  <svg 
-                    className="w-12 h-12 opacity-30" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      strokeWidth={2} 
-                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" 
-                    />
-                  </svg>
-                </div>
+              <div className="aspect-square bg-muted rounded-xl overflow-hidden shadow-lg border-2 border-primary/20">
+                <img 
+                  src="/about-apiary-1.jpg" 
+                  alt="Colmenas en las montañas" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
               </div>
-              <div className="aspect-square bg-muted rounded-lg overflow-hidden shadow-md">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  <svg 
-                    className="w-12 h-12 opacity-30" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      strokeWidth={2} 
-                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" 
-                    />
-                  </svg>
-                </div>
+              <div className="aspect-square bg-muted rounded-xl overflow-hidden shadow-lg border-2 border-primary/20">
+                <img 
+                  src="/about-apiary-2.jpg" 
+                  alt="Abeja en panal con miel" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
               </div>
+            </div>
+            
+            <div className="bg-gradient-to-r from-accent/20 to-primary/20 p-4 rounded-lg text-center">
+              <p className="text-sm text-foreground/80 italic">
+                📸 Puedes reemplazar estas imágenes con fotos reales de tu apiario
+              </p>
             </div>
           </div>
         </div>

@@ -12,26 +12,29 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 42 20% 97%;
-    --foreground: 75 30% 20%;
+    --background: 42 25% 96%;
+    --foreground: 73 30% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 75 30% 20%;
+    --card-foreground: 73 30% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 75 30% 20%;
+    --popover-foreground: 73 30% 25%;
 
-    --primary: 75 17% 45%;
+    --primary: 73 23% 56%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 75 30% 25%;
+    --secondary: 73 30% 25%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 75 15% 92%;
-    --muted-foreground: 75 10% 45%;
+    --muted: 73 15% 90%;
+    --muted-foreground: 73 10% 45%;
 
-    --accent: 0 42% 56%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 43 74% 49%;
+    --accent-foreground: 73 30% 25%;
+
+    --terracota: 0 42% 56%;
+    --terracota-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -60,26 +63,29 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 75 30% 12%;
-    --foreground: 42 20% 95%;
+    --background: 73 30% 12%;
+    --foreground: 42 25% 95%;
 
-    --card: 75 30% 15%;
-    --card-foreground: 42 20% 95%;
+    --card: 73 30% 15%;
+    --card-foreground: 42 25% 95%;
 
-    --popover: 75 30% 15%;
-    --popover-foreground: 42 20% 95%;
+    --popover: 73 30% 15%;
+    --popover-foreground: 42 25% 95%;
 
-    --primary: 75 17% 55%;
-    --primary-foreground: 75 30% 12%;
+    --primary: 73 23% 65%;
+    --primary-foreground: 73 30% 12%;
 
-    --secondary: 75 30% 25%;
-    --secondary-foreground: 42 20% 95%;
+    --secondary: 73 30% 25%;
+    --secondary-foreground: 42 25% 95%;
 
-    --muted: 75 30% 20%;
-    --muted-foreground: 75 10% 65%;
+    --muted: 73 30% 20%;
+    --muted-foreground: 73 10% 65%;
 
-    --accent: 0 42% 56%;
-    --accent-foreground: 42 20% 95%;
+    --accent: 43 74% 60%;
+    --accent-foreground: 73 30% 12%;
+
+    --terracota: 0 42% 60%;
+    --terracota-foreground: 42 25% 95%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 42 20% 95%;

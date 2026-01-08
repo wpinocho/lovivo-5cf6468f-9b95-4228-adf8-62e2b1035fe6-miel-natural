@@ -26,10 +26,10 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
   return (
     <HeadlessProductCard product={product}>
       {(logic) => (
-        <Card className="bg-card border-border hover:shadow-lg transition-shadow duration-300">
+        <Card className="bg-card border-2 border-primary/20 hover:border-accent/40 hover:shadow-2xl transition-all duration-300 group">
           <CardContent className="p-4">
             <Link to={`/products/${logic.product.slug}`} className="block">
-              <div className="aspect-square bg-muted rounded-md mb-3 overflow-hidden relative">
+              <div className="aspect-square bg-muted rounded-lg mb-3 overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-300">
                 {(logic.matchingVariant?.image || (logic.product.images && logic.product.images.length > 0)) ? (
                   <img
                     src={(logic.matchingVariant?.image as any) || logic.product.images![0]}
@@ -45,17 +45,17 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                 {/* Badges */}
                 <div className="absolute top-2 left-2 flex flex-col gap-1">
                   {logic.discountPercentage && (
-                    <span className="bg-accent text-white text-xs px-2 py-1 rounded font-medium">
+                    <span className="bg-gradient-to-r from-terracota to-accent text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
                       -{logic.discountPercentage}%
                     </span>
                   )}
                   {logic.product.featured && (
-                    <span className="bg-primary text-white text-xs px-2 py-1 rounded font-medium">
-                      Destacado
+                    <span className="bg-gradient-to-r from-accent to-primary text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
+                      ⭐ Destacado
                     </span>
                   )}
                   {!logic.inStock && (
-                    <span className="bg-secondary text-white text-xs px-2 py-1 rounded font-medium">
+                    <span className="bg-secondary/90 text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
                       Agotado
                     </span>
                   )}
@@ -145,9 +145,9 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                   logic.handleAddToCart()
                 }}
                 disabled={!logic.canAddToCart}
-                className="bg-primary hover:bg-primary/90 text-white disabled:opacity-50"
+                className="bg-gradient-to-r from-accent to-primary hover:from-accent/90 hover:to-primary/90 text-white disabled:opacity-50 font-bold shadow-md"
               >
-                {logic.inStock ? 'Agregar' : 'Agotado'}
+                {logic.inStock ? '🛒 Agregar' : 'Agotado'}
               </Button>
             </div>
           </CardContent>

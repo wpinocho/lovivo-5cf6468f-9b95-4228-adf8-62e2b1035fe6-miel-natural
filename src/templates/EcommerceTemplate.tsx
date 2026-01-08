@@ -123,8 +123,8 @@ export const EcommerceTemplate = ({
                 className="h-16 w-auto brightness-0 invert"
               />
             </div>
-            <p className="mt-4 text-white/80 leading-relaxed">
-              Miel artesanal 100% natural de las sierras. Productos elaborados con pasión y respeto por la naturaleza.
+            <p className="mt-4 text-white/90 leading-relaxed font-medium">
+              Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca. Elaborada con pasión por mujeres apicultoras.
             </p>
           </div>
 
@@ -157,9 +157,10 @@ export const EcommerceTemplate = ({
           <div>
             <h3 className="font-semibold mb-4 text-white text-lg">Síguenos</h3>
             <SocialLinks />
-            <div className="mt-6 space-y-2 text-sm text-white/70">
-              <p>contacto@apisterra.com</p>
-              <p>+52 123 456 7890</p>
+            <div className="mt-6 space-y-2 text-sm text-white/80">
+              <p className="font-medium">📧 contacto@apisterra.com</p>
+              <p className="font-medium">📱 +52 123 456 7890</p>
+              <p className="font-medium">🏔️ Nevado de Toluca, 3,000 msnm</p>
             </div>
           </div>
         </div>
