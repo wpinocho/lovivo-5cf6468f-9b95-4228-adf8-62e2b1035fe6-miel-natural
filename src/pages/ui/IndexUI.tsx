@@ -36,9 +36,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               className="h-32 w-auto mx-auto drop-shadow-2xl animate-pulse"
             />
           </div>
-          <div className="inline-block bg-accent text-primary px-8 py-3 rounded-full mb-6 font-bold text-xl shadow-2xl border-4 border-accent/50">
-            🏔️ Miel de Alta Montaña
-          </div>
+          <div style={{ letterSpacing: '0px', backgroundColor: 'transparent', borderWidth: '0px' }} className="inline-block bg-accent text-primary px-8 py-3 rounded-full mb-6 font-bold text-xl shadow-2xl border-4 border-accent/50">Miel de Alta Monta�a</div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl font-ruwudu">
             A 3,000 Metros de Altura
           </h1>
