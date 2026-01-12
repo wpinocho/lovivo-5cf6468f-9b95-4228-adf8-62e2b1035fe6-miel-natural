@@ -36,9 +36,9 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               className="h-32 w-auto mx-auto drop-shadow-2xl animate-pulse"
             />
           </div>
-          <div className="inline-block bg-accent text-primary px-8 py-3 rounded-full mb-6 font-bold text-xl shadow-2xl border-4 border-accent">Miel de Alta Montaña</div>
+          <div className="inline-block bg-accent text-primary px-8 py-3 rounded-full mb-6 font-bold text-xl shadow-2xl border-4 border-accent">3000 metros de altura</div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl font-ruwudu">
-            A 3,000 Metros de Altura
+            Miel de Alta Montaña
           </h1>
           <p className="text-xl md:text-2xl text-accent mb-4 max-w-3xl mx-auto drop-shadow-lg font-bold">
             En las Faldas del Nevado de Toluca
