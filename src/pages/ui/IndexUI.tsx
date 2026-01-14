@@ -30,7 +30,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
         <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/80 to-primary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
           <div className="mb-8 inline-block">
-            <div className="bg-gradient-to-br from-warm/95 via-white to-lavender/90 p-8 rounded-3xl shadow-2xl border-4 border-mustard">
+            <div className="bg-warm p-8 rounded-3xl shadow-2xl border-4 border-mustard">
               <img 
                 src="/logo.png" 
                 alt="APIS TERRA" 
