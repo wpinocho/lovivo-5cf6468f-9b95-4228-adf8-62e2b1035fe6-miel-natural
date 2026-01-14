@@ -29,12 +29,14 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/80 to-primary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
-          <div className="mb-8">
-            <img 
-              src="/logo.png" 
-              alt="APIS TERRA" 
-              className="h-48 w-auto mx-auto drop-shadow-2xl"
-            />
+          <div className="mb-8 inline-block">
+            <div className="bg-gradient-to-br from-warm/95 via-white to-lavender/90 p-8 rounded-3xl shadow-2xl border-4 border-mustard">
+              <img 
+                src="/logo.png" 
+                alt="APIS TERRA" 
+                className="h-40 w-auto mx-auto"
+              />
+            </div>
           </div>
           <div className="inline-block bg-accent text-white px-8 py-3 rounded-full mb-6 font-bold text-xl shadow-2xl border-4 border-mustard">3000 metros de altura</div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl font-ruwudu">

@@ -45,11 +45,13 @@ export const EcommerceTemplate = ({
   const location = useLocation()
 
   const header = (
-    <div className={`py-4 bg-primary/95 backdrop-blur shadow-lg border-b-4 border-accent ${headerClassName}`}>
+    <div className={`py-4 bg-gradient-to-r from-forest via-primary to-secondary backdrop-blur shadow-lg border-b-4 border-mustard ${headerClassName}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <BrandLogoLeft />
+          <div className="bg-gradient-to-br from-warm/90 to-white px-4 py-2 rounded-xl border-2 border-mustard shadow-xl">
+            <BrandLogoLeft />
+          </div>
 
           {/* Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -125,11 +127,11 @@ export const EcommerceTemplate = ({
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <div className="mb-4">
+            <div className="mb-4 inline-block bg-gradient-to-br from-warm/80 to-lavender/60 p-4 rounded-2xl border-2 border-accent shadow-xl">
               <img 
                 src="/logo.png" 
                 alt="APIS TERRA" 
-                className="h-20 w-auto drop-shadow-lg"
+                className="h-16 w-auto"
               />
             </div>
             <p className="mt-4 text-white/95 leading-relaxed font-semibold text-base">
