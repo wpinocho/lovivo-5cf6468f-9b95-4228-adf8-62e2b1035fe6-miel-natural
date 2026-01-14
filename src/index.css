@@ -15,7 +15,9 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Verde oliva claro #85945e como fondo principal */
+    /* PALETA NATURAL DE MONTAÑA */
+    
+    /* Verde oliva claro #85945e - fondo principal */
     --background: 73 23% 47%;
     --foreground: 0 0% 100%;
 
@@ -25,31 +27,52 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 73 30% 25%;
 
-    /* Verde oscuro #4a542d */
+    /* Verde oliva oscuro #4a542d - principal */
     --primary: 73 30% 25%;
     --primary-foreground: 0 0% 100%;
 
-    /* Verde oliva más oscuro para contraste */
-    --secondary: 73 30% 35%;
+    /* Verde bosque #42644b - secundario */
+    --secondary: 150 21% 33%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 73 15% 70%;
+    /* Verde salvia #6e9277 - muted */
+    --muted: 137 18% 52%;
     --muted-foreground: 73 30% 20%;
 
-    /* Dorado miel #d4a843 */
-    --accent: 43 65% 55%;
-    --accent-foreground: 73 30% 25%;
+    /* Dorado miel #a48c49 - accent */
+    --accent: 42 38% 46%;
+    --accent-foreground: 0 0% 100%;
 
-    /* Terracota rosado #c45b5b */
+    /* Terracota #c45b5b */
     --terracota: 0 48% 56%;
     --terracota-foreground: 0 0% 100%;
+
+    /* Lavanda #8971a8 - floral */
+    --lavender: 263 26% 55%;
+    --lavender-foreground: 0 0% 100%;
+
+    /* Morado oscuro #554170 - plum */
+    --plum: 272 27% 35%;
+    --plum-foreground: 0 0% 100%;
+
+    /* Marrón tierra #724931 - forest */
+    --forest: 22 39% 32%;
+    --forest-foreground: 0 0% 100%;
+
+    /* Beige cálido #ad795b - warm */
+    --warm: 22 32% 52%;
+    --warm-foreground: 0 0% 100%;
+
+    /* Mostaza #806b31 - mustard */
+    --mustard: 42 45% 35%;
+    --mustard-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 73 20% 65%;
+    --border: 137 18% 52%;
     --input: 0 0% 100%;
-    --ring: 43 65% 55%;
+    --ring: 42 38% 46%;
 
     --radius: 0.75rem;
 
@@ -76,17 +99,32 @@ All colors MUST be HSL.
     --primary: 73 23% 65%;
     --primary-foreground: 73 30% 12%;
 
-    --secondary: 73 30% 25%;
+    --secondary: 150 21% 45%;
     --secondary-foreground: 42 25% 95%;
 
-    --muted: 73 30% 20%;
+    --muted: 137 18% 35%;
     --muted-foreground: 73 10% 65%;
 
-    --accent: 43 74% 60%;
+    --accent: 42 38% 56%;
     --accent-foreground: 73 30% 12%;
 
     --terracota: 0 42% 60%;
     --terracota-foreground: 42 25% 95%;
+
+    --lavender: 263 26% 65%;
+    --lavender-foreground: 73 30% 12%;
+
+    --plum: 272 27% 45%;
+    --plum-foreground: 42 25% 95%;
+
+    --forest: 22 39% 42%;
+    --forest-foreground: 42 25% 95%;
+
+    --warm: 22 32% 62%;
+    --warm-foreground: 73 30% 12%;
+
+    --mustard: 42 45% 45%;
+    --mustard-foreground: 42 25% 95%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 42 20% 95%;

@@ -16,12 +16,12 @@ export const NewsletterSection = () => {
   return (
     <HeadlessNewsletter>
       {(logic) => (
-        <section className="bg-gradient-to-br from-accent/30 via-primary/20 to-terracota/30 py-16 border-y-4 border-accent shadow-2xl">
+        <section className="bg-gradient-to-br from-plum/40 via-lavender/30 to-warm/20 py-16 border-y-4 border-mustard shadow-2xl">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             {logic.success ? (
               <div className="space-y-4">
                 <div className="flex justify-center">
-                  <div className="bg-accent rounded-full p-4 shadow-lg">
+                  <div className="bg-lavender rounded-full p-4 shadow-lg">
                     <Mail className="h-8 w-8 text-white" />
                   </div>
                 </div>
@@ -56,13 +56,13 @@ export const NewsletterSection = () => {
                     value={logic.email}
                     onChange={(e) => logic.setEmail(e.target.value)}
                     disabled={logic.isSubmitting}
-                    className="flex-1 border-4 border-accent focus:border-white bg-white text-primary font-medium"
+                    className="flex-1 border-4 border-mustard focus:border-white bg-white text-forest font-medium"
                     required
                   />
                   <Button 
                     type="submit"
                     disabled={logic.isSubmitting}
-                    className="sm:w-auto bg-accent hover:bg-accent/90 text-primary font-bold shadow-xl border-4 border-accent/70 text-lg"
+                    className="sm:w-auto bg-lavender hover:bg-plum text-white font-bold shadow-xl border-4 border-lavender/70 text-lg"
                   >
                     {logic.isSubmitting ? 'Suscribiendo...' : 'Suscribirse'}
                   </Button>

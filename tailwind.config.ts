@@ -52,6 +52,26 @@ export default {
 					DEFAULT: 'hsl(var(--terracota))',
 					foreground: 'hsl(var(--terracota-foreground))'
 				},
+				lavender: {
+					DEFAULT: 'hsl(var(--lavender))',
+					foreground: 'hsl(var(--lavender-foreground))'
+				},
+				plum: {
+					DEFAULT: 'hsl(var(--plum))',
+					foreground: 'hsl(var(--plum-foreground))'
+				},
+				forest: {
+					DEFAULT: 'hsl(var(--forest))',
+					foreground: 'hsl(var(--forest-foreground))'
+				},
+				warm: {
+					DEFAULT: 'hsl(var(--warm))',
+					foreground: 'hsl(var(--warm-foreground))'
+				},
+				mustard: {
+					DEFAULT: 'hsl(var(--mustard))',
+					foreground: 'hsl(var(--mustard-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
