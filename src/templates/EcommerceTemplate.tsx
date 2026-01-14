@@ -49,7 +49,7 @@ export const EcommerceTemplate = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="bg-warm px-4 py-2 rounded-xl border-2 border-mustard shadow-xl">
+          <div>
             <BrandLogoLeft />
           </div>
 
@@ -127,13 +127,11 @@ export const EcommerceTemplate = ({
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <div className="mb-4 inline-block bg-warm p-4 rounded-2xl border-2 border-accent shadow-xl">
-              <img 
-                src="/logo.png" 
-                alt="APIS TERRA" 
-                className="h-16 w-auto"
-              />
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="APIS TERRA" 
+              className="h-16 w-auto mb-4"
+            />
             <p className="mt-4 text-white/95 leading-relaxed font-semibold text-base">
               Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca. Elaborada con pasión por mujeres apicultoras.
             </p>
