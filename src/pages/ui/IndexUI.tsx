@@ -33,7 +33,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
             <img 
               src="/logo.png" 
               alt="APIS TERRA" 
-              className="h-32 w-auto mx-auto drop-shadow-2xl animate-pulse"
+              className="h-48 w-auto mx-auto drop-shadow-2xl"
             />
           </div>
           <div className="inline-block bg-accent text-primary px-8 py-3 rounded-full mb-6 font-bold text-xl shadow-2xl border-4 border-accent">3000 metros de altura</div>

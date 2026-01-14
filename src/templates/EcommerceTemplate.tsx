@@ -129,7 +129,7 @@ export const EcommerceTemplate = ({
               <img 
                 src="/logo.png" 
                 alt="APIS TERRA" 
-                className="h-16 w-auto brightness-0 invert drop-shadow-lg"
+                className="h-20 w-auto drop-shadow-lg"
               />
             </div>
             <p className="mt-4 text-white/95 leading-relaxed font-semibold text-base">
