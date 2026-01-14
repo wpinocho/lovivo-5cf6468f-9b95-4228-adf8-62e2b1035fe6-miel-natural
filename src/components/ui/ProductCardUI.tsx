@@ -51,7 +51,7 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                   )}
                   {logic.product.featured && (
                     <span className="bg-gradient-to-r from-mustard to-accent text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
-                      ⭐ Destacado
+                      Destacado
                     </span>
                   )}
                   {!logic.inStock && (
@@ -147,7 +147,7 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                 disabled={!logic.canAddToCart}
                 className="bg-gradient-to-r from-mustard to-accent hover:from-mustard/90 hover:to-accent/90 text-white disabled:opacity-50 font-bold shadow-md"
               >
-                {logic.inStock ? '🛒 Agregar' : 'Agotado'}
+                {logic.inStock ? 'Agregar al Carrito' : 'Agotado'}
               </Button>
             </div>
           </CardContent>

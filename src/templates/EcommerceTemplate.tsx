@@ -167,9 +167,9 @@ export const EcommerceTemplate = ({
             <h3 className="font-bold mb-4 text-accent text-xl font-ruwudu">Síguenos</h3>
             <SocialLinks />
             <div className="mt-6 space-y-2 text-sm text-white/95">
-              <p className="font-bold">📧 contacto@apisterra.com</p>
-              <p className="font-bold">📱 +52 123 456 7890</p>
-              <p className="font-bold">🏔️ Nevado de Toluca, 3,000 msnm</p>
+              <p className="font-bold">Contacto: contacto@apisterra.com</p>
+              <p className="font-bold">Tel: +52 123 456 7890</p>
+              <p className="font-bold">Nevado de Toluca, 3,000 msnm</p>
             </div>
           </div>
         </div>

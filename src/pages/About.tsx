@@ -56,7 +56,7 @@ const About = () => {
             
             <div className="text-center bg-gradient-to-r from-warm/30 to-lavender/30 py-4 px-6 rounded-lg border-2 border-mustard">
               <p className="text-forest font-bold text-lg">
-                ✨ Cada producto es un testimonio de respeto hacia la naturaleza y las abejas ✨
+                Cada producto es un testimonio de respeto hacia la naturaleza y las abejas
               </p>
             </div>
           </div>
