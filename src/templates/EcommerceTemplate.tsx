@@ -59,8 +59,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/nuestro-proyecto" 
                 className={cn(
-                  "text-white/80 hover:text-accent transition-colors font-semibold text-lg",
-                  location.pathname === '/nuestro-proyecto' && "text-accent font-bold drop-shadow"
+                  "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
+                  location.pathname === '/nuestro-proyecto' && "text-white font-bold drop-shadow"
                 )}
               >
                 Nuestro Proyecto
@@ -68,8 +68,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/productos" 
                 className={cn(
-                  "text-white/80 hover:text-accent transition-colors font-semibold text-lg",
-                  location.pathname === '/productos' && "text-accent font-bold drop-shadow"
+                  "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
+                  location.pathname === '/productos' && "text-white font-bold drop-shadow"
                 )}
               >
                 Productos
@@ -77,8 +77,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/contacto" 
                 className={cn(
-                  "text-white/80 hover:text-accent transition-colors font-semibold text-lg",
-                  location.pathname === '/contacto' && "text-accent font-bold drop-shadow"
+                  "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
+                  location.pathname === '/contacto' && "text-white font-bold drop-shadow"
                 )}
               >
                 Contacto
@@ -95,12 +95,12 @@ export const EcommerceTemplate = ({
                 variant="ghost"
                 size="icon"
                 onClick={openCart}
-                className="relative text-white hover:text-accent hover:bg-white/10"
+                className="relative text-white hover:text-white/70 hover:bg-white/10"
                 aria-label="Ver carrito"
               >
                 <ShoppingCart className="h-5 w-5" />
                 {totalItems > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-accent text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-white shadow-lg">
+                  <span className="absolute -top-2 -right-2 bg-white text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-primary shadow-lg">
                     {totalItems > 99 ? '99+' : totalItems}
                   </span>
                 )}
@@ -139,23 +139,23 @@ export const EcommerceTemplate = ({
 
           {/* Links */}
           <div>
-            <h3 className="font-bold mb-4 text-accent text-xl font-ruwudu">Enlaces</h3>
+            <h3 className="font-bold mb-4 text-white text-xl font-ruwudu">Enlaces</h3>
             <div className="space-y-3">
               <Link 
                 to="/nuestro-proyecto" 
-                className="block text-white/80 hover:text-accent transition-colors font-semibold text-lg"
+                className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
               >
                 Nuestro Proyecto
               </Link>
               <Link 
                 to="/productos" 
-                className="block text-white/80 hover:text-accent transition-colors font-semibold text-lg"
+                className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
               >
                 Productos
               </Link>
               <Link 
                 to="/contacto" 
-                className="block text-white/80 hover:text-accent transition-colors font-semibold text-lg"
+                className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
               >
                 Contacto
               </Link>
@@ -164,7 +164,7 @@ export const EcommerceTemplate = ({
 
           {/* Social Links */}
           <div>
-            <h3 className="font-bold mb-4 text-accent text-xl font-ruwudu">Síguenos</h3>
+            <h3 className="font-bold mb-4 text-white text-xl font-ruwudu">Síguenos</h3>
             <SocialLinks />
             <div className="mt-6 space-y-2 text-sm text-white/95">
               <p className="font-bold">Contacto: contacto@apisterra.com</p>
