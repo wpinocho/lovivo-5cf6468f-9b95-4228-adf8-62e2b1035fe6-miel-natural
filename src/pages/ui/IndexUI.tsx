@@ -40,9 +40,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl font-ruwudu">
             Miel de Alta Montaña
           </h1>
-          <p className="text-xl md:text-2xl text-accent mb-4 max-w-3xl mx-auto drop-shadow-lg font-bold">
-            En las Faldas del Nevado de Toluca
-          </p>
+          <p style={{ letterSpacing: '0px' }} className="text-xl md:text-2xl text-accent mb-4 max-w-3xl mx-auto drop-shadow-lg font-bold">De las Faldas del Nevado de Toluca</p>
           <p className="text-lg md:text-xl text-white/95 mb-8 max-w-3xl mx-auto drop-shadow-md font-medium">
             Miel 100% pura, cruda y natural. Elaborada con pasión por manos de mujeres.
           </p>
