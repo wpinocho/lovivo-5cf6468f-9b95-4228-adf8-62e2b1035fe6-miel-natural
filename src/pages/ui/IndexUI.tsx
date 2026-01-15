@@ -34,7 +34,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
             className="w-full h-full object-cover object-center"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/80 to-primary/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/50 to-primary/40"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
           <div className="mb-8 flex justify-center">
             <img 
