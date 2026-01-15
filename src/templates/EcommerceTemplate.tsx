@@ -141,34 +141,34 @@ export const EcommerceTemplate = ({
               alt="APIS TERRA" 
               className="h-16 w-auto mb-4"
             />
-            <p className="mt-4 text-foreground/95 leading-relaxed font-semibold text-base">
+            <p style={{ fontWeight: '500' }} className="mt-4 text-foreground/95 leading-relaxed font-semibold text-base">
               Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca. Elaborada con pasión por mujeres apicultoras.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h3 className="font-bold mb-4 text-foreground text-xl font-ruwudu">Enlaces</h3>
+            <h3 style={{ fontWeight: '500' }} className="font-bold mb-4 text-foreground text-xl font-ruwudu">Enlaces</h3>
             <div className="space-y-3">
-              <Link 
+              <Link style={{ fontWeight: '400' }} 
                 to="/nuestro-proyecto" 
                 className="block text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg"
               >
                 Nuestro Proyecto
               </Link>
-              <Link 
+              <Link style={{ fontWeight: '400' }} 
                 to="/productos" 
                 className="block text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg"
               >
                 Productos
               </Link>
-              <Link 
+              <Link style={{ fontWeight: '400' }} 
                 to="/galeria" 
                 className="block text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg"
               >
                 Galería
               </Link>
-              <Link 
+              <Link style={{ fontWeight: '400' }} 
                 to="/contacto" 
                 className="block text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg"
               >
@@ -179,18 +179,18 @@ export const EcommerceTemplate = ({
 
           {/* Social Links */}
           <div>
-            <h3 className="font-bold mb-4 text-foreground text-xl font-ruwudu">Síguenos</h3>
+            <h3 style={{ fontWeight: '500' }} className="font-bold mb-4 text-foreground text-xl font-ruwudu">Síguenos</h3>
             <SocialLinks />
             <div className="mt-6 space-y-2 text-sm text-foreground/95">
-              <p className="font-bold">Contacto: contacto@apisterra.com</p>
-              <p className="font-bold">Tel: +52 123 456 7890</p>
-              <p className="font-bold">Nevado de Toluca, 3,000 msnm</p>
+              <p style={{ fontWeight: '400' }} className="font-bold">Contacto: contacto@apisterra.com</p>
+              <p style={{ fontWeight: '400' }} className="font-bold">Tel: +52 123 456 7890</p>
+              <p style={{ fontWeight: '400' }} className="font-bold">Nevado de Toluca, 3,000 msnm</p>
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-accent/30 text-center text-foreground/90">
-          <p className="font-semibold">&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
+          <p style={{ fontWeight: '300', letterSpacing: '0px' }} className="font-semibold">&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
         </div>
       </div>
     </div>
