@@ -25,7 +25,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
       {/* Hero Section */}
       <section 
         className="relative bg-cover bg-center py-32 border-b overflow-hidden min-h-[90vh] flex items-center"
-        style={{ backgroundImage: 'url(https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768436228528-kc8jv0wui7.JPG)' }}
+        style={{ backgroundImage: 'url(/hero-background.jpg)' }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/80 to-primary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
