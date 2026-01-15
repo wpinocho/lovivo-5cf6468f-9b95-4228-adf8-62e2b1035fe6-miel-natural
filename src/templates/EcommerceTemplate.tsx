@@ -45,7 +45,7 @@ export const EcommerceTemplate = ({
   const location = useLocation()
 
   const header = (
-    <div className={`py-4 backdrop-blur shadow-lg border-b-4 border-mustard ${headerClassName}`} style={{ backgroundColor: '#a48c49' }}>
+    <div className={`py-4 backdrop-blur shadow-md border-b border-mustard/30 ${headerClassName}`} style={{ backgroundColor: '#a48c49' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -122,7 +122,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-white py-12 border-t-4 border-accent shadow-2xl ${footerClassName}`} style={{ backgroundColor: '#a48c49' }}>
+    <div className={`text-white py-12 border-t border-accent/30 shadow-lg ${footerClassName}`} style={{ backgroundColor: '#a48c49' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -174,7 +174,7 @@ export const EcommerceTemplate = ({
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t-2 border-accent/50 text-center text-white/90">
+        <div className="mt-8 pt-8 border-t border-accent/30 text-center text-white/90">
           <p className="font-semibold">&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
         </div>
       </div>

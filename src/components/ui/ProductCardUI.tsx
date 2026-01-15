@@ -26,7 +26,7 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
   return (
     <HeadlessProductCard product={product}>
       {(logic) => (
-        <Card className="bg-card border-2 border-primary/20 hover:border-accent/40 hover:shadow-2xl transition-all duration-300 group">
+        <Card className="bg-card border border-primary/20 hover:border-accent/40 hover:shadow-lg transition-all duration-300 group">
           <CardContent className="p-4">
             <Link to={`/products/${logic.product.slug}`} className="block">
               <div className="aspect-square bg-muted rounded-lg mb-3 overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-300">
