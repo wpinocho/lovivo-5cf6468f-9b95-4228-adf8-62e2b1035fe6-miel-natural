@@ -45,7 +45,6 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
           </div>
           <div style={{ fontWeight: '400' }} className="inline-block bg-accent text-foreground px-6 py-2 rounded-full mb-4 font-bold text-base shadow-lg border border-mustard">3000 metros de altura</div>
           <h1 style={{ fontWeight: '400',
-              color: '#f2e6cf',
               letterSpacing: '0px',
               fontSize: '38px' }} className="text-3xl md:text-5xl font-bold text-foreground mb-4 drop-shadow-xl font-ruwudu">MIEL DE ABEJA DE ALTA MONTAÑA</h1>
           <p style={{ letterSpacing: '0px', color: '#c45b5b',
