@@ -184,7 +184,8 @@ export const EcommerceTemplate = ({
             <div className="mt-6 space-y-2 text-sm text-foreground/95">
               <p style={{ fontWeight: '400',
               letterSpacing: '0px', }} className="font-bold">Contacto: apis.terra64@gmail.com</p>
-              <p style={{ fontWeight: '400' }} className="font-bold">Tel: +52 123 456 7890</p>
+              <p style={{ fontWeight: '400',
+              letterSpacing: '0px', }} className="font-bold">Tel: +52 55 59 64 83 95</p>
               <p style={{ fontWeight: '400' }} className="font-bold">Nevado de Toluca, 3,000 msnm</p>
             </div>
           </div>
