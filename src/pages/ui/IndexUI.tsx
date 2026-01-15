@@ -47,7 +47,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
           <h1 style={{ fontWeight: '400',
               color: '#f2e6cf',
               letterSpacing: '0px',
-              fontSize: '38px',, }} style={{ fontWeight: '400', letterSpacing: '0px' }} className="text-3xl md:text-5xl font-bold text-foreground mb-4 drop-shadow-xl font-ruwudu">MIEL DE ABEJA DE ALTA MONTAÑA</h1>
+              fontSize: '38px' }} className="text-3xl md:text-5xl font-bold text-foreground mb-4 drop-shadow-xl font-ruwudu">MIEL DE ABEJA DE ALTA MONTAÑA</h1>
           <p style={{ letterSpacing: '0px', color: '#c45b5b',
               fontWeight: '500', }} className="text-lg md:text-xl mb-3 max-w-2xl mx-auto drop-shadow-lg font-bold">De las Faldas del Nevado de Toluca</p>
           <p style={{ letterSpacing: '0px',
@@ -82,7 +82,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               <div className="mb-4 text-center">
                 <img src="/beehives-icon.png" alt="Colmenas" className="h-24 w-24 mx-auto object-contain" />
               </div>
-              <h3 style={{ fontWeight: '500' }} style={{ fontWeight: '500' }} className="text-xl font-bold text-center mb-3 text-secondary font-ruwudu">
+              <h3 style={{ fontWeight: '500' }} className="text-xl font-bold text-center mb-3 text-secondary font-ruwudu">
                 Apicultura Silvestre
               </h3>
               <p style={{ fontWeight: '400' }} className="text-sm text-forest/90 text-center font-medium">
@@ -97,7 +97,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               <div className="mb-4 text-center">
                 <img src="/honey-jar-icon.png" alt="Miel" className="h-24 w-24 mx-auto object-contain" />
               </div>
-              <h3 style={{ fontWeight: '500' }} style={{ fontWeight: '500' }} className="text-xl font-bold text-center mb-3 text-mustard font-ruwudu">
+              <h3 style={{ fontWeight: '500' }} className="text-xl font-bold text-center mb-3 text-mustard font-ruwudu">
                 Productos Naturales
               </h3>
               <p style={{ fontWeight: '400' }} className="text-sm text-forest/90 text-center font-medium">
@@ -112,7 +112,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               <div className="mb-4 text-center">
                 <img src="/women-hands-icon.png" alt="Manos de mujeres" className="h-24 w-24 mx-auto object-contain" />
               </div>
-              <h3 style={{ fontWeight: '500' }} style={{ fontWeight: '500', letterSpacing: '0px' }} className="text-xl font-bold text-center mb-3 text-plum font-ruwudu">
+              <h3 style={{ fontWeight: '500', letterSpacing: '0px' }} className="text-xl font-bold text-center mb-3 text-plum font-ruwudu">
                 Empresa de Mujeres
               </h3>
               <p style={{ fontWeight: '400' }} className="text-sm text-forest/90 text-center font-medium">
