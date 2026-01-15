@@ -43,23 +43,23 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               className="h-40 w-auto drop-shadow-2xl"
             />
           </div>
-          <div className="inline-block bg-accent text-white px-6 py-2 rounded-full mb-4 font-bold text-base shadow-lg border border-mustard">3000 metros de altura</div>
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-xl font-ruwudu">
+          <div className="inline-block bg-accent text-foreground px-6 py-2 rounded-full mb-4 font-bold text-base shadow-lg border border-mustard">3000 metros de altura</div>
+          <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-4 drop-shadow-xl font-ruwudu">
             Miel de Abeja de Alta Montaña
           </h1>
           <p style={{ letterSpacing: '0px', color: '#c45b5b' }} className="text-lg md:text-xl mb-3 max-w-2xl mx-auto drop-shadow-lg font-bold">De las Faldas del Nevado de Toluca</p>
-          <p style={{ letterSpacing: '0px' }} className="text-base md:text-lg text-white/95 mb-6 max-w-2xl mx-auto drop-shadow-md font-medium">Miel 100% pura, cruda y natural.</p>
+          <p style={{ letterSpacing: '0px' }} className="text-base md:text-lg text-foreground/95 mb-6 max-w-2xl mx-auto drop-shadow-md font-medium">Miel 100% pura, cruda y natural.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              className="bg-mustard hover:bg-mustard/90 text-white shadow-lg text-base px-8 font-bold border border-accent hover:scale-105 transition-transform"
+              className="bg-mustard hover:bg-mustard/90 text-foreground shadow-lg text-base px-8 font-bold border border-accent hover:scale-105 transition-transform"
               onClick={() => navigate('/productos')}
             >
               Descubre Nuestros Productos
             </Button>
             <Button 
               size="lg" 
-              className="bg-mustard hover:bg-mustard/90 text-white shadow-lg text-base px-8 font-bold border border-accent hover:scale-105 transition-transform"
+              className="bg-mustard hover:bg-mustard/90 text-foreground shadow-lg text-base px-8 font-bold border border-accent hover:scale-105 transition-transform"
               onClick={() => navigate('/nuestro-proyecto')}
             >
               Nuestra Historia
@@ -73,7 +73,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div 
-              className="bg-white rounded-2xl p-6 shadow-lg border border-secondary hover:shadow-xl transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
+              className="bg-card rounded-2xl p-6 shadow-lg border border-secondary hover:shadow-xl transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
               onClick={() => navigate('/nuestro-proyecto')}
             >
               <div className="mb-4 text-center">
@@ -88,7 +88,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
             </div>
 
             <div 
-              className="bg-white rounded-2xl p-6 shadow-lg border border-mustard hover:shadow-xl transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
+              className="bg-card rounded-2xl p-6 shadow-lg border border-mustard hover:shadow-xl transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
               onClick={() => navigate('/productos')}
             >
               <div className="mb-4 text-center">
@@ -103,7 +103,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
             </div>
 
             <div 
-              className="bg-white rounded-2xl p-6 shadow-lg border border-lavender hover:shadow-xl transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
+              className="bg-card rounded-2xl p-6 shadow-lg border border-lavender hover:shadow-xl transition-all cursor-pointer hover:scale-105 hover:-translate-y-2"
               onClick={() => navigate('/contacto')}
             >
               <div className="mb-4 text-center">

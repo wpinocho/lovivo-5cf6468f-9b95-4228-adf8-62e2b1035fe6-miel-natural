@@ -22,23 +22,23 @@ export const NewsletterSection = () => {
               <div className="space-y-4">
                 <div className="flex justify-center">
                   <div className="bg-lavender rounded-full p-4 shadow-lg">
-                    <Mail className="h-8 w-8 text-white" />
+                    <Mail className="h-8 w-8 text-foreground" />
                   </div>
                 </div>
-                <h3 className="text-3xl font-bold text-white font-ruwudu drop-shadow-lg">
+                <h3 className="text-3xl font-bold text-foreground font-ruwudu drop-shadow-lg">
                   ¡Gracias por suscribirte!
                 </h3>
-                <p className="text-white/90 text-lg font-medium">
+                <p className="text-foreground/90 text-lg font-medium">
                   Pronto recibirás nuestras novedades y ofertas especiales de la alta montaña.
                 </p>
               </div>
             ) : (
               <div className="space-y-6">
                 <div className="space-y-3">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white font-ruwudu drop-shadow-lg">
+                  <h3 className="text-3xl md:text-4xl font-bold text-foreground font-ruwudu drop-shadow-lg">
                     ¿Quieres recibir nuestras novedades?
                   </h3>
-                  <p className="text-lg text-white/90 font-medium">
+                  <p className="text-lg text-foreground/90 font-medium">
                     Suscríbete y recibe ofertas exclusivas directamente de nuestro apiario
                   </p>
                 </div>
@@ -62,7 +62,7 @@ export const NewsletterSection = () => {
                   <Button 
                     type="submit"
                     disabled={logic.isSubmitting}
-                    className="sm:w-auto bg-lavender hover:bg-plum text-white font-bold shadow-xl border-4 border-lavender/70 text-lg"
+                    className="sm:w-auto bg-lavender hover:bg-plum text-foreground font-bold shadow-xl border-4 border-lavender/70 text-lg"
                   >
                     {logic.isSubmitting ? 'Suscribiendo...' : 'Suscribirse'}
                   </Button>

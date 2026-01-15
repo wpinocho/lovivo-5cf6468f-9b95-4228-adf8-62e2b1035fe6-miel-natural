@@ -45,17 +45,17 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                 {/* Badges */}
                 <div className="absolute top-2 left-2 flex flex-col gap-1">
                   {logic.discountPercentage && (
-                    <span className="bg-gradient-to-r from-terracota to-warm text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
+                    <span className="bg-gradient-to-r from-terracota to-warm text-foreground text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
                       -{logic.discountPercentage}%
                     </span>
                   )}
                   {logic.product.featured && (
-                    <span className="bg-gradient-to-r from-mustard to-accent text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
+                    <span className="bg-gradient-to-r from-mustard to-accent text-foreground text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
                       Destacado
                     </span>
                   )}
                   {!logic.inStock && (
-                    <span className="bg-plum/90 text-white text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
+                    <span className="bg-plum/90 text-foreground text-xs px-3 py-1.5 rounded-full font-bold shadow-lg">
                       Agotado
                     </span>
                   )}
@@ -145,7 +145,7 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                   logic.handleAddToCart()
                 }}
                 disabled={!logic.canAddToCart}
-                className="bg-gradient-to-r from-mustard to-accent hover:from-mustard/90 hover:to-accent/90 text-white disabled:opacity-50 font-bold shadow-md"
+                className="bg-gradient-to-r from-mustard to-accent hover:from-mustard/90 hover:to-accent/90 text-foreground disabled:opacity-50 font-bold shadow-md"
               >
                 {logic.inStock ? 'Agregar al Carrito' : 'Agotado'}
               </Button>

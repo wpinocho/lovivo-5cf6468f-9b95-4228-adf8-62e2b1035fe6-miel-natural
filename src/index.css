@@ -19,21 +19,21 @@ All colors MUST be HSL.
     
     /* Verde oliva claro #85945e - fondo principal */
     --background: 73 23% 47%;
-    --foreground: 0 0% 100%;
+    --foreground: 40 30% 96%;
 
-    --card: 0 0% 100%;
+    --card: 40 30% 96%;
     --card-foreground: 73 30% 25%;
 
-    --popover: 0 0% 100%;
+    --popover: 40 30% 96%;
     --popover-foreground: 73 30% 25%;
 
     /* Verde oliva oscuro #4a542d - principal */
     --primary: 73 30% 25%;
-    --primary-foreground: 0 0% 100%;
+    --primary-foreground: 40 30% 96%;
 
     /* Verde bosque #42644b - secundario */
     --secondary: 150 21% 33%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary-foreground: 40 30% 96%;
 
     /* Verde salvia #6e9277 - muted */
     --muted: 137 18% 52%;
@@ -41,37 +41,37 @@ All colors MUST be HSL.
 
     /* Dorado miel #a48c49 - accent */
     --accent: 42 38% 46%;
-    --accent-foreground: 0 0% 100%;
+    --accent-foreground: 40 30% 96%;
 
     /* Terracota #c45b5b */
     --terracota: 0 48% 56%;
-    --terracota-foreground: 0 0% 100%;
+    --terracota-foreground: 40 30% 96%;
 
     /* Lavanda #8971a8 - floral */
     --lavender: 263 26% 55%;
-    --lavender-foreground: 0 0% 100%;
+    --lavender-foreground: 40 30% 96%;
 
     /* Morado oscuro #554170 - plum */
     --plum: 272 27% 35%;
-    --plum-foreground: 0 0% 100%;
+    --plum-foreground: 40 30% 96%;
 
     /* Marrón tierra #724931 - forest */
     --forest: 22 39% 32%;
-    --forest-foreground: 0 0% 100%;
+    --forest-foreground: 40 30% 96%;
 
     /* Beige cálido #ad795b - warm */
     --warm: 22 32% 52%;
-    --warm-foreground: 0 0% 100%;
+    --warm-foreground: 40 30% 96%;
 
     /* Mostaza #806b31 - mustard */
     --mustard: 42 45% 35%;
-    --mustard-foreground: 0 0% 100%;
+    --mustard-foreground: 40 30% 96%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 40 30% 96%;
 
     --border: 137 18% 52%;
-    --input: 0 0% 100%;
+    --input: 40 30% 96%;
     --ring: 42 38% 46%;
 
     --radius: 0.75rem;

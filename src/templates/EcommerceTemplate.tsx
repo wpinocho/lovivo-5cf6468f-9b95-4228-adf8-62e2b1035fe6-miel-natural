@@ -59,8 +59,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/nuestro-proyecto" 
                 className={cn(
-                  "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
-                  location.pathname === '/nuestro-proyecto' && "text-white font-bold drop-shadow"
+                  "text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg",
+                  location.pathname === '/nuestro-proyecto' && "text-foreground font-bold drop-shadow"
                 )}
               >
                 Nuestro Proyecto
@@ -68,8 +68,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/productos" 
                 className={cn(
-                  "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
-                  location.pathname === '/productos' && "text-white font-bold drop-shadow"
+                  "text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg",
+                  location.pathname === '/productos' && "text-foreground font-bold drop-shadow"
                 )}
               >
                 Productos
@@ -77,8 +77,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/galeria" 
                 className={cn(
-                  "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
-                  location.pathname === '/galeria' && "text-white font-bold drop-shadow"
+                  "text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg",
+                  location.pathname === '/galeria' && "text-foreground font-bold drop-shadow"
                 )}
               >
                 Galería
@@ -86,8 +86,8 @@ export const EcommerceTemplate = ({
               <Link 
                 to="/contacto" 
                 className={cn(
-                  "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
-                  location.pathname === '/contacto' && "text-white font-bold drop-shadow"
+                  "text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg",
+                  location.pathname === '/contacto' && "text-foreground font-bold drop-shadow"
                 )}
               >
                 Contacto
@@ -104,12 +104,12 @@ export const EcommerceTemplate = ({
                 variant="ghost"
                 size="icon"
                 onClick={openCart}
-                className="relative text-white hover:text-white/70 hover:bg-white/10"
+                className="relative text-foreground hover:text-foreground/70 hover:bg-foreground/10"
                 aria-label="Ver carrito"
               >
                 <ShoppingCart className="h-5 w-5" />
                 {totalItems > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-white text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-primary shadow-lg">
+                  <span className="absolute -top-2 -right-2 bg-foreground text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center border-2 border-primary shadow-lg">
                     {totalItems > 99 ? '99+' : totalItems}
                   </span>
                 )}
@@ -121,7 +121,7 @@ export const EcommerceTemplate = ({
         {/* Page Title */}
         {pageTitle && (
           <div className="mt-6">
-            <h1 className="text-3xl font-bold text-white font-ruwudu">
+            <h1 className="text-3xl font-bold text-foreground font-ruwudu">
               {pageTitle}
             </h1>
           </div>
@@ -131,7 +131,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-white py-12 border-t border-accent/30 shadow-lg ${footerClassName}`} style={{ backgroundColor: '#a48c49' }}>
+    <div className={`text-foreground py-12 border-t border-accent/30 shadow-lg ${footerClassName}`} style={{ backgroundColor: '#a48c49' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -141,36 +141,36 @@ export const EcommerceTemplate = ({
               alt="APIS TERRA" 
               className="h-16 w-auto mb-4"
             />
-            <p className="mt-4 text-white/95 leading-relaxed font-semibold text-base">
+            <p className="mt-4 text-foreground/95 leading-relaxed font-semibold text-base">
               Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca. Elaborada con pasión por mujeres apicultoras.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h3 className="font-bold mb-4 text-white text-xl font-ruwudu">Enlaces</h3>
+            <h3 className="font-bold mb-4 text-foreground text-xl font-ruwudu">Enlaces</h3>
             <div className="space-y-3">
               <Link 
                 to="/nuestro-proyecto" 
-                className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
+                className="block text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg"
               >
                 Nuestro Proyecto
               </Link>
               <Link 
                 to="/productos" 
-                className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
+                className="block text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg"
               >
                 Productos
               </Link>
               <Link 
                 to="/galeria" 
-                className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
+                className="block text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg"
               >
                 Galería
               </Link>
               <Link 
                 to="/contacto" 
-                className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
+                className="block text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg"
               >
                 Contacto
               </Link>
@@ -179,9 +179,9 @@ export const EcommerceTemplate = ({
 
           {/* Social Links */}
           <div>
-            <h3 className="font-bold mb-4 text-white text-xl font-ruwudu">Síguenos</h3>
+            <h3 className="font-bold mb-4 text-foreground text-xl font-ruwudu">Síguenos</h3>
             <SocialLinks />
-            <div className="mt-6 space-y-2 text-sm text-white/95">
+            <div className="mt-6 space-y-2 text-sm text-foreground/95">
               <p className="font-bold">Contacto: contacto@apisterra.com</p>
               <p className="font-bold">Tel: +52 123 456 7890</p>
               <p className="font-bold">Nevado de Toluca, 3,000 msnm</p>
@@ -189,7 +189,7 @@ export const EcommerceTemplate = ({
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-accent/30 text-center text-white/90">
+        <div className="mt-8 pt-8 border-t border-accent/30 text-center text-foreground/90">
           <p className="font-semibold">&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
         </div>
       </div>
