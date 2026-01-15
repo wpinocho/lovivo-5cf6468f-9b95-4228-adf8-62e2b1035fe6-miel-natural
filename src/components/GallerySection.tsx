@@ -70,6 +70,31 @@ export const GallerySection = () => {
       src: '/gallery-bee-small-flowers.jpg',
       alt: 'Abeja polinizando flores amarillas silvestres',
       className: 'md:col-span-1 md:row-span-1'
+    },
+    {
+      src: '/gallery-lupine-beehives.jpg',
+      alt: 'Colmenas rodeadas de flores lupinos morados en campo de montaña',
+      className: 'md:col-span-2 md:row-span-2'
+    },
+    {
+      src: '/gallery-fog-beehives.jpg',
+      alt: 'Colmenas en la neblina con flores blancas y pinos al fondo',
+      className: 'md:col-span-2 md:row-span-1'
+    },
+    {
+      src: '/gallery-honey-jar-flowers.jpg',
+      alt: 'Frasco de miel cremosa rodeado de flores cosmos rosas',
+      className: 'md:col-span-1 md:row-span-2'
+    },
+    {
+      src: '/gallery-honeycomb-plate.jpg',
+      alt: 'Panal de miel dorada en plato de porcelana azul',
+      className: 'md:col-span-2 md:row-span-1'
+    },
+    {
+      src: '/gallery-beehives-sky.jpg',
+      alt: 'Colmenas bajo cielo azul con pinos y pastos secos de montaña',
+      className: 'md:col-span-1 md:row-span-1'
     }
   ];
 
