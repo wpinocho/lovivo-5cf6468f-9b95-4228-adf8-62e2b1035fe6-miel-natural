@@ -43,23 +43,28 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               className="h-40 w-auto drop-shadow-2xl"
             />
           </div>
-          <div style={{ fontWeight: '400' }} className="inline-block bg-accent text-foreground px-6 py-2 rounded-full mb-4 font-bold text-base shadow-lg border border-mustard">3000 metros de altura</div>
+          <div style={{ fontWeight: '400',
+              fontSize: '18px', }} className="inline-block bg-accent text-foreground px-6 py-2 rounded-full mb-4 font-bold text-base shadow-lg border border-mustard">3000 metros de altura</div>
           <h1 style={{ fontWeight: '400',
               letterSpacing: '0px',
               fontSize: '38px' }} className="text-3xl md:text-5xl font-bold text-foreground mb-4 drop-shadow-xl font-ruwudu">MIEL DE ABEJA DE ALTA MONTAÑA</h1>
           <p style={{ letterSpacing: '0px', color: '#c45b5b',
-              fontWeight: '500', }} className="text-lg md:text-xl mb-3 max-w-2xl mx-auto drop-shadow-lg font-bold">De las Faldas del Nevado de Toluca</p>
+              fontWeight: '500',
+              fontSize: '22px',, }} className="text-lg md:text-xl mb-3 max-w-2xl mx-auto drop-shadow-lg font-bold">De las Faldas del Nevado de Toluca</p>
           <p style={{ letterSpacing: '0px',
               fontWeight: '400', }} className="text-base md:text-lg text-foreground/95 mb-6 max-w-2xl mx-auto drop-shadow-md font-medium">Miel 100% pura, cruda y natural.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button style={{ fontWeight: '400' }} 
+            <Button style={{ fontWeight: '400',
+              fontSize: '18px', }} 
               size="lg" 
               className="bg-mustard hover:bg-mustard/90 text-foreground shadow-lg text-base px-8 font-bold border border-accent hover:scale-105 transition-transform"
               onClick={() => navigate('/productos')}
             >
               Descubre Nuestros Productos
             </Button>
-            <Button style={{ fontWeight: '400' }} 
+            <Button style={{ fontWeight: '400',
+              fontSize: '18px',
+              letterSpacing: '0px', }} 
               size="lg" 
               className="bg-mustard hover:bg-mustard/90 text-foreground shadow-lg text-base px-8 font-bold border border-accent hover:scale-105 transition-transform"
               onClick={() => navigate('/nuestro-proyecto')}
