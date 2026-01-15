@@ -12,7 +12,7 @@ export const GallerySection = () => {
       className: 'md:col-span-3 md:row-span-2'
     },
     {
-      src: 'user-uploads://prev-2/1768503772301-wzhytq0eiqi.jpeg',
+      src: 'user-uploads://prev-3/1768503772301-wzhytq0eiqi.jpeg',
       alt: 'Campo hermoso con lupinos morados y colmenas al fondo con pinos',
       className: 'md:col-span-2 md:row-span-2'
     },
@@ -32,7 +32,7 @@ export const GallerySection = () => {
       className: 'md:col-span-2 md:row-span-2'
     },
     {
-      src: 'user-uploads://prev-2/1768503772303-m4ihvtm0m9f.jpeg',
+      src: 'user-uploads://prev-3/1768503772303-m4ihvtm0m9f.jpeg',
       alt: 'Frasco de miel cremosa rodeado de flores cosmos rosas',
       className: 'md:col-span-1 md:row-span-2'
     },
@@ -57,7 +57,7 @@ export const GallerySection = () => {
       className: 'md:col-span-3 md:row-span-1'
     },
     {
-      src: 'user-uploads://prev-2/1768503772303-vx0hc3t27cm.JPG',
+      src: 'user-uploads://prev-3/1768503772303-vx0hc3t27cm.JPG',
       alt: 'Panal de miel dorada en plato de porcelana azul',
       className: 'md:col-span-1 md:row-span-1'
     },
@@ -67,7 +67,7 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
-      src: 'user-uploads://prev-2/1768503772303-jmonc12eyxs.jpeg',
+      src: 'user-uploads://prev-3/1768503772303-jmonc12eyxs.jpeg',
       alt: 'Colmenas en la neblina con flores blancas y pinos al fondo',
       className: 'md:col-span-2 md:row-span-2'
     },
@@ -87,7 +87,7 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
-      src: 'user-uploads://prev-2/1768503772303-lvhvon4lqhi.JPG',
+      src: 'user-uploads://prev-3/1768503772303-lvhvon4lqhi.JPG',
       alt: 'Colmenas bajo cielo azul con pinos y pastos secos de montaña',
       className: 'md:col-span-2 md:row-span-2'
     },
