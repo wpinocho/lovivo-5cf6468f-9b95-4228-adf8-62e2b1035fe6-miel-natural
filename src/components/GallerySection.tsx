@@ -12,9 +12,24 @@ export const GallerySection = () => {
       className: 'md:col-span-2 md:row-span-2'
     },
     {
+      src: '/gallery-honeycomb-enhanced.jpg',
+      alt: 'Panales de miel dorada natural con hexágonos perfectos',
+      className: 'md:col-span-1 md:row-span-1'
+    },
+    {
       src: '/gallery-bee-yellow.jpg',
       alt: 'Abeja recolectando polen en flor amarilla',
       className: 'md:col-span-1 md:row-span-1'
+    },
+    {
+      src: '/gallery-sunset-orange-enhanced.jpg',
+      alt: 'Atardecer espectacular en el apiario de montaña',
+      className: 'md:col-span-2 md:row-span-1'
+    },
+    {
+      src: '/gallery-pink-cosmos-enhanced.jpg',
+      alt: 'Campo de flores rosas cosmos bajo cielo azul',
+      className: 'md:col-span-1 md:row-span-2'
     },
     {
       src: '/gallery-pink-flowers.jpg',
@@ -22,8 +37,18 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
+      src: '/gallery-beehives-row-enhanced.jpg',
+      alt: 'Fila de colmenas de madera en el bosque de montaña',
+      className: 'md:col-span-1 md:row-span-1'
+    },
+    {
       src: '/gallery-bee-lavender.jpg',
       alt: 'Abeja trabajando en flores de lavanda',
+      className: 'md:col-span-1 md:row-span-1'
+    },
+    {
+      src: '/gallery-field-dry-flowers-enhanced.jpg',
+      alt: 'Campo de alta montaña con flores silvestres secas',
       className: 'md:col-span-1 md:row-span-1'
     },
     {
@@ -47,7 +72,7 @@ export const GallerySection = () => {
         </div>
 
         {/* Masonry Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[300px] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 auto-rows-[250px] gap-4">
           {galleryImages.map((image, index) => (
             <div
               key={index}
