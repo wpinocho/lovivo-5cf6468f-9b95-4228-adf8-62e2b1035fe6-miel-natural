@@ -57,11 +57,6 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
-      src: 'user-uploads://1768502612175-p0austu1gi.jpeg',
-      alt: 'Colmenas rodeadas de flores moradas lupinos en el campo',
-      className: 'md:col-span-1 md:row-span-2'
-    },
-    {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-0jtzbgmgmxrn.jpeg',
       alt: 'Campo de alta montaña con flores silvestres secas',
       className: 'md:col-span-1 md:row-span-1'
@@ -72,29 +67,34 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
-      src: '/gallery-lupine-beehives.jpg',
-      alt: 'Colmenas rodeadas de flores lupinos morados en campo de montaña',
-      className: 'md:col-span-2 md:row-span-2'
+      src: 'user-uploads://1768502612175-p0austu1gi.jpeg',
+      alt: 'Colmenas rodeadas de flores moradas lupinos en el campo',
+      className: 'md:col-span-1 md:row-span-2'
     },
     {
-      src: '/gallery-fog-beehives.jpg',
+      src: 'user-uploads://prev-1/1768503772303-jmonc12eyxs.jpeg',
       alt: 'Colmenas en la neblina con flores blancas y pinos al fondo',
-      className: 'md:col-span-2 md:row-span-1'
+      className: 'md:col-span-1 md:row-span-2'
     },
     {
-      src: '/gallery-honey-jar-flowers.jpg',
+      src: 'user-uploads://prev-1/1768503772303-m4ihvtm0m9f.jpeg',
       alt: 'Frasco de miel cremosa rodeado de flores cosmos rosas',
       className: 'md:col-span-1 md:row-span-2'
     },
     {
-      src: '/gallery-honeycomb-plate.jpg',
+      src: 'user-uploads://prev-1/1768503772303-vx0hc3t27cm.JPG',
       alt: 'Panal de miel dorada en plato de porcelana azul',
-      className: 'md:col-span-2 md:row-span-1'
+      className: 'md:col-span-1 md:row-span-2'
     },
     {
-      src: '/gallery-beehives-sky.jpg',
+      src: 'user-uploads://prev-1/1768503772303-lvhvon4lqhi.JPG',
       alt: 'Colmenas bajo cielo azul con pinos y pastos secos de montaña',
-      className: 'md:col-span-1 md:row-span-1'
+      className: 'md:col-span-1 md:row-span-2'
+    },
+    {
+      src: 'user-uploads://prev-1/1768503772301-wzhytq0eiqi.jpeg',
+      alt: 'Campo hermoso con lupinos morados y colmenas al fondo con pinos',
+      className: 'md:col-span-2 md:row-span-2'
     }
   ];
 
