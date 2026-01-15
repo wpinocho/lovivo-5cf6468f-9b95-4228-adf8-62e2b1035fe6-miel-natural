@@ -24,9 +24,16 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
     >
       {/* Hero Section */}
       <section 
-        className="relative bg-cover bg-center py-32 border-b overflow-hidden min-h-[90vh] flex items-center"
-        style={{ backgroundImage: 'url(/hero-background.jpg)' }}
+        className="relative border-b overflow-hidden min-h-[90vh] flex items-center"
       >
+        {/* Background Image - sin distorsión */}
+        <div className="absolute inset-0">
+          <img 
+            src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768436531046-j8wtmjeun4g.jpeg" 
+            alt="Colmenas en campo de flores" 
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/80 to-primary/70"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
           <div className="mb-8 flex justify-center">
