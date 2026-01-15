@@ -12,6 +12,11 @@ export const GallerySection = () => {
       className: 'md:col-span-2 md:row-span-2'
     },
     {
+      src: '/gallery-beekeeper-work.jpg',
+      alt: 'Apicultor trabajando con colmenas en campo de flores amarillas',
+      className: 'md:col-span-2 md:row-span-2'
+    },
+    {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364096-w0dcq4l2h0l.jpeg',
       alt: 'Panales de miel dorada natural con hexágonos perfectos',
       className: 'md:col-span-1 md:row-span-1'
@@ -20,6 +25,11 @@ export const GallerySection = () => {
       src: '/gallery-bee-yellow.jpg',
       alt: 'Abeja recolectando polen en flor amarilla',
       className: 'md:col-span-1 md:row-span-1'
+    },
+    {
+      src: '/gallery-wildflower-meadow.jpg',
+      alt: 'Campo espectacular de flores silvestres amarillas y blancas bajo cielo azul',
+      className: 'md:col-span-2 md:row-span-2'
     },
     {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-94jyidu38kk.jpeg',
@@ -37,9 +47,19 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
+      src: '/gallery-dogs-trail.jpg',
+      alt: 'Perros del apiario caminando al atardecer en sendero de montaña',
+      className: 'md:col-span-2 md:row-span-1'
+    },
+    {
       src: '/gallery-bee-lavender.jpg',
       alt: 'Abeja trabajando en flores de lavanda',
       className: 'md:col-span-1 md:row-span-1'
+    },
+    {
+      src: 'user-uploads://1768502612175-p0austu1gi.jpeg',
+      alt: 'Colmenas rodeadas de flores moradas lupinos en el campo',
+      className: 'md:col-span-1 md:row-span-2'
     },
     {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-0jtzbgmgmxrn.jpeg',
@@ -67,7 +87,7 @@ export const GallerySection = () => {
         </div>
 
         {/* Masonry Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-4 auto-rows-[250px] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-5 auto-rows-[250px] gap-4">
           {galleryImages.map((image, index) => (
             <div
               key={index}
