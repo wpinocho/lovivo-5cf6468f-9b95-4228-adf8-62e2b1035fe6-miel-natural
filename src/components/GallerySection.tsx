@@ -27,7 +27,7 @@ export const GallerySection = () => {
       className: 'md:col-span-2 md:row-span-1'
     },
     {
-      src: '/gallery-pink-cosmos-enhanced.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-x7xduvsm2y.jpeg',
       alt: 'Campo de flores rosas cosmos bajo cielo azul',
       className: 'md:col-span-1 md:row-span-2'
     },
@@ -47,7 +47,7 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
-      src: '/gallery-field-dry-flowers-enhanced.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-0jtzbgmgmxrn.jpeg',
       alt: 'Campo de alta montaña con flores silvestres secas',
       className: 'md:col-span-1 md:row-span-1'
     },
