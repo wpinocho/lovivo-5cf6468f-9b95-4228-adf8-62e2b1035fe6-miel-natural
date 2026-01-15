@@ -12,7 +12,7 @@ export const GallerySection = () => {
       className: 'md:col-span-2 md:row-span-2'
     },
     {
-      src: '/gallery-honeycomb-enhanced.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364096-w0dcq4l2h0l.jpeg',
       alt: 'Panales de miel dorada natural con hexágonos perfectos',
       className: 'md:col-span-1 md:row-span-1'
     },
@@ -22,7 +22,7 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
-      src: '/gallery-sunset-orange-enhanced.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-94jyidu38kk.jpeg',
       alt: 'Atardecer espectacular en el apiario de montaña',
       className: 'md:col-span-2 md:row-span-1'
     },
@@ -32,12 +32,7 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-2'
     },
     {
-      src: '/gallery-pink-flowers.jpg',
-      alt: 'Campo de flores silvestres rosas en la montaña',
-      className: 'md:col-span-1 md:row-span-1'
-    },
-    {
-      src: '/gallery-beehives-row-enhanced.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-whvyzd82i2m.jpeg',
       alt: 'Fila de colmenas de madera en el bosque de montaña',
       className: 'md:col-span-1 md:row-span-1'
     },
