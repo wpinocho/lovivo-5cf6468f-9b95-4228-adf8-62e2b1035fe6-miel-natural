@@ -47,7 +47,7 @@ export const GallerySection = () => {
       className: 'md:col-span-1 md:row-span-1'
     },
     {
-      src: '/gallery-dogs-trail.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768502612175-fljxt6pghym.JPG',
       alt: 'Perros del apiario caminando al atardecer en sendero de montaña',
       className: 'md:col-span-2 md:row-span-1'
     },
