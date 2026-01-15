@@ -102,11 +102,11 @@ export const GallerySection = () => {
     <section className="py-16 bg-gradient-to-br from-warm/30 via-lavender/20 to-muted/25">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-ruwudu drop-shadow-lg">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-ruwudu drop-shadow-lg">
             Galería de Nuestro Apiario
           </h2>
           <div className="w-32 h-1 bg-mustard mx-auto rounded-full mb-4 shadow-lg"></div>
-          <p className="text-lg text-white/90 font-medium">
+          <p className="text-lg text-foreground/90 font-medium">
             Momentos capturados en las alturas del Nevado de Toluca
           </p>
         </div>
@@ -124,7 +124,7 @@ export const GallerySection = () => {
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-white text-sm font-medium p-4 drop-shadow-lg">
+                <p className="text-foreground text-sm font-medium p-4 drop-shadow-lg">
                   {image.alt}
                 </p>
               </div>
@@ -134,12 +134,12 @@ export const GallerySection = () => {
 
         {/* Call to Action */}
         <div className="mt-12 text-center">
-          <p className="text-white/95 text-lg font-medium mb-4">
+          <p className="text-foreground/95 text-lg font-medium mb-4">
             ¿Te gustaría conocer más sobre nuestro proceso?
           </p>
           <a
             href="/nuestro-proyecto"
-            className="inline-block bg-mustard hover:bg-mustard/90 text-white font-bold px-8 py-3 rounded-full shadow-lg border border-accent transition-all hover:scale-105"
+            className="inline-block bg-mustard hover:bg-mustard/90 text-foreground font-bold px-8 py-3 rounded-full shadow-lg border border-accent transition-all hover:scale-105"
           >
             Conoce Nuestra Historia
           </a>

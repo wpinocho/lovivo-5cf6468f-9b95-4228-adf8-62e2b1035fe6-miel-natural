@@ -108,7 +108,7 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                             onClick={() => logic.handleOptionChange(opt.name, val)}
                             className={`border rounded px-2 py-1 text-xs font-medium ${
                               isSelected 
-                                ? 'border-black bg-black text-white' 
+                                ? 'border-black bg-black text-foreground' 
                                 : logic.selected[opt.name] && !isSelected
                                   ? 'border-gray-300 bg-white text-gray-700 opacity-40'
                                   : 'border-gray-300 bg-white text-gray-700'

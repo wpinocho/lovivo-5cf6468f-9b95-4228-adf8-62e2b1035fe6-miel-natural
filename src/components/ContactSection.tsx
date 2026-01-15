@@ -29,11 +29,11 @@ export const ContactSection = () => {
     <section id="contact" className="py-20 bg-gradient-to-br from-accent/20 via-background to-terracota/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 font-ruwudu drop-shadow-lg">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-ruwudu drop-shadow-lg">
             Contacto
           </h2>
           <div className="w-32 h-2 bg-accent mx-auto rounded-full mb-4 shadow-lg"></div>
-          <p className="text-white/90 mt-4 max-w-2xl mx-auto text-lg font-medium">
+          <p className="text-foreground/90 mt-4 max-w-2xl mx-auto text-lg font-medium">
             ¿Tienes alguna pregunta? Nos encantaría escucharte
           </p>
         </div>
@@ -45,7 +45,7 @@ export const ContactSection = () => {
               <h3 className="text-3xl font-bold text-accent mb-6 font-ruwudu">
                 Hablemos
               </h3>
-              <p className="text-white/90 mb-8 font-medium text-lg">
+              <p className="text-foreground/90 mb-8 font-medium text-lg">
                 Estamos aquí para responder tus preguntas sobre nuestros productos 
                 y procesos. No dudes en contactarnos.
               </p>
@@ -54,7 +54,7 @@ export const ContactSection = () => {
             <div className="space-y-6">
               <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-accent">
                 <div className="bg-accent p-3 rounded-lg">
-                  <Mail className="h-6 w-6 text-white" />
+                  <Mail className="h-6 w-6 text-foreground" />
                 </div>
                 <div>
                   <h4 className="font-bold text-primary mb-1 text-lg">Email</h4>
@@ -64,7 +64,7 @@ export const ContactSection = () => {
 
               <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-primary">
                 <div className="bg-primary p-3 rounded-lg">
-                  <Phone className="h-6 w-6 text-white" />
+                  <Phone className="h-6 w-6 text-foreground" />
                 </div>
                 <div>
                   <h4 className="font-bold text-primary mb-1 text-lg">Teléfono</h4>
@@ -74,7 +74,7 @@ export const ContactSection = () => {
 
               <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-terracota">
                 <div className="bg-terracota p-3 rounded-lg">
-                  <MapPin className="h-6 w-6 text-white" />
+                  <MapPin className="h-6 w-6 text-foreground" />
                 </div>
                 <div>
                   <h4 className="font-bold text-primary mb-1 text-lg">Ubicación</h4>
