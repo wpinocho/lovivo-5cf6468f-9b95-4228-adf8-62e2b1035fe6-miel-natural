@@ -81,10 +81,10 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               <div className="mb-4 text-center">
                 <img src="/beehives-icon.png" alt="Colmenas" className="h-24 w-24 mx-auto object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-center mb-3 text-secondary font-ruwudu">
+              <h3 style={{ fontWeight: '500' }} style={{ fontWeight: '500' }} className="text-xl font-bold text-center mb-3 text-secondary font-ruwudu">
                 Apicultura Silvestre
               </h3>
-              <p className="text-sm text-forest/90 text-center font-medium">
+              <p style={{ fontWeight: '400' }} className="text-sm text-forest/90 text-center font-medium">
                 Conoce nuestra historia de apicultura silvestre a 3,000 metros de altura y el trabajo extraordinario de nuestras abejas.
               </p>
             </div>
@@ -96,10 +96,10 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               <div className="mb-4 text-center">
                 <img src="/honey-jar-icon.png" alt="Miel" className="h-24 w-24 mx-auto object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-center mb-3 text-mustard font-ruwudu">
+              <h3 style={{ fontWeight: '500' }} style={{ fontWeight: '500' }} className="text-xl font-bold text-center mb-3 text-mustard font-ruwudu">
                 Productos Naturales
               </h3>
-              <p className="text-sm text-forest/90 text-center font-medium">
+              <p style={{ fontWeight: '400' }} className="text-sm text-forest/90 text-center font-medium">
                 Miel 100% pura, cruda y natural. Libre de químicos, antibióticos y con ingredientes puros de montaña.
               </p>
             </div>
@@ -111,10 +111,10 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               <div className="mb-4 text-center">
                 <img src="/women-hands-icon.png" alt="Manos de mujeres" className="h-24 w-24 mx-auto object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-center mb-3 text-plum font-ruwudu">
+              <h3 style={{ fontWeight: '500' }} style={{ fontWeight: '500', letterSpacing: '0px' }} className="text-xl font-bold text-center mb-3 text-plum font-ruwudu">
                 Empresa de Mujeres
               </h3>
-              <p className="text-sm text-forest/90 text-center font-medium">
+              <p style={{ fontWeight: '400' }} className="text-sm text-forest/90 text-center font-medium">
                 Dos generaciones de mujeres apicultoras con más de 16 años de experiencia. Contáctanos y conoce más.
               </p>
             </div>
