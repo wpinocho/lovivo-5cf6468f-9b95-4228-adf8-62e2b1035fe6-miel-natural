@@ -75,6 +75,15 @@ export const EcommerceTemplate = ({
                 Productos
               </Link>
               <Link 
+                to="/galeria" 
+                className={cn(
+                  "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
+                  location.pathname === '/galeria' && "text-white font-bold drop-shadow"
+                )}
+              >
+                Galería
+              </Link>
+              <Link 
                 to="/contacto" 
                 className={cn(
                   "text-white/90 hover:text-white/70 transition-colors font-semibold text-lg",
@@ -152,6 +161,12 @@ export const EcommerceTemplate = ({
                 className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
               >
                 Productos
+              </Link>
+              <Link 
+                to="/galeria" 
+                className="block text-white/90 hover:text-white/70 transition-colors font-semibold text-lg"
+              >
+                Galería
               </Link>
               <Link 
                 to="/contacto" 

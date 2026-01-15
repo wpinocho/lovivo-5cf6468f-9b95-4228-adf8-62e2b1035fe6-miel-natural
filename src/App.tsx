@@ -18,6 +18,7 @@ import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import Gallery from "./pages/Gallery";
 import NotFound from "./pages/NotFound";
 import Checkout from "./pages/Checkout";
 import ThankYou from "./pages/ThankYou";
@@ -63,6 +64,7 @@ const App = () => (
                       <Route path="/my-orders" element={<MyOrders />} />
                       <Route path="/blog" element={<Blog />} />
                       <Route path="/blog/:slug" element={<BlogPost />} />
+                      <Route path="/galeria" element={<Gallery />} />
                       {/* Aquí puedes agregar/modificar rutas */}
                       <Route path="*" element={<NotFound />} />
                     </Routes>
