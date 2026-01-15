@@ -56,7 +56,7 @@ export const EcommerceTemplate = ({
           {/* Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-6">
-              <Link 
+              <Link style={{ fontWeight: '500' }} 
                 to="/nuestro-proyecto" 
                 className={cn(
                   "text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg",
@@ -65,7 +65,7 @@ export const EcommerceTemplate = ({
               >
                 Nuestro Proyecto
               </Link>
-              <Link 
+              <Link style={{ fontWeight: '500' }} 
                 to="/productos" 
                 className={cn(
                   "text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg",
@@ -74,7 +74,7 @@ export const EcommerceTemplate = ({
               >
                 Productos
               </Link>
-              <Link 
+              <Link style={{ fontWeight: '500' }} 
                 to="/galeria" 
                 className={cn(
                   "text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg",
@@ -83,7 +83,7 @@ export const EcommerceTemplate = ({
               >
                 Galería
               </Link>
-              <Link 
+              <Link style={{ fontWeight: '500' }} 
                 to="/contacto" 
                 className={cn(
                   "text-foreground/90 hover:text-foreground/70 transition-colors font-semibold text-lg",
