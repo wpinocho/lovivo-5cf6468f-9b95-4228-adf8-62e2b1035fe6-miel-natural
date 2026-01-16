@@ -106,26 +106,19 @@ export const GallerySection = () => {
           </p>
         </div>
 
-        {/* Grid Layout Pegado - máximas fotos sin espacio */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0">
+        {/* Gallery Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {galleryImages.map((image, index) => {
             return (
               <div
                 key={index}
-                className="group relative overflow-hidden hover:shadow-2xl transition-all duration-300 hover:z-10"
+                className="relative group cursor-pointer overflow-hidden rounded-lg bg-gradient-to-br from-muted/30 to-secondary/20 border border-secondary/30 hover:border-secondary/60 transition-all hover:shadow-xl h-64 p-1.5"
               >
-                <div className="w-full h-56 flex items-center justify-center">
-                  <img
-                    src={image.src}
-                    alt={image.alt}
-                    className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-foreground text-xs font-medium p-3 drop-shadow-lg leading-snug">
-                    {image.alt}
-                  </p>
-                </div>
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-full object-contain rounded-md transition-transform duration-300 group-hover:scale-110"
+                />
               </div>
             );
           })}
