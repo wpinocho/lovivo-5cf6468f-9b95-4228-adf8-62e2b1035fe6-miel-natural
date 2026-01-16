@@ -179,6 +179,10 @@ export const GallerySection = () => {
                   alt={image.alt}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
+                {/* Número de foto */}
+                <div className="absolute top-2 right-2 bg-mustard/90 text-foreground text-xs font-bold px-2 py-1 rounded-full shadow-lg">
+                  #{index + 1}
+                </div>
               </div>
             );
           })}
