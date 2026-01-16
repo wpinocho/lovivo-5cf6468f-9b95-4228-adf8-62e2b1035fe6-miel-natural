@@ -94,47 +94,60 @@ export const GallerySection = () => {
   ];
 
   return (
-    <section className="py-16 bg-gradient-to-br from-warm/30 via-lavender/20 to-muted/25">
+    <section className="py-12 bg-gradient-to-br from-warm/30 via-lavender/20 to-muted/25">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-ruwudu drop-shadow-lg">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3 font-ruwudu drop-shadow-lg">
             Galería de Nuestro Apiario
           </h2>
-          <div className="w-32 h-1 bg-mustard mx-auto rounded-full mb-4 shadow-lg"></div>
-          <p className="text-lg text-foreground/90 font-medium">
+          <div className="w-24 h-1 bg-mustard mx-auto rounded-full mb-3 shadow-lg"></div>
+          <p className="text-base text-foreground/90 font-medium">
             Momentos capturados en las alturas del Nevado de Toluca
           </p>
         </div>
 
-        {/* Grid Layout Responsivo con Aspect Ratios Consistentes */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {galleryImages.map((image, index) => (
-            <div
-              key={index}
-              className={`group relative overflow-hidden rounded-xl border border-accent/30 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-[1.02] bg-gradient-to-br from-primary/5 to-accent/5 ${image.aspectRatio}`}
-            >
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-foreground text-sm font-medium p-4 drop-shadow-lg leading-snug">
-                  {image.alt}
-                </p>
+        {/* Grid Layout Compacto tipo Masonry - 4 columnas */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 auto-rows-[180px]">
+          {galleryImages.map((image, index) => {
+            // Definir spans dinámicos para crear efecto rompecabezas sin huecos
+            let colSpan = 'col-span-1';
+            let rowSpan = 'row-span-1';
+            
+            // Patrón estratégico para llenar espacios
+            if (index === 0) { colSpan = 'col-span-2'; rowSpan = 'row-span-2'; } // Hero grande
+            else if (index === 5) { colSpan = 'col-span-2'; rowSpan = 'row-span-1'; } // Horizontal
+            else if (index === 8) { colSpan = 'col-span-2'; rowSpan = 'row-span-1'; } // Horizontal
+            else if (index === 11) { colSpan = 'col-span-2'; rowSpan = 'row-span-2'; } // Grande
+            else if (index === 15) { colSpan = 'col-span-2'; rowSpan = 'row-span-1'; } // Horizontal
+            
+            return (
+              <div
+                key={index}
+                className={`group relative overflow-hidden rounded-lg border border-accent/30 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-[1.02] bg-gradient-to-br from-primary/5 to-accent/5 ${colSpan} ${rowSpan}`}
+              >
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <p className="text-foreground text-xs font-medium p-3 drop-shadow-lg leading-snug">
+                    {image.alt}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Call to Action */}
-        <div className="mt-12 text-center">
-          <p className="text-foreground/95 text-lg font-medium mb-4">
+        <div className="mt-8 text-center">
+          <p className="text-foreground/95 text-base font-medium mb-3">
             ¿Te gustaría conocer más sobre nuestro proceso?
           </p>
           <a
             href="/nuestro-proyecto"
-            className="inline-block bg-mustard hover:bg-mustard/90 text-foreground font-bold px-8 py-3 rounded-full shadow-lg border border-accent transition-all hover:scale-105"
+            className="inline-block bg-mustard hover:bg-mustard/90 text-foreground font-bold px-6 py-2.5 rounded-full shadow-lg border border-accent transition-all hover:scale-105 text-sm"
           >
             Conoce Nuestra Historia
           </a>
