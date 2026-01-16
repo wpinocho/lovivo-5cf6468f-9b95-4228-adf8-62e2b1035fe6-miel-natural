@@ -106,30 +106,21 @@ export const GallerySection = () => {
           </p>
         </div>
 
-        {/* Grid Layout Compacto tipo Masonry - 4 columnas */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 auto-rows-[180px]">
+        {/* Grid Layout Compacto - 3 columnas sin zoom */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {galleryImages.map((image, index) => {
-            // Definir spans dinámicos para crear efecto rompecabezas sin huecos
-            let colSpan = 'col-span-1';
-            let rowSpan = 'row-span-1';
-            
-            // Patrón estratégico para llenar espacios
-            if (index === 0) { colSpan = 'col-span-2'; rowSpan = 'row-span-2'; } // Hero grande
-            else if (index === 5) { colSpan = 'col-span-2'; rowSpan = 'row-span-1'; } // Horizontal
-            else if (index === 8) { colSpan = 'col-span-2'; rowSpan = 'row-span-1'; } // Horizontal
-            else if (index === 11) { colSpan = 'col-span-2'; rowSpan = 'row-span-2'; } // Grande
-            else if (index === 15) { colSpan = 'col-span-2'; rowSpan = 'row-span-1'; } // Horizontal
-            
             return (
               <div
                 key={index}
-                className={`group relative overflow-hidden rounded-lg border border-accent/30 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-[1.02] bg-gradient-to-br from-primary/5 to-accent/5 ${colSpan} ${rowSpan}`}
+                className="group relative overflow-hidden rounded-lg border border-accent/30 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-[1.02] bg-gradient-to-br from-primary/10 to-accent/10"
               >
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
+                <div className="w-full h-64 flex items-center justify-center p-3">
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <p className="text-foreground text-xs font-medium p-3 drop-shadow-lg leading-snug">
                     {image.alt}
