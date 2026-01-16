@@ -12,7 +12,7 @@ export const GallerySection = () => {
       className: 'md:col-span-3 md:row-span-2'
     },
     {
-      src: 'user-uploads://prev-3/1768503772301-wzhytq0eiqi.jpeg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768584070655-gc1cq0mt2co.JPG',
       alt: 'Campo hermoso con lupinos morados y colmenas al fondo con pinos',
       className: 'md:col-span-2 md:row-span-2'
     },
@@ -32,7 +32,7 @@ export const GallerySection = () => {
       className: 'md:col-span-2 md:row-span-2'
     },
     {
-      src: 'user-uploads://prev-3/1768503772303-m4ihvtm0m9f.jpeg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768584070655-thj3on8870c.jpeg',
       alt: 'Frasco de miel cremosa rodeado de flores cosmos rosas',
       className: 'md:col-span-1 md:row-span-2'
     },
