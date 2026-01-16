@@ -115,6 +115,41 @@ export const GallerySection = () => {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-flores-colmenas.jpg',
       alt: 'Campo espectacular de flores cosmos rosas y amarillas con colmenas negras y cielo dramático',
       aspectRatio: 'aspect-[4/3]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-panal-cristales.jpg',
+      alt: 'Detalle macro de panal de miel con cristales dorados de miel pura',
+      aspectRatio: 'aspect-[1/1]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-apicultor-panal.jpg',
+      alt: 'Apicultor sosteniendo panal lleno de abejas en campo de flores amarillas',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-pastos.jpg',
+      alt: 'Colmenas de madera en campo de pastos dorados con pinos al fondo',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-panales-frasco.jpg',
+      alt: 'Fila de colmenas al atardecer con montaña del Nevado de Toluca al fondo',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-atardecer-montana.jpg',
+      alt: 'Colmenas coloridas en campo verde con flores amarillas y bosque de pinos',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-verdes.jpg',
+      alt: 'Colmenas negras en campo de flores cosmos rosas y amarillas con cielo dramático',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-flores-cosmos-montana.jpg',
+      alt: 'Panales de miel en frasco con hexágonos perfectos cristalizados',
+      aspectRatio: 'aspect-[1/1]'
     }
   ];
 
