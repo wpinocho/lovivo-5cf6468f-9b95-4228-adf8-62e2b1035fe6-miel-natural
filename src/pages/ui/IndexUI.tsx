@@ -50,7 +50,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               fontSize: '38px' }} className="text-3xl md:text-5xl font-bold text-foreground mb-4 drop-shadow-xl font-ruwudu">MIEL DE ABEJA DE ALTA MONTAÑA</h1>
           <p style={{ letterSpacing: '0px', color: '#c45b5b',
               fontWeight: '500',
-              fontSize: '23px', }} className="text-lg md:text-xl mb-3 max-w-2xl mx-auto drop-shadow-lg font-bold">De las Faldas del Nevado de Toluca</p>
+              fontSize: '22px', }} className="text-lg md:text-xl mb-3 max-w-2xl mx-auto drop-shadow-lg font-bold">De las Faldas del Nevado de Toluca</p>
           <p style={{ letterSpacing: '0px',
               fontWeight: '400', }} className="text-base md:text-lg text-foreground/95 mb-6 max-w-2xl mx-auto drop-shadow-md font-medium">Miel 100% pura, cruda y natural.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
