@@ -7,14 +7,14 @@
 export const GallerySection = () => {
   const galleryImages = [
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-yellow-wildflowers.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768587136322-qlh8oy9zoxe.jpeg',
       alt: 'Campo espectacular de flores silvestres amarillas bajo cielo azul con nubes',
-      aspectRatio: 'aspect-[4/3]'
+      aspectRatio: 'aspect-[16/9]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-beekeepers-team.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768587136321-2bpuydvdp9d.JPG',
       alt: 'Tres apicultoras trabajando juntas en las colmenas rodeadas de flores amarillas',
-      aspectRatio: 'aspect-[4/3]'
+      aspectRatio: 'aspect-[3/4]'
     },
     {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768584070655-gc1cq0mt2co.JPG',
@@ -22,7 +22,7 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[4/3]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-bee-yellow-flower.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768587136322-k9mjq9t06as.JPG',
       alt: 'Abeja recolectando néctar en flores amarillas silvestres - macro detallado',
       aspectRatio: 'aspect-[3/4]'
     },
@@ -32,9 +32,9 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[4/3]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-beekeeper-solo.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768587136322-bkf99h5e5ns.JPG',
       alt: 'Apicultor trabajando con las colmenas en campo de flores amarillas',
-      aspectRatio: 'aspect-[1/1]'
+      aspectRatio: 'aspect-[3/4]'
     },
     {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364096-w0dcq4l2h0l.jpeg',
@@ -52,9 +52,9 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[4/3]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-hives-green-field.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768587136322-gr9ok20ocei.JPG',
       alt: 'Colmenas en campo verde con cielo espectacular y montaña al fondo',
-      aspectRatio: 'aspect-[4/3]'
+      aspectRatio: 'aspect-[3/4]'
     },
     {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768503772301-wzhytq0eiqi.jpeg',
