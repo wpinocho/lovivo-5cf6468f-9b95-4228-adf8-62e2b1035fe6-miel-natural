@@ -107,18 +107,18 @@ export const GallerySection = () => {
         </div>
 
         {/* Grid Layout Pegado - máximas fotos sin espacio */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0.5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0">
           {galleryImages.map((image, index) => {
             return (
               <div
                 key={index}
-                className="group relative overflow-hidden border border-accent/20 hover:shadow-2xl transition-all duration-300 hover:z-10 bg-gradient-to-br from-primary/5 to-accent/5"
+                className="group relative overflow-hidden hover:shadow-2xl transition-all duration-300 hover:z-10"
               >
-                <div className="w-full h-56 flex items-center justify-center p-1.5">
+                <div className="w-full h-56 flex items-center justify-center">
                   <img
                     src={image.src}
                     alt={image.alt}
-                    className="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                    className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
