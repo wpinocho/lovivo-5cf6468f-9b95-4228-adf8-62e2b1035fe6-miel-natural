@@ -16,29 +16,29 @@ export const NewsletterSection = () => {
   return (
     <HeadlessNewsletter>
       {(logic) => (
-        <section className="bg-gradient-to-br from-plum/40 via-lavender/30 to-warm/20 py-16 border-y-4 border-mustard shadow-2xl">
-          <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <section className="bg-muted/20 py-24">
+          <div className="max-w-2xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
             {logic.success ? (
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <div className="flex justify-center">
-                  <div className="bg-lavender rounded-full p-4 shadow-lg">
-                    <Mail className="h-8 w-8 text-foreground" />
+                  <div className="bg-accent/10 rounded-full p-5">
+                    <Mail className="h-10 w-10 text-accent" />
                   </div>
                 </div>
-                <h3 className="text-3xl font-bold text-foreground font-ruwudu drop-shadow-lg">
+                <h3 className="text-4xl text-foreground font-ruwudu">
                   ¡Gracias por suscribirte!
                 </h3>
-                <p className="text-foreground/90 text-lg font-medium">
+                <p className="text-foreground/70 text-lg">
                   Pronto recibirás nuestras novedades y ofertas especiales de la alta montaña.
                 </p>
               </div>
             ) : (
-              <div className="space-y-6">
-                <div className="space-y-3">
-                  <h3 className="text-3xl md:text-4xl font-bold text-foreground font-ruwudu drop-shadow-lg">
+              <div className="space-y-8">
+                <div className="space-y-4">
+                  <h3 className="text-4xl md:text-5xl text-foreground font-ruwudu">
                     ¿Quieres recibir nuestras novedades?
                   </h3>
-                  <p className="text-lg text-foreground/90 font-medium">
+                  <p className="text-lg text-foreground/70">
                     Suscríbete y recibe ofertas exclusivas directamente de nuestro apiario
                   </p>
                 </div>
@@ -48,7 +48,7 @@ export const NewsletterSection = () => {
                     e.preventDefault();
                     logic.handleSubscribe();
                   }}
-                  className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+                  className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto"
                 >
                   <Input 
                     type="email"
@@ -56,20 +56,20 @@ export const NewsletterSection = () => {
                     value={logic.email}
                     onChange={(e) => logic.setEmail(e.target.value)}
                     disabled={logic.isSubmitting}
-                    className="flex-1 border-4 border-mustard focus:border-foreground bg-white text-forest font-medium"
+                    className="flex-1 h-12"
                     required
                   />
                   <Button 
                     type="submit"
                     disabled={logic.isSubmitting}
-                    className="sm:w-auto bg-lavender hover:bg-plum text-foreground font-bold shadow-xl border-4 border-lavender/70 text-lg"
+                    className="sm:w-auto bg-accent/90 backdrop-blur-sm hover:bg-accent text-foreground shadow-lg px-8 py-6 rounded-full"
                   >
                     {logic.isSubmitting ? 'Suscribiendo...' : 'Suscribirse'}
                   </Button>
                 </form>
                 
                 {logic.error && (
-                  <p className="text-sm text-destructive font-semibold">
+                  <p className="text-sm text-destructive">
                     {logic.error}
                   </p>
                 )}

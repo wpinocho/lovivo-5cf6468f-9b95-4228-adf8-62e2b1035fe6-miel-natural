@@ -26,59 +26,58 @@ export const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-accent/20 via-background to-terracota/20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-ruwudu drop-shadow-lg">
+    <section id="contact" className="py-32 bg-background">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl text-foreground mb-6 font-ruwudu">
             Contacto
           </h2>
-          <div className="w-32 h-2 bg-accent mx-auto rounded-full mb-4 shadow-lg"></div>
-          <p className="text-foreground/90 mt-4 max-w-2xl mx-auto text-lg font-medium">
+          <p className="text-foreground/70 mt-6 max-w-2xl mx-auto text-xl">
             ¿Tienes alguna pregunta? Nos encantaría escucharte
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Información de contacto */}
-          <div className="space-y-8">
+          <div className="space-y-12">
             <div>
-              <h3 className="text-3xl font-bold text-accent mb-6 font-ruwudu">
+              <h3 className="text-3xl text-foreground mb-6 font-ruwudu">
                 Hablemos
               </h3>
-              <p className="text-foreground/90 mb-8 font-medium text-lg">
+              <p className="text-foreground/80 mb-8 text-lg leading-relaxed">
                 Estamos aquí para responder tus preguntas sobre nuestros productos 
                 y procesos. No dudes en contactarnos.
               </p>
             </div>
 
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-accent">
-                <div className="bg-accent p-3 rounded-lg">
-                  <Mail className="h-6 w-6 text-foreground" />
+            <div className="space-y-8">
+              <div className="flex items-start space-x-5">
+                <div className="bg-accent/10 p-4 rounded-lg">
+                  <Mail className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-primary mb-1 text-lg">Email</h4>
-                  <p className="text-primary/80 font-medium">contacto@apisterra.com</p>
+                  <h4 className="text-lg text-foreground mb-2">Email</h4>
+                  <p className="text-foreground/70">contacto@apisterra.com</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-primary">
-                <div className="bg-primary p-3 rounded-lg">
-                  <Phone className="h-6 w-6 text-foreground" />
+              <div className="flex items-start space-x-5">
+                <div className="bg-accent/10 p-4 rounded-lg">
+                  <Phone className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-primary mb-1 text-lg">Teléfono</h4>
-                  <p className="text-primary/80 font-medium">+52 123 456 7890</p>
+                  <h4 className="text-lg text-foreground mb-2">Teléfono</h4>
+                  <p className="text-foreground/70">+52 123 456 7890</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 bg-white/95 p-4 rounded-xl shadow-lg border-4 border-terracota">
-                <div className="bg-terracota p-3 rounded-lg">
-                  <MapPin className="h-6 w-6 text-foreground" />
+              <div className="flex items-start space-x-5">
+                <div className="bg-accent/10 p-4 rounded-lg">
+                  <MapPin className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-primary mb-1 text-lg">Ubicación</h4>
-                  <p className="text-primary/80 font-medium">
+                  <h4 className="text-lg text-foreground mb-2">Ubicación</h4>
+                  <p className="text-foreground/70">
                     Faldas del Nevado de Toluca<br />
                     3,000 metros de altura<br />
                     Estado de México
@@ -89,10 +88,10 @@ export const ContactSection = () => {
           </div>
 
           {/* Formulario de contacto */}
-          <div className="bg-white rounded-xl shadow-2xl p-8 border-4 border-accent">
+          <div className="bg-card/50 backdrop-blur-sm rounded-lg p-10 border border-foreground/10">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-bold text-primary mb-2">
+                <label htmlFor="name" className="block text-sm text-foreground/80 mb-2">
                   Nombre
                 </label>
                 <Input
@@ -107,7 +106,7 @@ export const ContactSection = () => {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-bold text-primary mb-2">
+                <label htmlFor="email" className="block text-sm text-foreground/80 mb-2">
                   Email
                 </label>
                 <Input
@@ -122,7 +121,7 @@ export const ContactSection = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-bold text-primary mb-2">
+                <label htmlFor="message" className="block text-sm text-foreground/80 mb-2">
                   Mensaje
                 </label>
                 <textarea
@@ -131,12 +130,12 @@ export const ContactSection = () => {
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   placeholder="¿En qué podemos ayudarte?"
-                  rows={5}
-                  className="w-full px-3 py-2 border border-input bg-background rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
+                  rows={6}
+                  className="w-full px-4 py-3 border border-input bg-background rounded-md focus:outline-none focus:ring-2 focus:ring-accent"
                 />
               </div>
 
-              <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-primary font-bold shadow-xl text-lg border-4 border-accent/70" size="lg">
+              <Button type="submit" className="w-full bg-accent/90 backdrop-blur-sm hover:bg-accent text-foreground shadow-lg text-lg py-6 rounded-full" size="lg">
                 Enviar Mensaje
               </Button>
             </form>

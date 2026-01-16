@@ -7,10 +7,10 @@
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-20 bg-background">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-ruwudu">
+    <section id="about" className="py-32 bg-background">
+      <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl text-foreground mb-6 font-ruwudu">
             Nuestro Proyecto
           </h2>
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
@@ -18,13 +18,13 @@ export const AboutSection = () => {
           </p>
         </div>
 
-        <div className="space-y-12">
-          <div className="space-y-6">
-            <h3 className="text-3xl font-bold text-foreground font-ruwudu">
+        <div className="space-y-16">
+          <div className="space-y-8">
+            <h3 className="text-3xl text-foreground font-ruwudu">
               Apicultura Silvestre a 3,000 Metros
             </h3>
             
-            <p className="text-lg text-foreground/80 leading-relaxed border-l-4 border-accent pl-6 py-2 italic">
+            <p className="text-2xl text-foreground/70 leading-relaxed italic">
               "Donde el aire es más puro y el cielo más cercano, nuestras abejas danzan entre flores silvestres que solo crecen en las alturas."
             </p>
             
@@ -43,8 +43,8 @@ export const AboutSection = () => {
             </p>
           </div>
 
-          <div className="pt-8 border-t border-foreground/10">
-            <h4 className="text-2xl font-bold text-foreground mb-4 font-ruwudu">
+          <div className="pt-12 border-t border-foreground/10">
+            <h4 className="text-3xl text-foreground mb-6 font-ruwudu">
               Empresa de Mujeres
             </h4>
             <p className="text-foreground/80 leading-relaxed text-lg">
@@ -53,18 +53,6 @@ export const AboutSection = () => {
               en apicultura, me enseñó que cuidar de las abejas es cuidar de la tierra. Juntas, 
               madre e hija, continuamos este legado de respeto y pasión por la naturaleza.
             </p>
-          </div>
-          
-          <div className="flex flex-wrap gap-3 pt-6">
-            <span className="text-sm px-4 py-2 border border-foreground/20 rounded-full text-foreground/70">
-              Apicultura Silvestre
-            </span>
-            <span className="text-sm px-4 py-2 border border-foreground/20 rounded-full text-foreground/70">
-              3,000 msnm
-            </span>
-            <span className="text-sm px-4 py-2 border border-foreground/20 rounded-full text-foreground/70">
-              Hecho por Mujeres
-            </span>
           </div>
         </div>
       </div>

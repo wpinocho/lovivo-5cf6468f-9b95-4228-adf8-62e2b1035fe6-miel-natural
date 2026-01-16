@@ -10,7 +10,7 @@ import { NewsletterSection } from '@/components/NewsletterSection';
 
 const Contact = () => {
   return (
-    <EcommerceTemplate pageTitle="Contacto" showCart={true}>
+    <EcommerceTemplate showCart={true}>
       <ContactSection />
       <NewsletterSection />
     </EcommerceTemplate>

@@ -109,14 +109,13 @@ export const GallerySection = () => {
   ];
 
   return (
-    <section className="py-12 bg-gradient-to-br from-warm/30 via-lavender/20 to-muted/25">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3 font-ruwudu drop-shadow-lg">
-            Galería de Nuestro Apiario
+    <section className="py-24 bg-background">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="text-center mb-16">
+          <h2 className="text-5xl md:text-6xl text-foreground mb-6 font-ruwudu">
+            Galería
           </h2>
-          <div className="w-24 h-1 bg-mustard mx-auto rounded-full mb-3 shadow-lg"></div>
-          <p className="text-base text-foreground/90 font-medium">
+          <p className="text-xl text-foreground/70">
             Momentos capturados en las alturas del Nevado de Toluca
           </p>
         </div>
@@ -127,15 +126,15 @@ export const GallerySection = () => {
             return (
               <div
                 key={index}
-                className="relative group cursor-pointer overflow-hidden rounded-md transition-all hover:shadow-xl h-48"
+                className="relative group cursor-pointer overflow-hidden transition-all hover:shadow-2xl h-48"
               >
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 {/* Número de foto */}
-                <div className="absolute top-2 right-2 bg-mustard/90 text-foreground text-xs font-bold px-2 py-1 rounded-full shadow-lg">
+                <div className="absolute top-3 right-3 bg-foreground/80 backdrop-blur-sm text-background text-xs px-3 py-1 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
                   #{index + 1}
                 </div>
               </div>
@@ -144,13 +143,13 @@ export const GallerySection = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-8 text-center">
-          <p className="text-foreground/95 text-base font-medium mb-3">
+        <div className="mt-16 text-center">
+          <p className="text-foreground/80 text-lg mb-6">
             ¿Te gustaría conocer más sobre nuestro proceso?
           </p>
           <a
             href="/nuestro-proyecto"
-            className="inline-block bg-mustard hover:bg-mustard/90 text-foreground font-bold px-6 py-2.5 rounded-full shadow-lg border border-accent transition-all hover:scale-105 text-sm"
+            className="inline-block bg-accent/90 backdrop-blur-sm hover:bg-accent text-foreground px-8 py-3 rounded-full shadow-lg transition-all hover:scale-105"
           >
             Conoce Nuestra Historia
           </a>

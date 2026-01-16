@@ -9,7 +9,7 @@ import { GallerySection } from '@/components/GallerySection'
 
 const GalleryPage = () => {
   return (
-    <EcommerceTemplate pageTitle="Galería" showCart={true}>
+    <EcommerceTemplate showCart={true}>
       <GallerySection />
     </EcommerceTemplate>
   )
