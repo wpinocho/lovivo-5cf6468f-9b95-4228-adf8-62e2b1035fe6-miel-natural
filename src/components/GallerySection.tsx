@@ -107,17 +107,17 @@ export const GallerySection = () => {
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0.5">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-1">
           {galleryImages.map((image, index) => {
             return (
               <div
                 key={index}
-                className="relative group cursor-pointer overflow-hidden rounded-lg bg-gradient-to-br from-muted/30 to-secondary/20 border border-secondary/30 hover:border-secondary/60 transition-all hover:shadow-xl h-56 p-1.5"
+                className="relative group cursor-pointer overflow-hidden rounded-md transition-all hover:shadow-xl h-48"
               >
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-full object-contain rounded-md transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
             );
