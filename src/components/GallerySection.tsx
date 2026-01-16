@@ -90,6 +90,31 @@ export const GallerySection = () => {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-0jtzbgmgmxrn.jpeg',
       alt: 'Campo de alta montaña con flores silvestres secas',
       aspectRatio: 'aspect-[4/3]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-pinos.jpg',
+      alt: 'Colmenas entre pinos y pastos dorados bajo cielo azul brillante',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-panal-miel.jpg',
+      alt: 'Detalle macro de panal de miel con hexágonos perfectos y miel dorada cristalizada',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-montana.jpg',
+      alt: 'Fila de colmenas con montaña al fondo y campo de flores al atardecer',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-campo.jpg',
+      alt: 'Colmenas coloridas en campo verde con bosque de pinos y cielo azul',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-flores-colmenas.jpg',
+      alt: 'Campo espectacular de flores cosmos rosas y amarillas con colmenas negras y cielo dramático',
+      aspectRatio: 'aspect-[4/3]'
     }
   ];
 
