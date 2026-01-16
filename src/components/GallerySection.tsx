@@ -77,17 +77,12 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[3/4]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768502612175-p0austu1gi.jpeg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-foto16-rotated.jpg',
       alt: 'Colmenas bajo cielo azul con pinos y pastos secos de montaña',
-      aspectRatio: 'aspect-[4/3]'
-    },
-    {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-pinos.jpg',
-      alt: 'Colmenas entre pinos y pastos dorados bajo cielo azul brillante',
       aspectRatio: 'aspect-[3/4]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-montana.jpg',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-foto18-rotated.jpg',
       alt: 'Fila de colmenas con montaña al fondo y campo de flores al atardecer',
       aspectRatio: 'aspect-[3/4]'
     },
