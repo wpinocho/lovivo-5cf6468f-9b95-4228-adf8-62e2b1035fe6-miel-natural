@@ -77,16 +77,6 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[3/4]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-foto16-rotated.jpg',
-      alt: 'Colmenas bajo cielo azul con pinos y pastos secos de montaña',
-      aspectRatio: 'aspect-[3/4]'
-    },
-    {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-foto18-rotated.jpg',
-      alt: 'Fila de colmenas con montaña al fondo y campo de flores al atardecer',
-      aspectRatio: 'aspect-[3/4]'
-    },
-    {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-panal-cristales.jpg',
       alt: 'Detalle macro de panal de miel con cristales dorados de miel pura',
       aspectRatio: 'aspect-[1/1]'
