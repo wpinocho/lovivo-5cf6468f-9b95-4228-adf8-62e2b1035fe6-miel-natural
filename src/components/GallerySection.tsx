@@ -32,8 +32,8 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[3/4]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/abeja-romero.jpg',
-      alt: 'Abeja recolectando néctar en flores moradas de romero silvestre',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-verdes.jpg',
+      alt: 'Colmenas negras en campo de flores cosmos rosas y amarillas con cielo dramático',
       aspectRatio: 'aspect-[3/4]'
     },
     {
@@ -42,14 +42,14 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[3/4]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-x7xduvsm2y.jpeg',
-      alt: 'Campo de flores rosas cosmos bajo cielo azul',
-      aspectRatio: 'aspect-[4/3]'
-    },
-    {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768587136322-gr9ok20ocei.JPG',
       alt: 'Colmenas en campo verde con cielo espectacular y montaña al fondo',
       aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768500364097-x7xduvsm2y.jpeg',
+      alt: 'Campo de flores rosas cosmos bajo cielo azul',
+      aspectRatio: 'aspect-[4/3]'
     },
     {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768503772301-wzhytq0eiqi.jpeg',
@@ -87,8 +87,8 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[3/4]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-verdes.jpg',
-      alt: 'Colmenas negras en campo de flores cosmos rosas y amarillas con cielo dramático',
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/abeja-romero.jpg',
+      alt: 'Abeja recolectando néctar en flores moradas de romero silvestre',
       aspectRatio: 'aspect-[3/4]'
     },
     {
