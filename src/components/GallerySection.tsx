@@ -77,11 +77,6 @@ export const GallerySection = () => {
       aspectRatio: 'aspect-[3/4]'
     },
     {
-      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-panal-cristales.jpg',
-      alt: 'Detalle macro de panal de miel con cristales dorados de miel pura',
-      aspectRatio: 'aspect-[1/1]'
-    },
-    {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-apicultor-panal.jpg',
       alt: 'Apicultor sosteniendo panal lleno de abejas en campo de flores amarillas',
       aspectRatio: 'aspect-[3/4]'
@@ -95,6 +90,21 @@ export const GallerySection = () => {
       src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/gallery-colmenas-verdes.jpg',
       alt: 'Colmenas negras en campo de flores cosmos rosas y amarillas con cielo dramático',
       aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/abeja-flores-moradas.jpg',
+      alt: 'Abeja recolectando néctar en flores moradas de romero silvestre',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/abeja-flor-amarilla.jpg',
+      alt: 'Abeja cubierta de polen dorado en flor amarilla cosmos',
+      aspectRatio: 'aspect-[3/4]'
+    },
+    {
+      src: 'https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/5cf6468f-9b95-4228-adf8-62e2b1035fe6/campo-neblina.jpg',
+      alt: 'Campo de flores blancas silvestres con neblina y pinos al fondo',
+      aspectRatio: 'aspect-[16/9]'
     }
   ];
 
