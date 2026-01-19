@@ -81,7 +81,7 @@ export const EcommerceTemplate = ({
                   location.pathname === '/distinguir-miel-real' && "text-foreground"
                 )}
               >
-                Distinguir Miel Real
+                ¿Cómo distinguir miel auténtica?
               </Link>
               <Link 
                 to="/galeria" 
@@ -175,7 +175,7 @@ export const EcommerceTemplate = ({
                 to="/distinguir-miel-real" 
                 className="block text-foreground/80 hover:text-foreground transition-colors"
               >
-                Distinguir Miel Real
+                ¿Cómo distinguir miel auténtica?
               </Link>
               <Link 
                 to="/galeria" 
