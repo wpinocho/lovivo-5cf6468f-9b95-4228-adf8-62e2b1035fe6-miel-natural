@@ -25,11 +25,11 @@ const HoneyEducation = () => {
       {/* Cristalización */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-3xl md:text-4xl text-foreground/90 mb-6 font-ruwudu">
+          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             La Cristalización: Un Signo de Pureza
           </h2>
-          <div className="space-y-4 text-foreground/70 leading-relaxed">
-            <p className="text-lg">
+          <div className="space-y-3 text-foreground/70 leading-relaxed">
+            <p className="text-base">
               Una miel pura y natural cristaliza con el tiempo. Este proceso es completamente natural y demuestra que la miel no ha sido procesada industrialmente ni adulterada.
             </p>
             <p>
@@ -48,34 +48,34 @@ const HoneyEducation = () => {
       {/* Tipos de Miel */}
       <section className="py-12 bg-primary/10">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-3xl md:text-4xl text-foreground/90 mb-6 font-ruwudu">
+          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             Diferentes Tipos de Miel
           </h2>
-          <div className="space-y-4 text-foreground/70 leading-relaxed">
-            <p className="text-lg">
+          <div className="space-y-3 text-foreground/70 leading-relaxed">
+            <p className="text-base">
               No todas las mieles son iguales. El tipo de miel depende completamente de las flores que las abejas visitan, el clima, la altitud y la época del año.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mt-6">
               <div>
-                <h3 className="text-lg text-foreground/90 mb-2 font-ruwudu">Miel Monofloral</h3>
+                <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">Miel Monofloral</h3>
                 <p>
                   Proviene principalmente de una sola especie de flor (azahar, lavanda, eucalipto). Tiene sabor y propiedades específicas de esa planta.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg text-foreground/90 mb-2 font-ruwudu">Miel Multifloral o de Milflores</h3>
+                <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">Miel Multifloral o de Milflores</h3>
                 <p>
                   Las abejas recolectan néctar de múltiples especies. Nuestra miel de montaña es multifloral: cada frasco refleja la biodiversidad silvestre del Nevado de Toluca.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg text-foreground/90 mb-2 font-ruwudu">Miel de Bosque o Mielada</h3>
+                <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">Miel de Bosque o Mielada</h3>
                 <p>
                   Proviene de secreciones de insectos en árboles (no de flores). Más oscura, menos dulce, con notas minerales.
                 </p>
               </div>
               <div>
-                <h3 className="text-lg text-foreground/90 mb-2 font-ruwudu">Miel Cremosa o Mantequilla</h3>
+                <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">Miel Cremosa o Mantequilla</h3>
                 <p>
                   Miel con textura naturalmente cremosa y untable debido a la cristalización específica causada por altitud, temperatura y tipo de flora. Nuestra miel de altura tiene esta textura de forma completamente natural, sin ningún proceso de batido.
                 </p>
@@ -88,15 +88,15 @@ const HoneyEducation = () => {
       {/* Altura y Humedad */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-3xl md:text-4xl text-foreground/90 mb-6 font-ruwudu">
+          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             La Influencia de la Altura y Humedad
           </h2>
-          <div className="space-y-4 text-foreground/70 leading-relaxed">
-            <p className="text-lg">
+          <div className="space-y-3 text-foreground/70 leading-relaxed">
+            <p className="text-base">
               La altitud no solo afecta el tipo de flores disponibles, también influye directamente en la composición, humedad y sabor de la miel.
             </p>
-            <div className="bg-primary/5 p-6 rounded-lg my-4">
-              <h3 className="text-xl text-foreground/90 mb-3 font-ruwudu">Miel de Baja Altitud (0-1000 msnm)</h3>
+            <div className="bg-primary/5 p-5 rounded-lg my-3">
+              <h3 className="text-lg text-foreground/90 mb-2 font-ruwudu">Miel de Baja Altitud (0-1000 msnm)</h3>
               <ul className="space-y-1 list-disc list-inside text-sm">
                 <li>Flores tropicales y cítricas</li>
                 <li>Mayor humedad en el ambiente y en la miel</li>
@@ -105,8 +105,8 @@ const HoneyEducation = () => {
                 <li>Colores más oscuros y ámbar</li>
               </ul>
             </div>
-            <div className="bg-accent/5 p-6 rounded-lg my-4">
-              <h3 className="text-xl text-foreground/90 mb-3 font-ruwudu">Miel de Alta Montaña (2500-3500 msnm)</h3>
+            <div className="bg-accent/5 p-5 rounded-lg my-3">
+              <h3 className="text-lg text-foreground/90 mb-2 font-ruwudu">Miel de Alta Montaña (2500-3500 msnm)</h3>
               <ul className="space-y-1 list-disc list-inside text-sm">
                 <li>Flora silvestre alpina y de bosque de pino</li>
                 <li>Baja humedad ambiental = miel más densa y concentrada</li>
@@ -129,10 +129,10 @@ const HoneyEducation = () => {
       {/* Paleta de Colores de Miel */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-3xl md:text-4xl text-foreground/90 mb-6 font-ruwudu text-center">
+          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu text-center">
             Paleta de Colores de la Miel
           </h2>
-          <p className="text-base text-foreground/70 text-center mb-8 leading-relaxed">
+          <p className="text-sm text-foreground/70 text-center mb-6 leading-relaxed">
             La miel natural presenta una amplia variedad de tonos, desde ámbar oscuro hasta amarillo casi transparente, dependiendo de la flora, altitud y temporada de cosecha.
           </p>
           
@@ -212,11 +212,11 @@ const HoneyEducation = () => {
       {/* Miel Mantequilla de Alta Montaña */}
       <section className="py-12 bg-primary/10">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-3xl md:text-4xl text-foreground/90 mb-6 font-ruwudu">
+          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             ¿Por Qué la Miel Mantequilla de Alta Montaña es tan Especial?
           </h2>
-          <div className="space-y-4 text-foreground/70 leading-relaxed">
-            <p className="text-lg">
+          <div className="space-y-3 text-foreground/70 leading-relaxed">
+            <p className="text-base">
               La textura cremosa tipo "mantequilla" de nuestra miel es completamente natural. No batimos, no procesamos, no manipulamos.
             </p>
             <p>
@@ -225,8 +225,8 @@ const HoneyEducation = () => {
             <p>
               El color amarillo dorado intenso también es 100% natural, resultado de las flores silvestres de montaña que las abejas visitan durante la floración de altura.
             </p>
-            <div className="bg-background p-6 rounded-lg my-4 border border-foreground/10">
-              <h3 className="text-lg text-foreground/90 mb-3 font-ruwudu">Características únicas (100% naturales):</h3>
+            <div className="bg-background p-5 rounded-lg my-3 border border-foreground/10">
+              <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">Características únicas (100% naturales):</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
                   <span className="text-accent mr-3 mt-1">✓</span>
@@ -260,11 +260,11 @@ const HoneyEducation = () => {
       {/* Floración, Sabor y Textura */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-3xl md:text-4xl text-foreground/90 mb-6 font-ruwudu">
+          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             Floración, Sabor y Textura
           </h2>
-          <div className="space-y-4 text-foreground/70 leading-relaxed">
-            <p className="text-lg">
+          <div className="space-y-3 text-foreground/70 leading-relaxed">
+            <p className="text-base">
               La miel es un producto vivo que refleja el momento exacto de la naturaleza en que fue creada.
             </p>
             <p>
@@ -276,8 +276,8 @@ const HoneyEducation = () => {
             <p>
               <strong className="text-foreground/90">Floración otoñal (septiembre-octubre):</strong> Últimas flores antes del invierno, sabores más robustos y terrosos, mayor concentración de minerales.
             </p>
-            <div className="bg-muted/20 p-6 rounded-lg my-4">
-              <h3 className="text-lg text-foreground/90 mb-3 font-ruwudu">Cada cosecha es única</h3>
+            <div className="bg-muted/20 p-5 rounded-lg my-3">
+              <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">Cada cosecha es única</h3>
               <p>
                 Incluso del mismo apiario, en la misma ubicación, cada cosecha será diferente según:
               </p>
