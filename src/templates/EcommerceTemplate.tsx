@@ -75,6 +75,15 @@ export const EcommerceTemplate = ({
                 Productos
               </Link>
               <Link 
+                to="/distinguir-miel-real" 
+                className={cn(
+                  "text-foreground/80 hover:text-foreground transition-colors text-base",
+                  location.pathname === '/distinguir-miel-real' && "text-foreground"
+                )}
+              >
+                Distinguir Miel Real
+              </Link>
+              <Link 
                 to="/galeria" 
                 className={cn(
                   "text-foreground/80 hover:text-foreground transition-colors text-base",
@@ -161,6 +170,12 @@ export const EcommerceTemplate = ({
                 className="block text-foreground/80 hover:text-foreground transition-colors"
               >
                 Productos
+              </Link>
+              <Link 
+                to="/distinguir-miel-real" 
+                className="block text-foreground/80 hover:text-foreground transition-colors"
+              >
+                Distinguir Miel Real
               </Link>
               <Link 
                 to="/galeria" 

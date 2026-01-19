@@ -19,6 +19,7 @@ import Product from "./pages/Product";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Gallery from "./pages/Gallery";
+import HoneyEducation from "./pages/HoneyEducation";
 import NotFound from "./pages/NotFound";
 import Checkout from "./pages/Checkout";
 import ThankYou from "./pages/ThankYou";
@@ -56,6 +57,7 @@ const App = () => (
                       <Route path="/nuestro-proyecto" element={<About />} />
                       <Route path="/productos" element={<Products />} />
                       <Route path="/contacto" element={<Contact />} />
+                      <Route path="/distinguir-miel-real" element={<HoneyEducation />} />
                       <Route path="/products/:slug" element={<Product />} />
                       <Route path="/cart" element={<Cart />} />
                       <Route path="/checkout" element={<Checkout />} />
