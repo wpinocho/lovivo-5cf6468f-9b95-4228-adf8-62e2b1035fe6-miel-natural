@@ -126,6 +126,89 @@ const HoneyEducation = () => {
         </div>
       </section>
 
+      {/* Paleta de Colores de Miel */}
+      <section className="py-12 bg-background">
+        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+          <h2 className="text-3xl md:text-4xl text-foreground/90 mb-6 font-ruwudu text-center">
+            Paleta de Colores de la Miel
+          </h2>
+          <p className="text-base text-foreground/70 text-center mb-8 leading-relaxed">
+            La miel natural presenta una amplia variedad de tonos, desde ámbar oscuro hasta amarillo casi transparente, dependiendo de la flora, altitud y temporada de cosecha.
+          </p>
+          
+          {/* Grid de colores */}
+          <div className="grid grid-cols-4 md:grid-cols-8 gap-3">
+            <div className="flex flex-col items-center gap-2">
+              <div 
+                className="w-full aspect-square rounded-lg shadow-md border border-foreground/10"
+                style={{ backgroundColor: 'hsl(25, 45%, 30%)' }}
+              ></div>
+              <span className="text-xs text-foreground/60 text-center">Ámbar Oscuro</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+              <div 
+                className="w-full aspect-square rounded-lg shadow-md border border-foreground/10"
+                style={{ backgroundColor: 'hsl(30, 50%, 40%)' }}
+              ></div>
+              <span className="text-xs text-foreground/60 text-center">Ámbar</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+              <div 
+                className="w-full aspect-square rounded-lg shadow-md border border-foreground/10"
+                style={{ backgroundColor: 'hsl(35, 55%, 50%)' }}
+              ></div>
+              <span className="text-xs text-foreground/60 text-center">Ámbar Dorado</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+              <div 
+                className="w-full aspect-square rounded-lg shadow-md border border-foreground/10"
+                style={{ backgroundColor: 'hsl(40, 60%, 55%)' }}
+              ></div>
+              <span className="text-xs text-foreground/60 text-center">Dorado</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+              <div 
+                className="w-full aspect-square rounded-lg shadow-md border border-foreground/10"
+                style={{ backgroundColor: 'hsl(45, 65%, 60%)' }}
+              ></div>
+              <span className="text-xs text-foreground/60 text-center">Dorado Claro</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+              <div 
+                className="w-full aspect-square rounded-lg shadow-md border border-foreground/10"
+                style={{ backgroundColor: 'hsl(50, 70%, 68%)' }}
+              ></div>
+              <span className="text-xs text-foreground/60 text-center">Amarillo Dorado</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+              <div 
+                className="w-full aspect-square rounded-lg shadow-md border border-foreground/10"
+                style={{ backgroundColor: 'hsl(55, 75%, 75%)' }}
+              ></div>
+              <span className="text-xs text-foreground/60 text-center">Amarillo Claro</span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-2">
+              <div 
+                className="w-full aspect-square rounded-lg shadow-md border border-foreground/10"
+                style={{ backgroundColor: 'hsl(60, 80%, 85%)' }}
+              ></div>
+              <span className="text-xs text-foreground/60 text-center">Amarillo Pálido</span>
+            </div>
+          </div>
+
+          <p className="text-sm italic text-foreground/60 mt-6 text-center">
+            Nuestra miel de montaña típicamente presenta tonos dorados claros y amarillos, característicos de las floraciones de alta altitud.
+          </p>
+        </div>
+      </section>
+
       {/* Miel Mantequilla de Alta Montaña */}
       <section className="py-12 bg-primary/10">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
