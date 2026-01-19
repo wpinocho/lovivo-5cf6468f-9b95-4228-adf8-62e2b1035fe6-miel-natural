@@ -11,12 +11,12 @@ const HoneyEducation = () => {
   return (
     <EcommerceTemplate showCart={true}>
       {/* Hero */}
-      <section className="py-20 bg-background">
+      <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
-          <h1 className="text-5xl md:text-6xl text-foreground mb-6 font-ruwudu">
+          <h1 className="text-3xl md:text-4xl text-foreground mb-3 font-ruwudu">
             ¿Cómo distinguir miel auténtica?
           </h1>
-          <p className="text-xl text-foreground/70 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-base text-foreground/60 leading-relaxed max-w-2xl mx-auto">
             Aprende a reconocer la autenticidad y calidad de la miel pura de montaña
           </p>
         </div>
