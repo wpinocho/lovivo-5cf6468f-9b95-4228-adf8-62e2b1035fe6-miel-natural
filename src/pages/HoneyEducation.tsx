@@ -14,7 +14,7 @@ const HoneyEducation = () => {
       <section className="py-20 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
           <h1 className="text-5xl md:text-6xl text-foreground mb-6 font-ruwudu">
-            Distinguir una Miel Real
+            ¿Cómo distinguir miel auténtica?
           </h1>
           <p className="text-xl text-foreground/70 leading-relaxed max-w-2xl mx-auto">
             Aprende a reconocer la autenticidad y calidad de la miel pura de montaña
@@ -77,7 +77,7 @@ const HoneyEducation = () => {
               <div>
                 <h3 className="text-xl text-foreground/90 mb-3 font-ruwudu">Miel Cremosa o Mantequilla</h3>
                 <p>
-                  Miel cristalizada batida mecánicamente para romper los cristales y crear textura cremosa y untable. Perfecta para pan tostado.
+                  Miel con textura naturalmente cremosa y untable debido a la cristalización específica causada por altitud, temperatura y tipo de flora. Nuestra miel de altura tiene esta textura de forma completamente natural, sin ningún proceso de batido.
                 </p>
               </div>
             </div>
@@ -131,32 +131,42 @@ const HoneyEducation = () => {
           </h2>
           <div className="space-y-6 text-foreground/70 leading-relaxed">
             <p className="text-lg">
-              La miel mantequilla de alta montaña combina lo mejor de dos mundos: la cristalización natural de la miel pura con una textura suave y untable que facilita su uso diario.
+              La textura cremosa tipo "mantequilla" de nuestra miel es completamente natural. No batimos, no procesamos, no manipulamos.
             </p>
             <p>
-              Al cristalizar naturalmente, nuestra miel de montaña forma cristales grandes. Al batirla cuidadosamente, rompemos esos cristales en partículas microscópicas que crean una textura sedosa, cremosa y estable.
+              Esta textura única es el resultado directo de la altitud extrema (3,000 metros) y la flora específica del Nevado de Toluca. La combinación de baja humedad ambiental, temperaturas frescas y el tipo de néctar recolectado crea una cristalización natural con micropartículas que otorgan esa textura sedosa y untable.
+            </p>
+            <p>
+              El color amarillo dorado intenso también es 100% natural, resultado de las flores silvestres de montaña que las abejas visitan durante la floración de altura.
             </p>
             <div className="bg-background p-8 rounded-lg my-8 border border-foreground/10">
-              <h3 className="text-xl text-foreground/90 mb-4 font-ruwudu">Características únicas:</h3>
+              <h3 className="text-xl text-foreground/90 mb-4 font-ruwudu">Características únicas (100% naturales):</h3>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-accent mr-3 mt-1">✓</span>
-                  <span><strong className="text-foreground/90">Textura perfecta:</strong> Fácil de untar en pan, mezclar en yogurt o café, sin gotear</span>
+                  <span><strong className="text-foreground/90">Textura cremosa natural:</strong> Fácil de untar, sin gotear. Resultado de cristalización por altura y flora específica</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-3 mt-1">✓</span>
-                  <span><strong className="text-foreground/90">Sabor concentrado:</strong> La baja humedad de altura potencia los sabores herbales y florales</span>
+                  <span><strong className="text-foreground/90">Color amarillo dorado:</strong> Producido naturalmente por el néctar de flores silvestres de alta montaña</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-3 mt-1">✓</span>
-                  <span><strong className="text-foreground/90">100% natural:</strong> Sin aditivos, solo miel batida mecánicamente</span>
+                  <span><strong className="text-foreground/90">Sabor concentrado:</strong> La baja humedad de 3,000 metros potencia los sabores herbales y florales</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-3 mt-1">✓</span>
-                  <span><strong className="text-foreground/90">Conservación perfecta:</strong> No se separa, no fermenta, mantiene propiedades intactas</span>
+                  <span><strong className="text-foreground/90">Sin procesamiento:</strong> Directamente del panal al frasco. Cero manipulación industrial</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-accent mr-3 mt-1">✓</span>
+                  <span><strong className="text-foreground/90">Conservación perfecta:</strong> No se separa, no fermenta, mantiene todas sus propiedades intactas</span>
                 </li>
               </ul>
             </div>
+            <p className="text-sm italic text-foreground/60 pt-4">
+              Esta textura mantequilla solo ocurre en mieles de altitud extrema con floraciones específicas. Es imposible replicarla artificialmente.
+            </p>
           </div>
         </div>
       </section>
