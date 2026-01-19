@@ -212,37 +212,7 @@ const HoneyEducation = () => {
         </div>
       </section>
 
-      {/* Cómo Identificar Miel Real */}
-      <section className="py-12 bg-primary/10">
-        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-3xl md:text-4xl text-foreground/90 mb-6 font-ruwudu">
-            Pruebas Caseras para Identificar Miel Real
-          </h2>
-          <div className="space-y-4 text-foreground/70 leading-relaxed">
-            <div className="space-y-3">
-              <div className="bg-background p-5 rounded-lg">
-                <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">1. Prueba de cristalización</h3>
-                <p className="text-sm">Deja la miel a temperatura ambiente. Si cristaliza en semanas o meses, es pura. Si permanece líquida indefinidamente, probablemente ha sido ultra-procesada.</p>
-              </div>
-              <div className="bg-background p-5 rounded-lg">
-                <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">2. Prueba del agua</h3>
-                <p className="text-sm">Pon una cucharada de miel en agua fría sin revolver. La miel pura se asienta en el fondo y se disuelve lentamente. La miel adulterada se disuelve rápidamente.</p>
-              </div>
-              <div className="bg-background p-5 rounded-lg">
-                <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">3. Textura y aroma</h3>
-                <p className="text-sm">La miel pura tiene aroma floral o herbal característico. La textura varía de líquida a cremosa según cristalización. La adulterada suele ser inodora y siempre líquida.</p>
-              </div>
-              <div className="bg-background p-5 rounded-lg">
-                <h3 className="text-base text-foreground/90 mb-2 font-ruwudu">4. Etiqueta transparente</h3>
-                <p className="text-sm">Busca origen claro (región, apicultor), fecha de cosecha, y certificaciones. Desconfía de "mezcla de mieles" o "producto de varios países".</p>
-              </div>
-            </div>
-            <p className="text-base mt-6 text-center italic text-foreground/80">
-              La miel real es un alimento completo y milenario. Merece ser consumida en su estado más puro.
-            </p>
-          </div>
-        </div>
-      </section>
+
     </EcommerceTemplate>
   );
 };
