@@ -13,21 +13,42 @@ const HoneyEducation = () => {
       {/* Hero */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
+          {/* Ornamento superior */}
+          <div className="flex justify-center items-center mb-6">
+            <div className="h-px w-16 bg-accent/40"></div>
+            <span className="mx-4 text-accent/60 text-2xl">✦</span>
+            <div className="h-px w-16 bg-accent/40"></div>
+          </div>
+          
           <h1 className="text-3xl md:text-4xl text-foreground mb-3 font-ruwudu">
             ¿Cómo distinguir miel auténtica?
           </h1>
           <p className="text-base text-foreground/60 leading-relaxed max-w-2xl mx-auto">
             Aprende a reconocer la autenticidad y calidad de la miel pura de montaña
           </p>
+          
+          {/* Ornamento inferior */}
+          <div className="flex justify-center items-center mt-6">
+            <div className="h-px w-16 bg-accent/40"></div>
+            <span className="mx-4 text-accent/60 text-xl">❈</span>
+            <div className="h-px w-16 bg-accent/40"></div>
+          </div>
         </div>
       </section>
 
       {/* Cristalización */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
-            La Cristalización: Un Signo de Pureza
-          </h2>
+          {/* Icono decorativo de hexágonos */}
+          <div className="flex items-center gap-3 mb-4">
+            <svg className="w-8 h-8 text-mustard/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M12 2L15.5 4.5V9.5L12 12L8.5 9.5V4.5L12 2Z" />
+              <path d="M12 12L15.5 14.5V19.5L12 22L8.5 19.5V14.5L12 12Z" />
+            </svg>
+            <h2 className="text-2xl md:text-3xl text-foreground/90 font-ruwudu">
+              La Cristalización: Un Signo de Pureza
+            </h2>
+          </div>
           <div className="space-y-3 text-foreground/70 leading-relaxed">
             <p className="text-base">
               Una miel pura y natural cristaliza con el tiempo. Este proceso es completamente natural y demuestra que la miel no ha sido procesada industrialmente ni adulterada.
@@ -48,9 +69,14 @@ const HoneyEducation = () => {
       {/* Tipos de Miel */}
       <section className="py-12 bg-primary/10">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
-            Diferentes Tipos de Miel
-          </h2>
+          {/* Icono decorativo floral */}
+          <div className="flex items-center gap-3 mb-4">
+            <span className="text-3xl text-lavender/80">❀</span>
+            <h2 className="text-2xl md:text-3xl text-foreground/90 font-ruwudu">
+              Diferentes Tipos de Miel
+            </h2>
+            <span className="text-3xl text-lavender/80">❀</span>
+          </div>
           <div className="space-y-3 text-foreground/70 leading-relaxed">
             <p className="text-base">
               No todas las mieles son iguales. El tipo de miel depende completamente de las flores que las abejas visitan, el clima, la altitud y la época del año.
@@ -88,9 +114,18 @@ const HoneyEducation = () => {
       {/* Altura y Humedad */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
-            La Influencia de la Altura y Humedad
-          </h2>
+          {/* Icono decorativo de montaña */}
+          <div className="flex items-center gap-3 mb-4">
+            <svg className="w-8 h-8 text-secondary/70" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M14 2L20 14H22L15 2L12 8L9 2L2 14H4L10 2L12 8L14 2Z" />
+            </svg>
+            <h2 className="text-2xl md:text-3xl text-foreground/90 font-ruwudu">
+              La Influencia de la Altura y Humedad
+            </h2>
+            <svg className="w-8 h-8 text-secondary/70" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M14 2L20 14H22L15 2L12 8L9 2L2 14H4L10 2L12 8L14 2Z" />
+            </svg>
+          </div>
           <div className="space-y-3 text-foreground/70 leading-relaxed">
             <p className="text-base">
               La altitud no solo afecta el tipo de flores disponibles, también influye directamente en la composición, humedad y sabor de la miel.
@@ -129,13 +164,25 @@ const HoneyEducation = () => {
       {/* Paleta de Colores de Miel */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu text-center">
-            Paleta de Colores de la Miel
-          </h2>
-          <p className="text-sm text-foreground/70 text-center mb-6 leading-relaxed">
-            La miel natural presenta una amplia variedad de tonos, desde ámbar oscuro hasta amarillo casi transparente, dependiendo de la flora, altitud y temporada de cosecha.
-          </p>
-          
+          {/* Marco decorativo vintage */}
+          <div className="border-2 border-accent/30 rounded-lg p-8 relative">
+            {/* Esquinas decorativas */}
+            <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-accent/60 -m-1"></div>
+            <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-accent/60 -m-1"></div>
+            <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-accent/60 -m-1"></div>
+            <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-accent/60 -m-1"></div>
+            
+            <div className="flex items-center justify-center gap-2 mb-3">
+              <span className="text-2xl text-accent/70">◆</span>
+              <h2 className="text-2xl md:text-3xl text-foreground/90 font-ruwudu text-center">
+                Paleta de Colores de la Miel
+              </h2>
+              <span className="text-2xl text-accent/70">◆</span>
+            </div>
+            <p className="text-sm text-foreground/70 text-center mb-6 leading-relaxed">
+              La miel natural presenta una amplia variedad de tonos, desde ámbar oscuro hasta amarillo casi transparente, dependiendo de la flora, altitud y temporada de cosecha.
+            </p>
+            
           {/* Grid de colores */}
           <div className="grid grid-cols-4 md:grid-cols-8 gap-3">
             <div className="flex flex-col items-center gap-2">
@@ -203,18 +250,27 @@ const HoneyEducation = () => {
             </div>
           </div>
 
-          <p className="text-sm italic text-foreground/60 mt-6 text-center">
-            Nuestra miel de montaña típicamente presenta tonos dorados claros y amarillos, característicos de las floraciones de alta altitud.
-          </p>
+            <p className="text-sm italic text-foreground/60 mt-6 text-center">
+              Nuestra miel de montaña típicamente presenta tonos dorados claros y amarillos, característicos de las floraciones de alta altitud.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Miel Mantequilla de Alta Montaña */}
       <section className="py-12 bg-primary/10">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
-            ¿Por Qué la Miel Mantequilla de Alta Montaña es tan Especial?
-          </h2>
+          {/* Icono decorativo de frasco vintage */}
+          <div className="flex items-center gap-3 mb-4">
+            <svg className="w-8 h-8 text-warm/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <rect x="7" y="6" width="10" height="16" rx="1" />
+              <path d="M7 10h10" />
+              <path d="M9 6V4h6v2" />
+            </svg>
+            <h2 className="text-2xl md:text-3xl text-foreground/90 font-ruwudu">
+              ¿Por Qué la Miel Mantequilla de Alta Montaña es tan Especial?
+            </h2>
+          </div>
           <div className="space-y-3 text-foreground/70 leading-relaxed">
             <p className="text-base">
               La textura cremosa tipo "mantequilla" de nuestra miel es completamente natural. No batimos, no procesamos, no manipulamos.
@@ -260,9 +316,16 @@ const HoneyEducation = () => {
       {/* Floración, Sabor y Textura */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-          <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
-            Floración, Sabor y Textura
-          </h2>
+          {/* Decoración floral estacional */}
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <span className="text-2xl text-terracota/70">🌸</span>
+            <span className="text-2xl text-mustard/70">☀</span>
+            <h2 className="text-2xl md:text-3xl text-foreground/90 font-ruwudu mx-3">
+              Floración, Sabor y Textura
+            </h2>
+            <span className="text-2xl text-plum/70">🍂</span>
+            <span className="text-2xl text-secondary/70">❄</span>
+          </div>
           <div className="space-y-3 text-foreground/70 leading-relaxed">
             <p className="text-base">
               La miel es un producto vivo que refleja el momento exacto de la naturaleza en que fue creada.
