@@ -112,7 +112,7 @@ export const GallerySection = () => {
     <section className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl text-foreground mb-6 font-ruwudu">
+          <h2 style={{ fontSize: '50px' }} className="text-5xl md:text-6xl text-foreground mb-6 font-ruwudu">
             Galería
           </h2>
           <p className="text-xl text-foreground/70">
