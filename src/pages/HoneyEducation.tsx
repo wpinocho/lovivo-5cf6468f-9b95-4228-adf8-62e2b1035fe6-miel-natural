@@ -307,7 +307,7 @@ const HoneyEducation = () => {
             <img 
               src="/honey-butter.png" 
               alt="Ilustración vintage de frasco de miel cremosa con cucharón de madera" 
-              className="w-full max-w-md h-auto rounded-lg opacity-90"
+              className="w-full max-w-sm h-auto rounded-lg opacity-90"
             />
           </div>
         </div>
