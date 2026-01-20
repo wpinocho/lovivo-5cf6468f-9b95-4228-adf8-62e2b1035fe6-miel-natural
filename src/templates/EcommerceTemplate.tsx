@@ -45,7 +45,7 @@ export const EcommerceTemplate = ({
   const location = useLocation()
 
   const header = (
-    <div className={`py-6 backdrop-blur-md bg-primary/95 shadow-sm ${headerClassName}`}>
+    <div className={`py-6 backdrop-blur-md shadow-sm ${headerClassName}`} style={{ backgroundColor: '#eceae4' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -140,7 +140,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-foreground py-20 bg-primary/95 ${footerClassName}`}>
+    <div className={`text-foreground py-20 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {/* Brand */}
