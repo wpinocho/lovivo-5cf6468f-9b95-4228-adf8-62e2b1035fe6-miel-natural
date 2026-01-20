@@ -140,15 +140,15 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-foreground py-6 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
+    <div className={`text-foreground py-4 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
             <img 
               src="/logo.png" 
               alt="APIS TERRA" 
-              className="h-24 w-auto mb-6"
+              className="h-24 w-auto mb-3"
             />
             <p className="text-foreground/90 leading-relaxed">
               Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca.
@@ -157,8 +157,8 @@ export const EcommerceTemplate = ({
 
           {/* Links */}
           <div>
-            <h3 className="text-lg mb-6 text-foreground font-ruwudu">Navegación</h3>
-            <div className="space-y-3">
+            <h3 className="text-lg mb-3 text-foreground font-ruwudu">Navegación</h3>
+            <div className="space-y-2">
               <Link 
                 to="/nuestro-proyecto" 
                 className="block text-foreground/80 hover:text-foreground transition-colors"
@@ -194,8 +194,8 @@ export const EcommerceTemplate = ({
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg mb-6 text-foreground font-ruwudu">Contacto</h3>
-            <div className="space-y-3 text-sm text-foreground/90 mb-6">
+            <h3 className="text-lg mb-3 text-foreground font-ruwudu">Contacto</h3>
+            <div className="space-y-2 text-sm text-foreground/90 mb-3">
               <p>apis.terra64@gmail.com</p>
               <p>+52 55 59 64 83 95</p>
               <p>Nevado de Toluca, 3,000 msnm</p>
@@ -204,7 +204,7 @@ export const EcommerceTemplate = ({
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-foreground/20 text-center text-foreground/70 text-sm">
+        <div className="mt-6 pt-3 border-t border-foreground/20 text-center text-foreground/70 text-sm">
           <p>&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
         </div>
       </div>
