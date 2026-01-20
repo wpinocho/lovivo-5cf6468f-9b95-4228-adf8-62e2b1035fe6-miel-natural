@@ -140,7 +140,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-foreground py-12 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
+    <div className={`text-foreground py-8 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {/* Brand */}
@@ -148,7 +148,7 @@ export const EcommerceTemplate = ({
             <img 
               src="/logo.png" 
               alt="APIS TERRA" 
-              className="h-20 w-auto mb-6"
+              className="h-24 w-auto mb-6"
             />
             <p className="text-foreground/90 leading-relaxed">
               Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca.
@@ -204,7 +204,7 @@ export const EcommerceTemplate = ({
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-foreground/20 text-center text-foreground/70 text-sm">
+        <div className="mt-12 pt-6 border-t border-foreground/20 text-center text-foreground/70 text-sm">
           <p>&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
         </div>
       </div>
