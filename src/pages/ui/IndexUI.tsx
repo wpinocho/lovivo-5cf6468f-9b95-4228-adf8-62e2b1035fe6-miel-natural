@@ -36,7 +36,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
           <div className="absolute inset-0 px-6 sm:px-8 lg:px-12 py-8 flex flex-col justify-between">
             {/* Top Left - APIS TERRA */}
             <div>
-              <h1 className="text-3xl md:text-4xl font-normal font-ruwudu" style={{ color: '#594b4b' }}>
+              <h1 className="text-3xl md:text-4xl font-normal font-ruwudu" style={{ color: '#f9f7f5' }}>
                 apis terra
               </h1>
             </div>
@@ -45,17 +45,17 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
             <div className="flex justify-between items-end">
               {/* Bottom Left */}
               <div>
-                <h2 className="text-2xl md:text-3xl font-normal mb-2 font-ruwudu" style={{ color: '#594b4b' }}>
+                <h2 className="text-2xl md:text-3xl font-normal mb-2 font-ruwudu" style={{ color: '#f9f7f5' }}>
                   Miel de Abeja de Alta Montaña
                 </h2>
-                <p className="text-sm md:text-base" style={{ color: '#594b4b' }}>
+                <p className="text-sm md:text-base" style={{ color: '#f9f7f5' }}>
                   3000 msnm - Faldas del Nevado de Toluca
                 </p>
               </div>
               
               {/* Bottom Right */}
               <div className="max-w-xs text-right">
-                <p className="text-xs md:text-sm" style={{ color: '#594b4b' }}>
+                <p className="text-xs md:text-sm" style={{ color: '#f9f7f5' }}>
                   somos productoras de miel mantequilla 100% cruda, pura y natural
                 </p>
               </div>
