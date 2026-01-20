@@ -45,7 +45,7 @@ export const EcommerceTemplate = ({
   const location = useLocation()
 
   const header = (
-    <div className={`py-4 backdrop-blur-md shadow-sm ${headerClassName}`} style={{ backgroundColor: '#eceae4' }}>
+    <div className={`py-3 backdrop-blur-md shadow-sm ${headerClassName}`} style={{ backgroundColor: '#eceae4' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between">
           {/* Logo */}
