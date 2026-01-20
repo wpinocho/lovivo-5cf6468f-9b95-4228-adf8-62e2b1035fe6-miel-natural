@@ -24,63 +24,42 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
     >
       {/* Hero Section - Noma Style */}
       <section className="relative overflow-hidden">
-        {/* Full-width Image */}
-        <div className="w-full h-[85vh]">
+        {/* Full-width Image with Text Overlay */}
+        <div className="relative w-full h-[85vh]">
           <img 
             src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768436531046-j8wtmjeun4g.jpeg" 
             alt="Colmenas en campo de flores" 
             className="w-full h-full object-cover object-center"
           />
-        </div>
-
-        {/* Content Below Image */}
-        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 py-20 text-center">
-          {/* Logo */}
-          <div className="mb-8 flex justify-center">
-            <img 
-              src="/logo.png" 
-              alt="APIS TERRA" 
-              className="h-32 w-auto"
-            />
-          </div>
-
-          {/* Simple Badge */}
-          <div className="text-sm tracking-widest uppercase mb-6" style={{ color: '#594b4b' }}>
-            3000 metros de altura
-          </div>
-
-          {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl font-normal mb-4 font-ruwudu" style={{ color: '#594b4b' }}>
-            Miel de Alta Montaña
-          </h1>
-
-          {/* Subtitle */}
-          <p className="text-xl md:text-2xl mb-3" style={{ color: '#594b4b' }}>
-            Del Nevado de Toluca
-          </p>
-
-          {/* Description */}
-          <p className="text-base md:text-lg mb-12 opacity-80" style={{ color: '#594b4b' }}>
-            100% pura, cruda y natural
-          </p>
-
-          {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-foreground hover:bg-foreground/90 text-background text-base px-8 py-6 transition-colors"
-              onClick={() => navigate('/productos')}
-            >
-              Descubre Nuestros Productos
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-background text-base px-8 py-6 transition-colors"
-              onClick={() => navigate('/nuestro-proyecto')}
-            >
-              Nuestra Historia
-            </Button>
+          
+          {/* Text overlay on image */}
+          <div className="absolute inset-0 px-6 sm:px-8 lg:px-12 py-8 flex flex-col justify-between">
+            {/* Top Left - APIS TERRA */}
+            <div>
+              <h1 className="text-3xl md:text-4xl font-normal font-ruwudu" style={{ color: '#594b4b' }}>
+                apis terra
+              </h1>
+            </div>
+            
+            {/* Bottom section */}
+            <div className="flex justify-between items-end">
+              {/* Bottom Left */}
+              <div>
+                <h2 className="text-2xl md:text-3xl font-normal mb-2 font-ruwudu" style={{ color: '#594b4b' }}>
+                  Miel de Abeja de Alta Montaña
+                </h2>
+                <p className="text-sm md:text-base" style={{ color: '#594b4b' }}>
+                  3000 msnm - Faldas del Nevado de Toluca
+                </p>
+              </div>
+              
+              {/* Bottom Right */}
+              <div className="max-w-xs text-right">
+                <p className="text-xs md:text-sm" style={{ color: '#594b4b' }}>
+                  somos productoras de miel mantequilla 100% cruda, pura y natural
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
