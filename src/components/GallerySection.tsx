@@ -115,9 +115,7 @@ export const GallerySection = () => {
           <h2 style={{ fontSize: '50px' }} className="text-5xl md:text-6xl text-foreground mb-6 font-ruwudu">
             Galería
           </h2>
-          <p className="text-xl text-foreground/70">
-            Momentos capturados en las alturas del Nevado de Toluca
-          </p>
+          <p style={{ fontSize: '16px' }} className="text-xl text-foreground/70">Nuestros apiarios y sus alrededores</p>
         </div>
 
         {/* Gallery Grid */}
