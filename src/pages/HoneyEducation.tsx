@@ -27,7 +27,7 @@ const HoneyEducation = () => {
             <img 
               src="/honey-education-hero.png" 
               alt="Abejas recolectando néctar de flores silvestres" 
-              className="w-full max-w-md h-auto rounded-lg opacity-90"
+              className="w-full max-w-lg h-auto rounded-lg opacity-90"
             />
           </div>
         </div>
@@ -59,7 +59,7 @@ const HoneyEducation = () => {
             <img 
               src="/honey-crystallization.png" 
               alt="Diagrama vintage del proceso de cristalización de la miel" 
-              className="w-full max-w-[200px] h-auto rounded-lg opacity-90"
+              className="w-full max-w-sm h-auto rounded-lg opacity-90"
             />
           </div>
         </div>
@@ -108,7 +108,7 @@ const HoneyEducation = () => {
             <img 
               src="/honey-types-flowers.png" 
               alt="Colección botánica vintage de flores silvestres para diferentes tipos de miel" 
-              className="w-full max-w-[200px] h-auto rounded-lg opacity-90"
+              className="w-full max-w-sm h-auto rounded-lg opacity-90"
             />
           </div>
         </div>
@@ -158,7 +158,7 @@ const HoneyEducation = () => {
             <img 
               src="/honey-altitude.png" 
               alt="Ilustración vintage de zonas de elevación de montaña con flora silvestre" 
-              className="w-full max-w-[200px] h-auto rounded-lg opacity-90"
+              className="w-full max-w-sm h-auto rounded-lg opacity-90"
             />
           </div>
         </div>
@@ -250,7 +250,7 @@ const HoneyEducation = () => {
             <img 
               src="/honey-color-palette.png" 
               alt="Ilustración vintage de frascos de miel mostrando diferentes tonos" 
-              className="w-full max-w-lg h-auto rounded-lg opacity-90"
+              className="w-full max-w-2xl h-auto rounded-lg opacity-90"
             />
           </div>
         </div>
@@ -307,7 +307,7 @@ const HoneyEducation = () => {
             <img 
               src="/honey-butter.png" 
               alt="Ilustración vintage de frasco de miel cremosa con cucharón de madera" 
-              className="w-full max-w-[200px] h-auto rounded-lg opacity-90"
+              className="w-full max-w-sm h-auto rounded-lg opacity-90"
             />
           </div>
         </div>
@@ -354,7 +354,7 @@ const HoneyEducation = () => {
             <img 
               src="/honey-seasons.png" 
               alt="Ilustración botánica vintage de flores silvestres por estaciones" 
-              className="w-full max-w-[240px] h-auto rounded-lg opacity-90"
+              className="w-full max-w-xl h-auto rounded-lg opacity-90"
             />
           </div>
         </div>
