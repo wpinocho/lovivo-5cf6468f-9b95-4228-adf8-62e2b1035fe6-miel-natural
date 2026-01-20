@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import { ReactNode, useState } from 'react'
 import { PageTemplate } from './PageTemplate'
 import { BrandLogoLeft } from '@/components/BrandLogoLeft'
 import { SocialLinks } from '@/components/SocialLinks'
@@ -6,11 +6,18 @@ import { FloatingCart } from '@/components/FloatingCart'
 import { ProfileMenu } from '@/components/ProfileMenu'
 import { Link, useLocation } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
-import { ShoppingCart } from 'lucide-react'
+import { ShoppingCart, Menu } from 'lucide-react'
 import { useCartUI } from '@/components/CartProvider'
 import { useCart } from '@/contexts/CartContext'
 import { useCollections } from '@/hooks/useCollections'
 import { cn } from '@/lib/utils'
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet'
 
 /**
  * EDITABLE TEMPLATE - EcommerceTemplate
@@ -43,6 +50,7 @@ export const EcommerceTemplate = ({
   const totalItems = getTotalItems()
   const { hasCollections, loading: loadingCollections } = useCollections()
   const location = useLocation()
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const header = (
     <div className={`py-3 backdrop-blur-md shadow-sm ${headerClassName}`} style={{ backgroundColor: '#eceae4' }}>
@@ -53,55 +61,73 @@ export const EcommerceTemplate = ({
             <BrandLogoLeft />
           </div>
 
-          {/* Navigation */}
-          <div className="hidden md:flex items-center space-x-10">
-            <nav className="flex space-x-8">
-              <Link 
-                to="/nuestro-proyecto" 
-                className={cn(
-                  "text-foreground/80 hover:text-foreground transition-colors text-base",
-                  location.pathname === '/nuestro-proyecto' && "text-foreground"
-                )}
-              >
-                Nuestro Proyecto
-              </Link>
-              <Link 
-                to="/productos" 
-                className={cn(
-                  "text-foreground/80 hover:text-foreground transition-colors text-base",
-                  location.pathname === '/productos' && "text-foreground"
-                )}
-              >
-                Productos
-              </Link>
-              <Link 
-                to="/distinguir-miel-real" 
-                className={cn(
-                  "text-foreground/80 hover:text-foreground transition-colors text-base",
-                  location.pathname === '/distinguir-miel-real' && "text-foreground"
-                )}
-              >
-                ¿Cómo distinguir miel auténtica?
-              </Link>
-              <Link 
-                to="/galeria" 
-                className={cn(
-                  "text-foreground/80 hover:text-foreground transition-colors text-base",
-                  location.pathname === '/galeria' && "text-foreground"
-                )}
-              >
-                Galería
-              </Link>
-              <Link 
-                to="/contacto" 
-                className={cn(
-                  "text-foreground/80 hover:text-foreground transition-colors text-base",
-                  location.pathname === '/contacto' && "text-foreground"
-                )}
-              >
-                Contacto
-              </Link>
-            </nav>
+          {/* Menu Hamburguesa */}
+          <div className="flex items-center">
+            <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="sm" className="flex items-center gap-2">
+                  <Menu className="h-5 w-5" />
+                  <span className="text-base">Menú</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="left" className="w-[300px]">
+                <SheetHeader>
+                  <SheetTitle className="font-ruwudu text-2xl text-foreground">Navegación</SheetTitle>
+                </SheetHeader>
+                <nav className="flex flex-col space-y-4 mt-8">
+                  <Link 
+                    to="/nuestro-proyecto" 
+                    onClick={() => setMenuOpen(false)}
+                    className={cn(
+                      "text-foreground/80 hover:text-foreground transition-colors text-lg py-2",
+                      location.pathname === '/nuestro-proyecto' && "text-foreground font-medium"
+                    )}
+                  >
+                    Nuestro Proyecto
+                  </Link>
+                  <Link 
+                    to="/productos" 
+                    onClick={() => setMenuOpen(false)}
+                    className={cn(
+                      "text-foreground/80 hover:text-foreground transition-colors text-lg py-2",
+                      location.pathname === '/productos' && "text-foreground font-medium"
+                    )}
+                  >
+                    Productos
+                  </Link>
+                  <Link 
+                    to="/distinguir-miel-real" 
+                    onClick={() => setMenuOpen(false)}
+                    className={cn(
+                      "text-foreground/80 hover:text-foreground transition-colors text-lg py-2",
+                      location.pathname === '/distinguir-miel-real' && "text-foreground font-medium"
+                    )}
+                  >
+                    ¿Cómo distinguir miel auténtica?
+                  </Link>
+                  <Link 
+                    to="/galeria" 
+                    onClick={() => setMenuOpen(false)}
+                    className={cn(
+                      "text-foreground/80 hover:text-foreground transition-colors text-lg py-2",
+                      location.pathname === '/galeria' && "text-foreground font-medium"
+                    )}
+                  >
+                    Galería
+                  </Link>
+                  <Link 
+                    to="/contacto" 
+                    onClick={() => setMenuOpen(false)}
+                    className={cn(
+                      "text-foreground/80 hover:text-foreground transition-colors text-lg py-2",
+                      location.pathname === '/contacto' && "text-foreground font-medium"
+                    )}
+                  >
+                    Contacto
+                  </Link>
+                </nav>
+              </SheetContent>
+            </Sheet>
           </div>
 
           {/* Profile & Cart */}
