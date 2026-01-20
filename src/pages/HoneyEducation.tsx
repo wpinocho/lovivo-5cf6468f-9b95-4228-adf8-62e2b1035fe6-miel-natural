@@ -12,19 +12,39 @@ const HoneyEducation = () => {
     <EcommerceTemplate showCart={true}>
       {/* Hero */}
       <section className="py-12 bg-background">
-        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
-          <h1 className="text-3xl md:text-4xl text-foreground mb-3 font-ruwudu">
-            ¿Cómo distinguir miel auténtica?
-          </h1>
-          <p className="text-base text-foreground/60 leading-relaxed max-w-2xl mx-auto">
-            Aprende a reconocer la autenticidad y calidad de la miel pura de montaña
-          </p>
+        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+          {/* Ilustración Hero */}
+          <div className="mb-8 flex justify-center">
+            <img 
+              src="/honey-education-hero.png" 
+              alt="Abejas recolectando néctar de flores silvestres" 
+              className="w-full max-w-2xl h-auto rounded-lg opacity-90"
+            />
+          </div>
+          
+          <div className="text-center">
+            <h1 className="text-3xl md:text-4xl text-foreground mb-3 font-ruwudu">
+              ¿Cómo distinguir miel auténtica?
+            </h1>
+            <p className="text-base text-foreground/60 leading-relaxed max-w-2xl mx-auto">
+              Aprende a reconocer la autenticidad y calidad de la miel pura de montaña
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Cristalización */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+          {/* Ilustración Cristalización */}
+          <div className="mb-6 flex justify-center">
+            <img 
+              src="/honey-crystallization.png" 
+              alt="Diagrama vintage del proceso de cristalización de la miel" 
+              className="w-full max-w-md h-auto rounded-lg opacity-90"
+            />
+          </div>
+          
           <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             La Cristalización: Un Signo de Pureza
           </h2>
@@ -48,6 +68,15 @@ const HoneyEducation = () => {
       {/* Tipos de Miel */}
       <section className="py-12 bg-primary/10">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+          {/* Ilustración Flores */}
+          <div className="mb-6 flex justify-center">
+            <img 
+              src="/honey-types-flowers.png" 
+              alt="Colección botánica vintage de flores silvestres para diferentes tipos de miel" 
+              className="w-full max-w-3xl h-auto rounded-lg opacity-90"
+            />
+          </div>
+          
           <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             Diferentes Tipos de Miel
           </h2>
@@ -88,6 +117,15 @@ const HoneyEducation = () => {
       {/* Altura y Humedad */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+          {/* Ilustración Altitud */}
+          <div className="mb-6 flex justify-center">
+            <img 
+              src="/honey-altitude.png" 
+              alt="Ilustración vintage de zonas de elevación de montaña con flora silvestre" 
+              className="w-full max-w-xl h-auto rounded-lg opacity-90"
+            />
+          </div>
+          
           <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             La Influencia de la Altura y Humedad
           </h2>
@@ -129,6 +167,15 @@ const HoneyEducation = () => {
       {/* Paleta de Colores de Miel */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+          {/* Ilustración Frascos de Miel */}
+          <div className="mb-6 flex justify-center">
+            <img 
+              src="/honey-color-palette.png" 
+              alt="Ilustración vintage de frascos de miel mostrando diferentes tonos" 
+              className="w-full max-w-2xl h-auto rounded-lg opacity-90"
+            />
+          </div>
+          
           <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu text-center">
             Paleta de Colores de la Miel
           </h2>
@@ -212,6 +259,15 @@ const HoneyEducation = () => {
       {/* Miel Mantequilla de Alta Montaña */}
       <section className="py-12 bg-primary/10">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+          {/* Ilustración Frasco Vintage */}
+          <div className="mb-6 flex justify-center">
+            <img 
+              src="/honey-butter.png" 
+              alt="Ilustración vintage de frasco de miel cremosa con cucharón de madera" 
+              className="w-full max-w-md h-auto rounded-lg opacity-90"
+            />
+          </div>
+          
           <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             ¿Por Qué la Miel Mantequilla de Alta Montaña es tan Especial?
           </h2>
@@ -260,6 +316,15 @@ const HoneyEducation = () => {
       {/* Floración, Sabor y Textura */}
       <section className="py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+          {/* Ilustración Estaciones */}
+          <div className="mb-6 flex justify-center">
+            <img 
+              src="/honey-seasons.png" 
+              alt="Ilustración botánica vintage de flores silvestres por estaciones" 
+              className="w-full max-w-3xl h-auto rounded-lg opacity-90"
+            />
+          </div>
+          
           <h2 className="text-2xl md:text-3xl text-foreground/90 mb-4 font-ruwudu">
             Floración, Sabor y Textura
           </h2>
