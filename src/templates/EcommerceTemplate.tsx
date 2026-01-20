@@ -140,7 +140,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-foreground py-8 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
+    <div className={`text-foreground py-6 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {/* Brand */}
