@@ -56,7 +56,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
               {/* Bottom Right */}
               <div className="max-w-xs text-right">
                 <p className="text-xs md:text-sm" style={{ color: '#f9f7f5' }}>
-                  somos productoras de miel mantequilla 100% cruda, pura y natural
+                  somos productoras de miel multifloral mantequilla 100% cruda, pura y natural de apicultura silvestre
                 </p>
               </div>
             </div>
