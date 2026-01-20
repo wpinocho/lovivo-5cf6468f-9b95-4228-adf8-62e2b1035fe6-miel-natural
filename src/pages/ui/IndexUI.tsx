@@ -22,42 +22,61 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
     <EcommerceTemplate 
       showCart={true}
     >
-      {/* Hero Section */}
-      <section 
-        className="relative overflow-hidden min-h-screen flex items-center"
-      >
-        {/* Background Image */}
-        <div className="absolute inset-0">
+      {/* Hero Section - Noma Style */}
+      <section className="relative overflow-hidden">
+        {/* Full-width Image */}
+        <div className="w-full h-[85vh]">
           <img 
             src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768436531046-j8wtmjeun4g.jpeg" 
             alt="Colmenas en campo de flores" 
             className="w-full h-full object-cover object-center"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/60 to-primary/50"></div>
-        <div className="relative max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 text-center w-full py-20">
-          <div className="mb-12 flex justify-center">
+
+        {/* Content Below Image */}
+        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 py-20 text-center">
+          {/* Logo */}
+          <div className="mb-8 flex justify-center">
             <img 
               src="/logo.png" 
               alt="APIS TERRA" 
-              className="h-48 w-auto drop-shadow-2xl"
+              className="h-32 w-auto"
             />
           </div>
-          <div className="inline-block bg-accent/90 backdrop-blur-sm text-foreground px-8 py-3 rounded-full mb-8 text-sm tracking-wider uppercase shadow-xl">3000 metros de altura</div>
-          <h1 className="text-5xl md:text-7xl font-normal text-foreground mb-6 drop-shadow-2xl font-ruwudu tracking-wide">Miel de Alta Montaña</h1>
-          <p className="text-2xl md:text-3xl mb-4 max-w-3xl mx-auto drop-shadow-lg text-terracota font-medium">Del Nevado de Toluca</p>
-          <p className="text-lg md:text-xl text-foreground/95 mb-12 max-w-2xl mx-auto drop-shadow-md">100% pura, cruda y natural</p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+
+          {/* Simple Badge */}
+          <div className="text-sm tracking-widest uppercase mb-6" style={{ color: '#594b4b' }}>
+            3000 metros de altura
+          </div>
+
+          {/* Main Heading */}
+          <h1 className="text-4xl md:text-6xl font-normal mb-4 font-ruwudu" style={{ color: '#594b4b' }}>
+            Miel de Alta Montaña
+          </h1>
+
+          {/* Subtitle */}
+          <p className="text-xl md:text-2xl mb-3" style={{ color: '#594b4b' }}>
+            Del Nevado de Toluca
+          </p>
+
+          {/* Description */}
+          <p className="text-base md:text-lg mb-12 opacity-80" style={{ color: '#594b4b' }}>
+            100% pura, cruda y natural
+          </p>
+
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
-              className="bg-mustard/90 backdrop-blur-sm hover:bg-mustard text-foreground shadow-2xl text-lg px-10 py-6 border-2 border-accent hover:scale-105 transition-all rounded-full"
+              className="bg-foreground hover:bg-foreground/90 text-background text-base px-8 py-6 transition-colors"
               onClick={() => navigate('/productos')}
             >
               Descubre Nuestros Productos
             </Button>
             <Button 
               size="lg" 
-              className="bg-foreground/10 backdrop-blur-sm hover:bg-foreground/20 text-foreground shadow-2xl text-lg px-10 py-6 border-2 border-foreground/30 hover:scale-105 transition-all rounded-full"
+              variant="outline"
+              className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-background text-base px-8 py-6 transition-colors"
               onClick={() => navigate('/nuestro-proyecto')}
             >
               Nuestra Historia
