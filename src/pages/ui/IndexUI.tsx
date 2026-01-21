@@ -25,7 +25,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
       {/* Hero Section - Noma Style */}
       <section className="relative overflow-hidden">
         {/* Full-width Image with Text Overlay */}
-        <div className="relative w-full h-[95vh]">
+        <div className="relative w-full h-[60vh]">
           <img 
             src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768436531046-j8wtmjeun4g.jpeg" 
             alt="Colmenas en campo de flores" 
