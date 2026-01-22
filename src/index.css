@@ -17,8 +17,8 @@ All colors MUST be HSL.
   :root {
     /* PALETA NATURAL DE MONTAÑA */
     
-    /* Amarillo dorado #e5b750 - fondo principal */
-    --background: 43 73% 60%;
+    /* Beige muy claro #f9f7f5 - fondo principal */
+    --background: 40 33% 97%;
     --foreground: 0 9% 32%;
 
     --card: 30 66% 48%;
