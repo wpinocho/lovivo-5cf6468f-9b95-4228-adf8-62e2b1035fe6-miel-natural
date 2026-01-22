@@ -66,7 +66,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
       </section>
 
       {/* Features Section */}
-      <section className="py-32 bg-background">
+      <section className="py-32" style={{ backgroundColor: '#cb7c29' }}>
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
           <div className="grid md:grid-cols-3 gap-12">
             <div 

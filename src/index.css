@@ -17,14 +17,14 @@ All colors MUST be HSL.
   :root {
     /* PALETA NATURAL DE MONTAÑA */
     
-    /* Beige claro #f9f7f5 - fondo principal */
-    --background: 30 33% 97%;
+    /* Amarillo dorado #e5b750 - fondo principal */
+    --background: 43 73% 60%;
     --foreground: 0 9% 32%;
 
-    --card: 39 57% 88%;
+    --card: 30 66% 48%;
     --card-foreground: 73 30% 25%;
 
-    --popover: 39 57% 88%;
+    --popover: 43 73% 60%;
     --popover-foreground: 73 30% 25%;
 
     /* Verde oliva oscuro #4a542d - principal */
@@ -87,7 +87,7 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 30 33% 97%;
+    --background: 43 73% 60%;
     --foreground: 0 9% 32%;
 
     --card: 73 30% 15%;

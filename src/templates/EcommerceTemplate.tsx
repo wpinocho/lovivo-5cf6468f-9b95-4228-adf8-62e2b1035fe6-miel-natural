@@ -53,7 +53,7 @@ export const EcommerceTemplate = ({
   const [menuOpen, setMenuOpen] = useState(false)
 
   const header = (
-    <div className={`py-2 backdrop-blur-md shadow-sm ${headerClassName}`} style={{ backgroundColor: '#334e3d' }}>
+    <div className={`py-2 backdrop-blur-md shadow-sm ${headerClassName}`} style={{ backgroundColor: '#cb7c29' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -166,7 +166,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-foreground py-4 ${footerClassName}`} style={{ backgroundColor: '#c4a64f' }}>
+    <div className={`text-foreground py-4 ${footerClassName}`} style={{ backgroundColor: '#e5b750' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
