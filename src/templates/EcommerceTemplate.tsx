@@ -53,7 +53,7 @@ export const EcommerceTemplate = ({
   const [menuOpen, setMenuOpen] = useState(false)
 
   const header = (
-    <div className={`py-2 backdrop-blur-md shadow-sm ${headerClassName}`} style={{ backgroundColor: '#eceae4' }}>
+    <div className={`py-2 backdrop-blur-md shadow-sm ${headerClassName}`} style={{ backgroundColor: '#334e3d' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -65,7 +65,7 @@ export const EcommerceTemplate = ({
           <div className="flex items-center">
             <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="lg" className="flex items-center gap-2 text-lg">
+                <Button variant="ghost" size="lg" className="flex items-center gap-2 text-lg text-white hover:text-white/80">
                   <Menu className="h-6 w-6" />
                   <span className="text-lg">Menú</span>
                 </Button>
@@ -139,12 +139,12 @@ export const EcommerceTemplate = ({
                 variant="ghost"
                 size="icon"
                 onClick={openCart}
-                className="relative text-foreground hover:text-foreground/70 hover:bg-foreground/10"
+                className="relative text-white hover:text-white/80 hover:bg-white/10"
                 aria-label="Ver carrito"
               >
                 <ShoppingCart className="h-5 w-5" />
                 {totalItems > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-accent text-foreground text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center shadow-lg">
+                  <span className="absolute -top-1 -right-1 bg-white text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center shadow-lg">
                     {totalItems > 99 ? '99+' : totalItems}
                   </span>
                 )}
@@ -156,7 +156,7 @@ export const EcommerceTemplate = ({
         {/* Page Title */}
         {pageTitle && (
           <div className="mt-8">
-            <h1 className="text-4xl text-foreground font-ruwudu">
+            <h1 className="text-4xl text-white font-ruwudu">
               {pageTitle}
             </h1>
           </div>
@@ -166,7 +166,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-foreground py-4 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
+    <div className={`text-foreground py-4 ${footerClassName}`} style={{ backgroundColor: '#c4a64f' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
