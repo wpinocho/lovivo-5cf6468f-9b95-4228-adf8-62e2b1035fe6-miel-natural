@@ -23,6 +23,7 @@ export default {
 				'heading': ['Ruwudu', 'serif'],
 				'caveat': ['Caveat', 'cursive'],
 				'dancing': ['Dancing Script', 'cursive'],
+				'biro': ['Homemade Apple', 'cursive'],
 				'dm-sans': ['"DM Sans"', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
 				'lato': ['Lato', 'sans-serif'],
