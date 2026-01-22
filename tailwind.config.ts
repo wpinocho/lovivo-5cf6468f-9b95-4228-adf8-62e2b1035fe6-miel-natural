@@ -21,6 +21,8 @@ export default {
 			fontFamily: {
 				'ruwudu': ['Ruwudu', 'serif'],
 				'heading': ['Ruwudu', 'serif'],
+				'caveat': ['Caveat', 'cursive'],
+				'dancing': ['Dancing Script', 'cursive'],
 				'dm-sans': ['"DM Sans"', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
 				'lato': ['Lato', 'sans-serif'],
