@@ -26,7 +26,7 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
   return (
     <HeadlessProductCard product={product}>
       {(logic) => (
-        <Card className="bg-card border border-primary/20 hover:border-accent/40 hover:shadow-lg transition-all duration-300 group">
+        <Card className="bg-card border-0 hover:shadow-lg transition-all duration-300 group">
           <CardContent className="p-4">
             <Link to={`/products/${logic.product.slug}`} className="block">
               <div className="aspect-square rounded-lg mb-3 overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-300" style={{ backgroundColor: '#eceae4' }}>
@@ -145,7 +145,8 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
                   logic.handleAddToCart()
                 }}
                 disabled={!logic.canAddToCart}
-                className="bg-gradient-to-r from-mustard to-accent hover:from-mustard/90 hover:to-accent/90 text-foreground disabled:opacity-50 font-bold shadow-md"
+                style={{ backgroundColor: '#f9f7f5' }}
+                className="hover:opacity-90 text-foreground disabled:opacity-50 font-bold shadow-md"
               >
                 {logic.inStock ? 'Agregar al Carrito' : 'Agotado'}
               </Button>
