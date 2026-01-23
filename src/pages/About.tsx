@@ -10,7 +10,7 @@ const About = () => {
   return (
     <EcommerceTemplate showCart={true}>
       {/* Hero con título */}
-      <section className="py-8" style={{ backgroundColor: '#f0d790' }}>
+      <section className="py-8 bg-background">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
           <h1 className="text-3xl md:text-4xl text-foreground/90 mb-2 font-ruwudu">
             Nuestro Proyecto
