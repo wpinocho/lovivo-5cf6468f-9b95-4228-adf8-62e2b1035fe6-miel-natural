@@ -167,7 +167,7 @@ export const EcommerceTemplate = ({
   )
 
   const footer = (
-    <div className={`text-foreground py-4 ${footerClassName}`} style={{ backgroundColor: '#eceae4' }}>
+    <div className={`py-4 ${footerClassName}`} style={{ backgroundColor: '#eceae4', color: '#988b8b' }}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -177,42 +177,47 @@ export const EcommerceTemplate = ({
               alt="APIS TERRA" 
               className="h-24 w-auto mb-3"
             />
-            <p className="text-foreground/90 leading-relaxed">
+            <p className="leading-relaxed" style={{ color: '#988b8b' }}>
               Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h3 className="text-lg mb-3 text-foreground font-ruwudu">Navegación</h3>
+            <h3 className="text-lg mb-3 font-ruwudu" style={{ color: '#988b8b' }}>Navegación</h3>
             <div className="space-y-2">
               <Link 
                 to="/nuestro-proyecto" 
-                className="block text-foreground/80 hover:text-foreground transition-colors"
+                className="block hover:opacity-70 transition-colors"
+                style={{ color: '#988b8b' }}
               >
                 Nuestro Proyecto
               </Link>
               <Link 
                 to="/productos" 
-                className="block text-foreground/80 hover:text-foreground transition-colors"
+                className="block hover:opacity-70 transition-colors"
+                style={{ color: '#988b8b' }}
               >
                 Productos
               </Link>
               <Link 
                 to="/distinguir-miel-real" 
-                className="block text-foreground/80 hover:text-foreground transition-colors"
+                className="block hover:opacity-70 transition-colors"
+                style={{ color: '#988b8b' }}
               >
                 ¿Cómo distinguir miel auténtica?
               </Link>
               <Link 
                 to="/galeria" 
-                className="block text-foreground/80 hover:text-foreground transition-colors"
+                className="block hover:opacity-70 transition-colors"
+                style={{ color: '#988b8b' }}
               >
                 Galería
               </Link>
               <Link 
                 to="/contacto" 
-                className="block text-foreground/80 hover:text-foreground transition-colors"
+                className="block hover:opacity-70 transition-colors"
+                style={{ color: '#988b8b' }}
               >
                 Contacto
               </Link>
@@ -221,8 +226,8 @@ export const EcommerceTemplate = ({
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg mb-3 text-foreground font-ruwudu">Contacto</h3>
-            <div className="space-y-2 text-sm text-foreground/90 mb-3">
+            <h3 className="text-lg mb-3 font-ruwudu" style={{ color: '#988b8b' }}>Contacto</h3>
+            <div className="space-y-2 text-sm mb-3" style={{ color: '#988b8b' }}>
               <p>apis.terra64@gmail.com</p>
               <p>+52 55 59 64 83 95</p>
               <p>Nevado de Toluca, 3,000 msnm</p>
@@ -231,7 +236,7 @@ export const EcommerceTemplate = ({
           </div>
         </div>
 
-        <div className="mt-6 pt-3 border-t border-foreground/20 text-center text-foreground/70 text-sm">
+        <div className="mt-6 pt-3 border-t text-center text-sm" style={{ borderColor: '#988b8b33', color: '#988b8b' }}>
           <p>&copy; 2025 APIS TERRA. Todos los derechos reservados.</p>
         </div>
       </div>
