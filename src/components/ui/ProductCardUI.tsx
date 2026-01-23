@@ -29,7 +29,7 @@ export const ProductCardUI = ({ product }: ProductCardUIProps) => {
         <Card className="bg-card border border-primary/20 hover:border-accent/40 hover:shadow-lg transition-all duration-300 group">
           <CardContent className="p-4">
             <Link to={`/products/${logic.product.slug}`} className="block">
-              <div className="aspect-square bg-muted rounded-lg mb-3 overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-300">
+              <div className="aspect-square rounded-lg mb-3 overflow-hidden relative group-hover:scale-[1.02] transition-transform duration-300" style={{ backgroundColor: '#eceae4' }}>
                 {(logic.matchingVariant?.image || (logic.product.images && logic.product.images.length > 0)) ? (
                   <img
                     src={(logic.matchingVariant?.image as any) || logic.product.images![0]}

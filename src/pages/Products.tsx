@@ -28,7 +28,7 @@ const Products = () => {
           <EcommerceTemplate pageTitle="Nuestros Productos" showCart={true}>
             {/* Collections Section */}
             {!loadingCollections && collections.length > 0 && (
-              <section className="py-24" style={{ backgroundColor: '#f0d790' }}>
+              <section className="py-24" style={{ backgroundColor: '#f9f7f5' }}>
                 <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
                   <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl text-foreground mb-4 font-ruwudu">
@@ -50,7 +50,7 @@ const Products = () => {
             )}
 
             {/* Products Section */}
-            <section className="py-24" style={{ backgroundColor: '#f0d790' }}>
+            <section className="py-24" style={{ backgroundColor: '#f9f7f5' }}>
               <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl md:text-5xl text-foreground mb-4 font-ruwudu">
