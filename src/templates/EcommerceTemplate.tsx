@@ -65,9 +65,9 @@ export const EcommerceTemplate = ({
           <div className="flex items-center">
             <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="lg" className="flex items-center gap-2 text-lg text-white hover:text-white/80">
+                <Button variant="ghost" size="lg" className="flex items-center gap-2 text-lg hover:opacity-70" style={{ color: '#594b4b' }}>
                   <Menu className="h-6 w-6" />
-                  <span className="text-lg">Menú</span>
+                  <span className="text-lg">MENÚ</span>
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="w-[300px]">
@@ -139,7 +139,8 @@ export const EcommerceTemplate = ({
                 variant="ghost"
                 size="icon"
                 onClick={openCart}
-                className="relative text-white hover:text-white/80 hover:bg-white/10"
+                className="relative hover:opacity-70"
+                style={{ color: '#594b4b' }}
                 aria-label="Ver carrito"
               >
                 <ShoppingCart className="h-5 w-5" />
@@ -156,7 +157,7 @@ export const EcommerceTemplate = ({
         {/* Page Title */}
         {pageTitle && (
           <div className="mt-8">
-            <h1 className="text-4xl text-white font-ruwudu">
+            <h1 className="text-4xl font-ruwudu" style={{ color: '#594b4b' }}>
               {pageTitle}
             </h1>
           </div>

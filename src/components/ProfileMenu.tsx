@@ -49,6 +49,8 @@ export const ProfileMenu = () => {
           size="icon"
           onClick={() => setShowAuthDialog(true)}
           aria-label="Sign in"
+          className="hover:opacity-70"
+          style={{ color: '#594b4b' }}
         >
           <User className="h-5 w-5" />
         </Button>
@@ -64,7 +66,7 @@ export const ProfileMenu = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" aria-label="Profile menu">
+        <Button variant="ghost" size="icon" aria-label="Profile menu" className="hover:opacity-70" style={{ color: '#594b4b' }}>
           <User className="h-5 w-5" />
         </Button>
       </DropdownMenuTrigger>
