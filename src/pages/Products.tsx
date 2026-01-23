@@ -25,7 +25,7 @@ const Products = () => {
         } = logic;
 
         return (
-          <EcommerceTemplate pageTitle="Nuestros Productos" showCart={true}>
+          <EcommerceTemplate showCart={true}>
             {/* Collections Section */}
             {!loadingCollections && collections.length > 0 && (
               <section className="py-24" style={{ backgroundColor: '#f9f7f5' }}>
