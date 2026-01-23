@@ -10,7 +10,7 @@ const About = () => {
   return (
     <EcommerceTemplate showCart={true}>
       {/* Hero con título */}
-      <section className="py-8 bg-background">
+      <section className="py-8" style={{ backgroundColor: '#f0d790' }}>
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
           <h1 className="text-3xl md:text-4xl text-foreground/90 mb-2 font-ruwudu">
             Nuestro Proyecto
@@ -22,7 +22,7 @@ const About = () => {
       </section>
 
       {/* Postal 1 - 3,000 metros de altura */}
-      <section className="py-6 bg-background">
+      <section className="py-6" style={{ backgroundColor: '#f0d790' }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative bg-[#f5f1e8] p-6 shadow-2xl border-4 border-white" style={{ 
             boxShadow: '0 8px 30px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05)'
@@ -79,7 +79,7 @@ const About = () => {
       </section>
 
       {/* Postal 2 - Apicultura Silvestre */}
-      <section className="py-6 bg-background">
+      <section className="py-6" style={{ backgroundColor: '#f0d790' }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative bg-[#f5f1e8] p-6 shadow-2xl border-4 border-white" style={{ 
             boxShadow: '0 8px 30px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05)',
@@ -135,7 +135,7 @@ const About = () => {
       </section>
 
       {/* Postal 3 - Dos Generaciones */}
-      <section className="py-6 bg-background">
+      <section className="py-6" style={{ backgroundColor: '#f0d790' }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative bg-[#f5f1e8] p-6 shadow-2xl border-4 border-white" style={{ 
             boxShadow: '0 8px 30px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05)',
