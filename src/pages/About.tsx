@@ -15,7 +15,7 @@ const About = () => {
           <h1 className="text-3xl md:text-4xl text-foreground/90 mb-2 font-ruwudu">
             Nuestro Proyecto
           </h1>
-          <p className="text-sm text-foreground/60 font-biro">
+          <p className="text-sm text-foreground/60 font-kalam">
             Postales desde el Nevado de Toluca
           </p>
         </div>
@@ -23,34 +23,34 @@ const About = () => {
 
       {/* Postal 1 - 3,000 metros de altura */}
       <section className="py-6 bg-background">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-[#f5f1e8] p-4 shadow-2xl border-4 border-white" style={{ 
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative bg-[#f5f1e8] p-6 shadow-2xl border-4 border-white" style={{ 
             boxShadow: '0 8px 30px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05)'
           }}>
-            {/* Estampilla decorativa */}
-            <div className="absolute top-3 right-3 w-10 h-12 border-2 border-foreground/20 bg-background/50" style={{
-              borderStyle: 'dashed',
-            }}>
-              <div className="w-full h-full flex items-center justify-center text-[8px] text-foreground/40 font-ruwudu rotate-12">
-                3000m
-              </div>
+            {/* Logo en lugar de estampilla */}
+            <div className="absolute top-3 right-3 w-14 h-14">
+              <img 
+                src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1769127989306-bequfnhg9pb.png" 
+                alt="APIS TERRA" 
+                className="w-full h-full object-contain opacity-80"
+              />
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-2 gap-6">
               {/* Foto con borde vintage */}
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-200/30 to-orange-200/30 translate-x-1 translate-y-1"></div>
                 <img 
                   src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768847065476-xanspi1a0da.jpeg" 
                   alt="Colmenas en el Nevado de Toluca" 
-                  className="relative w-full h-48 object-cover border-4 border-white shadow-lg"
+                  className="relative w-full h-56 object-cover border-4 border-white shadow-lg"
                   style={{ filter: 'grayscale(100%) contrast(0.85) sepia(0.2)' }}
                 />
               </div>
               
               {/* Texto estilo postal manuscrito */}
-              <div className="space-y-2 font-biro text-foreground/80 text-sm">
-                <p className="text-[9px] text-foreground/50 uppercase tracking-widest font-ruwudu mb-2">
+              <div className="space-y-2 font-kalam text-foreground/80 text-sm">
+                <p className="text-[10px] text-foreground/50 tracking-wide font-ruwudu mb-2">
                   Desde las alturas
                 </p>
                 
@@ -70,7 +70,7 @@ const About = () => {
 
                 {/* Firma */}
                 <div className="text-right pt-2">
-                  <p className="text-sm">— APIS TERRA</p>
+                  <p className="text-sm">— Apis Terra</p>
                 </div>
               </div>
             </div>
@@ -80,8 +80,8 @@ const About = () => {
 
       {/* Postal 2 - Apicultura Silvestre */}
       <section className="py-6 bg-background">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-[#f5f1e8] p-4 shadow-2xl border-4 border-white" style={{ 
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative bg-[#f5f1e8] p-6 shadow-2xl border-4 border-white" style={{ 
             boxShadow: '0 8px 30px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05)',
             transform: 'rotate(-0.5deg)'
           }}>
@@ -92,21 +92,21 @@ const About = () => {
               <div className="w-20 h-px bg-foreground/30"></div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-2 gap-6">
               {/* Foto con borde vintage */}
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-green-200/30 to-teal-200/30 -translate-x-1 -translate-y-1"></div>
                 <img 
                   src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768847065476-t83gvzpx5la.jpeg" 
                   alt="Apicultura artesanal" 
-                  className="relative w-full h-48 object-cover border-4 border-white shadow-lg"
+                  className="relative w-full h-56 object-cover border-4 border-white shadow-lg"
                   style={{ filter: 'grayscale(100%) contrast(0.85) sepia(0.2)' }}
                 />
               </div>
               
               {/* Texto estilo postal manuscrito */}
-              <div className="space-y-2 font-biro text-foreground/80 text-sm">
-                <p className="text-[9px] text-foreground/50 uppercase tracking-widest font-ruwudu mb-2">
+              <div className="space-y-2 font-kalam text-foreground/80 text-sm">
+                <p className="text-[10px] text-foreground/50 tracking-wide font-ruwudu mb-2">
                   Cartolina Postale
                 </p>
                 
@@ -136,36 +136,36 @@ const About = () => {
 
       {/* Postal 3 - Dos Generaciones */}
       <section className="py-6 bg-background">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-[#f5f1e8] p-4 shadow-2xl border-4 border-white" style={{ 
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative bg-[#f5f1e8] p-6 shadow-2xl border-4 border-white" style={{ 
             boxShadow: '0 8px 30px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05)',
             transform: 'rotate(0.5deg)'
           }}>
-            {/* Estampilla postal real */}
-            <div className="absolute top-3 right-3 w-12 h-16 border-2 border-foreground/30 bg-gradient-to-br from-amber-100 to-orange-100 flex flex-col items-center justify-center">
-              <div className="text-[8px] text-foreground/60 font-ruwudu text-center">
-                <div className="text-base mb-0.5">🐝</div>
-                <div>MX</div>
-                <div className="text-[7px]">2025</div>
-              </div>
+            {/* Logo en lugar de estampilla */}
+            <div className="absolute top-3 right-3 w-14 h-14">
+              <img 
+                src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1769127989306-bequfnhg9pb.png" 
+                alt="APIS TERRA" 
+                className="w-full h-full object-contain opacity-80"
+              />
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-2 gap-6">
               {/* Foto con borde vintage */}
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-200/30 to-pink-200/30 translate-x-1 -translate-y-1"></div>
                 <img 
                   src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768847065475-u3oe2f8vxo.jpeg" 
                   alt="Dos generaciones de apicultoras" 
-                  className="relative w-full h-48 object-cover border-4 border-white shadow-lg"
+                  className="relative w-full h-56 object-cover border-4 border-white shadow-lg"
                   style={{ filter: 'grayscale(100%) contrast(0.85) sepia(0.2)' }}
                 />
               </div>
               
               {/* Texto estilo postal manuscrito */}
-              <div className="space-y-2 font-biro text-foreground/80 text-sm">
-                <p className="text-[9px] text-foreground/50 uppercase tracking-widest font-ruwudu mb-2">
-                  FROM THE APIARIO
+              <div className="space-y-2 font-kalam text-foreground/80 text-sm">
+                <p className="text-[10px] text-foreground/50 tracking-wide font-ruwudu mb-2">
+                  From the Apiario
                 </p>
                 
                 <p className="text-base leading-snug">
@@ -188,7 +188,7 @@ const About = () => {
                 {/* Firma manuscrita más elaborada */}
                 <div className="text-right pt-2">
                   <p className="text-xs">Con todo nuestro corazón,</p>
-                  <p className="text-sm font-bold">APIS TERRA</p>
+                  <p className="text-sm font-bold">Apis Terra</p>
                   <p className="text-[10px] text-foreground/60">Nevado de Toluca ♡</p>
                 </div>
               </div>

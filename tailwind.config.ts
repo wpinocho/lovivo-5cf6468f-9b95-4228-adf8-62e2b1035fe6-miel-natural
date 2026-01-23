@@ -24,6 +24,7 @@ export default {
 				'caveat': ['Caveat', 'cursive'],
 				'dancing': ['Dancing Script', 'cursive'],
 				'biro': ['Homemade Apple', 'cursive'],
+				'kalam': ['Kalam', 'cursive'],
 				'dm-sans': ['"DM Sans"', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
 				'lato': ['Lato', 'sans-serif'],
