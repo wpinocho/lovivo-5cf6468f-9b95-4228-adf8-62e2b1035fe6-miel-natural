@@ -25,6 +25,7 @@ export default {
 				'dancing': ['Dancing Script', 'cursive'],
 				'biro': ['Homemade Apple', 'cursive'],
 				'kalam': ['Kalam', 'cursive'],
+				'cormorant': ['Cormorant Garamond', 'serif'],
 				'dm-sans': ['"DM Sans"', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
 				'lato': ['Lato', 'sans-serif'],

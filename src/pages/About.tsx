@@ -15,7 +15,7 @@ const About = () => {
           <h1 className="text-3xl md:text-4xl text-foreground/90 mb-2 font-ruwudu">
             Nuestro Proyecto
           </h1>
-          <p className="text-sm text-foreground/60 font-kalam">
+          <p className="text-sm text-foreground/60 font-cormorant">
             Postales desde el Nevado de Toluca
           </p>
         </div>
@@ -49,7 +49,7 @@ const About = () => {
               </div>
               
               {/* Texto estilo postal manuscrito */}
-              <div className="space-y-2 font-kalam text-foreground/80 text-sm">
+              <div className="space-y-2 font-cormorant text-foreground/80 text-sm">
                 <p className="text-[10px] text-foreground/50 tracking-wide font-ruwudu mb-2">
                   Desde las alturas
                 </p>
@@ -105,8 +105,8 @@ const About = () => {
               </div>
               
               {/* Texto estilo postal manuscrito */}
-              <div className="space-y-2 font-kalam text-foreground/80 text-sm">
-                <p className="text-[10px] text-foreground/50 tracking-wide font-ruwudu mb-2">
+              <div className="space-y-2 font-cormorant text-foreground/80 text-sm">
+                <p className="text-[10px] text-foreground/50 tracking-wide font-cormorant mb-2">
                   Cartolina Postale
                 </p>
                 
@@ -163,8 +163,8 @@ const About = () => {
               </div>
               
               {/* Texto estilo postal manuscrito */}
-              <div className="space-y-2 font-kalam text-foreground/80 text-sm">
-                <p className="text-[10px] text-foreground/50 tracking-wide font-ruwudu mb-2">
+              <div className="space-y-2 font-cormorant text-foreground/80 text-sm">
+                <p className="text-[10px] text-foreground/50 tracking-wide font-cormorant mb-2">
                   From the Apiario
                 </p>
                 
