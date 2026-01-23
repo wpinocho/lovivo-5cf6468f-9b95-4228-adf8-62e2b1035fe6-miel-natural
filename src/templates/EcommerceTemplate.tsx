@@ -66,7 +66,7 @@ export const EcommerceTemplate = ({
             <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="lg" className="flex items-center gap-3 hover:opacity-70" style={{ color: '#988b8b' }}>
-                  <Menu className="h-14 w-14" />
+                  <Menu className="h-24 w-24" />
                   <span style={{ color: '#988b8b', fontSize: '16px' }} className="font-ruwudu leading-none flex items-center h-12">MENÚ</span>
                 </Button>
               </SheetTrigger>
