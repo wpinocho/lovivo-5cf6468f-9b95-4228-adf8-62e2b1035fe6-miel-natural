@@ -61,28 +61,8 @@ export const EcommerceTemplate = ({
             <BrandLogoLeft />
           </div>
 
-          {/* Profile, Cart & Menu Hamburguesa */}
+          {/* Menu, Profile & Cart */}
           <div className="flex items-center space-x-3">
-            <ProfileMenu />
-            
-            {showCart && (
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={openCart}
-                className="relative hover:opacity-70"
-                style={{ color: '#988b8b' }}
-                aria-label="Ver carrito"
-              >
-                <ShoppingCart className="h-5 w-5" />
-                {totalItems > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-white text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center shadow-lg">
-                    {totalItems > 99 ? '99+' : totalItems}
-                  </span>
-                )}
-              </Button>
-            )}
-
             {/* Menu Hamburguesa */}
             <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
               <SheetTrigger asChild>
@@ -148,6 +128,26 @@ export const EcommerceTemplate = ({
                 </nav>
               </SheetContent>
             </Sheet>
+
+            <ProfileMenu />
+            
+            {showCart && (
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={openCart}
+                className="relative hover:opacity-70"
+                style={{ color: '#988b8b' }}
+                aria-label="Ver carrito"
+              >
+                <ShoppingCart className="h-5 w-5" />
+                {totalItems > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-white text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center shadow-lg">
+                    {totalItems > 99 ? '99+' : totalItems}
+                  </span>
+                )}
+              </Button>
+            )}
           </div>
         </div>
 
