@@ -61,13 +61,33 @@ export const EcommerceTemplate = ({
             <BrandLogoLeft />
           </div>
 
-          {/* Menu Hamburguesa */}
-          <div className="flex items-center">
+          {/* Profile, Cart & Menu Hamburguesa */}
+          <div className="flex items-center space-x-3">
+            <ProfileMenu />
+            
+            {showCart && (
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={openCart}
+                className="relative hover:opacity-70"
+                style={{ color: '#988b8b' }}
+                aria-label="Ver carrito"
+              >
+                <ShoppingCart className="h-5 w-5" />
+                {totalItems > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-white text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center shadow-lg">
+                    {totalItems > 99 ? '99+' : totalItems}
+                  </span>
+                )}
+              </Button>
+            )}
+
+            {/* Menu Hamburguesa */}
             <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="lg" className="flex items-center gap-3 hover:opacity-70 p-2" style={{ color: '#988b8b' }}>
-                  <Menu className="h-18 w-18" strokeWidth={1.5} />
-                  <span style={{ color: '#988b8b', fontSize: '16px' }} className="font-ruwudu leading-none flex items-center h-12">MENÚ</span>
+                <Button variant="ghost" size="icon" className="hover:opacity-70" style={{ color: '#988b8b' }}>
+                  <Menu className="h-20 w-20" strokeWidth={1.5} />
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="w-[300px]">
@@ -128,29 +148,6 @@ export const EcommerceTemplate = ({
                 </nav>
               </SheetContent>
             </Sheet>
-          </div>
-
-          {/* Profile & Cart */}
-          <div className="flex items-center space-x-3">
-            <ProfileMenu />
-            
-            {showCart && (
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={openCart}
-                className="relative hover:opacity-70"
-                style={{ color: '#988b8b' }}
-                aria-label="Ver carrito"
-              >
-                <ShoppingCart className="h-5 w-5" />
-                {totalItems > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-white text-primary text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center shadow-lg">
-                    {totalItems > 99 ? '99+' : totalItems}
-                  </span>
-                )}
-              </Button>
-            )}
           </div>
         </div>
 
