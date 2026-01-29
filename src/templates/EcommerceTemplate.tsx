@@ -174,9 +174,7 @@ export const EcommerceTemplate = ({
               alt="APIS TERRA" 
               className="h-24 w-auto mb-3"
             />
-            <p className="leading-relaxed" style={{ color: '#988b8b' }}>
-              Miel artesanal 100% natural de alta montaña. Producida a 3,000 metros de altura en las faldas del Nevado de Toluca.
-            </p>
+            <p className="leading-relaxed" style={{ color: '#988b8b' }}>Miel de abeja 100% pura y natural de alta montaña. Producida con apicultura silvestre a 3,000 metros de altura, en las faldas del Nevado de Toluca.</p>
           </div>
 
           {/* Links */}
