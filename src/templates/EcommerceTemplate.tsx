@@ -227,8 +227,7 @@ export const EcommerceTemplate = ({
             <div className="space-y-2 text-sm mb-3" style={{ color: '#988b8b' }}>
               <p>apis.terra64@gmail.com</p>
               <p>+52 55 59 64 83 95</p>
-              <p>Faldas del Nevado de Toluca, 3,000 msnm 
-Estado de México, México</p>
+              <p>Faldas del Nevado de Toluca, 3,000 msnm, Estado de México, México</p>
             </div>
             <SocialLinks />
           </div>
