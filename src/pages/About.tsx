@@ -52,7 +52,7 @@ const About = () => {
                   Desde las alturas
                 </p>
                 
-                <p className="text-base leading-snug">
+                <p style={{ fontSize: '18px', fontWeight: '700' }} className="text-base leading-snug">
                   3,000 metros de altura.
                 </p>
                 
