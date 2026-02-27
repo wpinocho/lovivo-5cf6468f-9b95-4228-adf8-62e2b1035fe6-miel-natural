@@ -166,9 +166,7 @@ Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y 
                 </p>
 
                 <div className="pt-2 border-t border-foreground/20 mt-2">
-                  <p style={{ fontSize: '14px' }} className="text-xs leading-snug">
-                    Somos una empresa familiar dirigida por mujeres apicultoras. Madre e hija trabajando juntas para preservar las tradiciones de la apicultura sostenible.
-                  </p>
+                  <p style={{ fontSize: '14px' }} className="text-xs leading-snug">Somos un proyecto familiar de 3 generaciones que busca compartir la rareza de la miel de alta montaña. Cada frasco viaja del panal a tu mesa contando su propia historia y enlazando nuestras raíces con la riqueza de las abejas y la montaña.</p>
                   <p className="text-[10px] leading-snug mt-1 italic text-foreground/60">
                     Miel 100% pura, cruda y natural. Nuestro compromiso es con las abejas, la naturaleza y contigo.
                   </p>
