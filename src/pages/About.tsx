@@ -104,16 +104,13 @@ const About = () => {
                   Cartolina Postale
                 </p>
                 
-                <p className="text-base leading-snug">
-                  Apicultura silvestre.
-                </p>
+                <p style={{ fontSize: '18px', fontWeight: '700' }} className="text-base leading-snug">Apicultura silvestre</p>
                 
-                <p className="text-sm leading-snug">
-                  Trabajamos con métodos artesanales que respetan el ciclo natural de las abejas.
-                </p>
+                <p style={{ fontStyle: 'italic' }} className="text-sm leading-snug">La colmena guía y el humano acompaña.</p>
 
                 <div className="pt-2 border-t border-foreground/20 mt-2">
-                  <p style={{ fontSize: '14px' }} className="text-xs leading-snug">La apicultura silvestre es sin atajos y con mínima invasión. Les dejamos la mitad de la cosecha de miel que es su propio alimento. Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y máximo respeto a las abejas. Nuestra miel es el reflejo de un métodos de apicultura que van al ritmo de las abejas, y queremos compartirlo contigo.</p>
+                  <p style={{ fontSize: '14px' }} className="text-xs leading-snug">La apicultura silvestre es sin atajos y con mínima invasión. La colmena se queda con la mitad de la cosecha de miel para alimentarse durante el invierno y la sequía. 
+Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y máximo respeto a las abejas. Nuestra miel es el reflejo de una apicultura que va al ritmo propio de las abejas.</p>
                 </div>
 
                 {/* Firma */}
