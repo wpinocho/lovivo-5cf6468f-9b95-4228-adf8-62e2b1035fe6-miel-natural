@@ -47,10 +47,6 @@ const About = () => {
               
               {/* Texto estilo postal manuscrito */}
               <div className="space-y-2 font-cormorant text-foreground/80 text-sm">
-                <p className="text-[10px] text-foreground/50 tracking-wide font-ruwudu mb-2">
-                  Desde las alturas
-                </p>
-                
                 <p style={{ fontSize: '18px', fontWeight: '700' }} className="text-base leading-snug">
                   3,000 metros de altura.
                 </p>
@@ -98,10 +94,6 @@ const About = () => {
               
               {/* Texto estilo postal manuscrito */}
               <div className="space-y-2 font-cormorant text-foreground/80 text-sm">
-                <p className="text-[10px] text-foreground/50 tracking-wide font-cormorant mb-2">
-                  Cartolina Postale
-                </p>
-                
                 <p style={{ fontSize: '18px', fontWeight: '700' }} className="text-base leading-snug">Apicultura silvestre</p>
                 
                 <p style={{ fontStyle: 'italic' }} className="text-sm leading-snug">La colmena guía y el humano acompaña.</p>
@@ -150,10 +142,6 @@ Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y 
               
               {/* Texto estilo postal manuscrito */}
               <div className="space-y-2 font-cormorant text-foreground/80 text-sm">
-                <p className="text-[10px] text-foreground/50 tracking-wide font-cormorant mb-2">
-                  From the Apiario
-                </p>
-                
                 <p style={{ fontSize: '18px', fontWeight: '700' }} className="text-base leading-snug">
                   Dos generaciones de mujeres.
                 </p>
@@ -164,16 +152,12 @@ Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y 
 
                 <div className="pt-2 border-t border-foreground/20 mt-2">
                   <p style={{ fontSize: '14px' }} className="text-xs leading-snug">Somos un proyecto familiar de 3 generaciones que busca compartir la rareza de la miel de alta montaña. Cada frasco viaja del panal a tu mesa contando su propia historia y enlazando nuestras raíces con la riqueza de las abejas y la montaña.</p>
-                  <p className="text-[10px] leading-snug mt-1 italic text-foreground/60">
-                    Miel 100% pura, cruda y natural. Nuestro compromiso es con las abejas, la naturaleza y contigo.
-                  </p>
+
                 </div>
 
                 {/* Firma manuscrita más elaborada */}
                 <div className="text-right pt-2">
-                  <p className="text-xs">Con todo nuestro corazón,</p>
                   <p style={{ fontSize: '12px', fontStyle: 'italic' }} className="text-sm font-bold">Apis Terra</p>
-                  <p className="text-[10px] text-foreground/60">Nevado de Toluca ♡</p>
                 </div>
               </div>
             </div>
