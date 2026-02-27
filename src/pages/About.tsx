@@ -36,12 +36,11 @@ const About = () => {
 
             <div className="grid md:grid-cols-2 gap-6">
               {/* Foto con borde vintage */}
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-200/30 to-orange-200/30 translate-x-1 translate-y-1"></div>
+              <div className="flex items-center justify-center">
                 <img 
                   src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768847065476-xanspi1a0da.jpeg" 
                   alt="Colmenas en el Nevado de Toluca" 
-                  className="relative w-full h-56 object-cover border-4 border-white shadow-lg"
+                  className="w-full h-56 object-cover border-4 border-white shadow-lg"
                   style={{ filter: 'grayscale(100%) contrast(0.85) sepia(0.2)' }}
                 />
               </div>
@@ -88,12 +87,11 @@ const About = () => {
 
             <div className="grid md:grid-cols-2 gap-6">
               {/* Foto con borde vintage */}
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-200/30 to-teal-200/30 -translate-x-1 -translate-y-1"></div>
+              <div className="flex items-center justify-center">
                 <img 
                   src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768847065476-t83gvzpx5la.jpeg" 
                   alt="Apicultura artesanal" 
-                  className="relative w-full h-56 object-cover border-4 border-white shadow-lg"
+                  className="w-full h-56 object-cover border-4 border-white shadow-lg"
                   style={{ filter: 'grayscale(100%) contrast(0.85) sepia(0.2)' }}
                 />
               </div>
@@ -141,12 +139,11 @@ Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y 
 
             <div className="grid md:grid-cols-2 gap-6">
               {/* Foto con borde vintage */}
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-200/30 to-pink-200/30 translate-x-1 -translate-y-1"></div>
+              <div className="flex items-center justify-center">
                 <img 
                   src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/message-images/7e7e24e1-47af-45b7-b627-f491723e0d93/1768847065475-u3oe2f8vxo.jpeg" 
                   alt="Dos generaciones de apicultoras" 
-                  className="relative w-full h-56 object-cover border-4 border-white shadow-lg"
+                  className="w-full h-56 object-cover border-4 border-white shadow-lg"
                   style={{ filter: 'grayscale(100%) contrast(0.85) sepia(0.2)' }}
                 />
               </div>
