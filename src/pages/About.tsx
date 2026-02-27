@@ -64,7 +64,7 @@ const About = () => {
 
                 {/* Firma */}
                 <div className="text-right pt-2">
-                  <p className="text-sm">— Apis Terra</p>
+                  <p style={{ fontSize: '12px', fontStyle: 'italic' }} className="text-sm">Apis Terra</p>
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@ Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y 
 
                 {/* Firma */}
                 <div className="text-right pt-2">
-                  <p className="text-sm">Con cariño, desde la montaña x</p>
+                  <p style={{ fontSize: '12px', fontStyle: 'italic' }} className="text-sm">Apis Terra</p>
                 </div>
               </div>
             </div>
