@@ -142,13 +142,9 @@ Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y 
               
               {/* Texto estilo postal manuscrito */}
               <div className="space-y-2 font-cormorant text-foreground/80 text-sm">
-                <p style={{ fontSize: '18px', fontWeight: '700' }} className="text-base leading-snug">
-                  Dos generaciones de mujeres.
-                </p>
+                <p style={{ fontSize: '18px', fontWeight: '700' }} className="text-base leading-snug">Apicultura familiar</p>
                 
-                <p style={{ fontStyle: 'italic' }} className="text-sm leading-snug">
-                  16 años de experiencia en apicultura de montaña.
-                </p>
+                <p style={{ fontStyle: 'italic' }} className="text-sm leading-snug">Desde 2005</p>
 
                 <div className="pt-2 border-t border-foreground/20 mt-2">
                   <p style={{ fontSize: '14px' }} className="text-xs leading-snug">Somos un proyecto familiar de 3 generaciones que busca compartir la rareza de la miel de alta montaña. Cada frasco viaja del panal a tu mesa contando su propia historia y enlazando nuestras raíces con la riqueza de las abejas y la montaña.</p>
