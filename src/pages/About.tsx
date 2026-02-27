@@ -113,9 +113,7 @@ const About = () => {
                 </p>
 
                 <div className="pt-2 border-t border-foreground/20 mt-2">
-                  <p className="text-xs leading-snug">
-                    Sin antibióticos, sin alimentación artificial, sin procesos industriales. Cada gota de miel es el resultado del trabajo extraordinario de las abejas en su hábitat natural.
-                  </p>
+                  <p style={{ fontSize: '14px' }} className="text-xs leading-snug">La apicultura silvestre es sin atajos y con mínima invasión. Les dejamos la mitad de la cosecha de miel que es su propio alimento. Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y máximo respeto a las abejas. Nuestra miel es el reflejo de un métodos de apicultura que van al ritmo de las abejas, y queremos compartirlo contigo.</p>
                 </div>
 
                 {/* Firma */}
