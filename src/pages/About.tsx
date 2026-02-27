@@ -59,7 +59,7 @@ const About = () => {
                 <p style={{ fontStyle: 'italic' }} className="text-sm leading-snug">Miel de de Alta Montaña.</p>
 
                 <div className="pt-2 border-t border-foreground/20 mt-2">
-                  <p className="text-xs leading-snug">En las Faldas del Nevado de Toluca a 3,000 metros de altura, nuestras abejas trabajan rodeadas de aire limpio, flores silvestres resistentes al frío y una naturaleza que sobrevive a las heladas y largas sequías. Esta combinación crea una miel única: más compleja en sabor, más rica en propiedades, más pura en esencia.</p>
+                  <p style={{ fontSize: '14px' }} className="text-xs leading-snug">En las Faldas del Nevado de Toluca a 3,000 metros de altura, nuestras abejas trabajan rodeadas de aire limpio, flores silvestres resistentes al frío y una naturaleza que sobrevive a las heladas y largas sequías. Esta combinación crea una miel única: más compleja en sabor, más rica en propiedades, más pura en esencia.</p>
                 </div>
 
                 {/* Firma */}
