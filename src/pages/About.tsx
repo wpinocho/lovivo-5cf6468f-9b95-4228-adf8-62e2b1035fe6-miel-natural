@@ -157,16 +157,16 @@ Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y 
                   From the Apiario
                 </p>
                 
-                <p className="text-base leading-snug">
+                <p style={{ fontSize: '18px', fontWeight: '700' }} className="text-base leading-snug">
                   Dos generaciones de mujeres.
                 </p>
                 
-                <p className="text-sm leading-snug">
+                <p style={{ fontStyle: 'italic' }} className="text-sm leading-snug">
                   16 años de experiencia en apicultura de montaña.
                 </p>
 
                 <div className="pt-2 border-t border-foreground/20 mt-2">
-                  <p className="text-xs leading-snug">
+                  <p style={{ fontSize: '14px' }} className="text-xs leading-snug">
                     Somos una empresa familiar dirigida por mujeres apicultoras. Madre e hija trabajando juntas para preservar las tradiciones de la apicultura sostenible.
                   </p>
                   <p className="text-[10px] leading-snug mt-1 italic text-foreground/60">
@@ -177,7 +177,7 @@ Sin antibióticos, sin pasteurizar, sin agua con azúcar, mínima filtración y 
                 {/* Firma manuscrita más elaborada */}
                 <div className="text-right pt-2">
                   <p className="text-xs">Con todo nuestro corazón,</p>
-                  <p className="text-sm font-bold">Apis Terra</p>
+                  <p style={{ fontSize: '12px', fontStyle: 'italic' }} className="text-sm font-bold">Apis Terra</p>
                   <p className="text-[10px] text-foreground/60">Nevado de Toluca ♡</p>
                 </div>
               </div>
