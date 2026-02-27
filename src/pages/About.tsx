@@ -15,9 +15,7 @@ const About = () => {
           <h1 className="text-3xl md:text-4xl text-foreground/90 mb-2 font-ruwudu">
             Nuestro Proyecto
           </h1>
-          <p className="text-sm text-foreground/60 font-cormorant">
-            Postales desde el Nevado de Toluca
-          </p>
+          <p className="text-sm text-foreground/60 font-cormorant">Desde 2005</p>
         </div>
       </section>
 
