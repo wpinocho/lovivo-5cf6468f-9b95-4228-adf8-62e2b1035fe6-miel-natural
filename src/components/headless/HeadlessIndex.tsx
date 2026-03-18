@@ -49,7 +49,7 @@ export const useIndexLogic = (): UseIndexLogicReturn => {
         .select('*')
         .eq('status', 'active')
         .eq('store_id', STORE_ID)
-        .order('created_at', { ascending: false });
+        .order('created_at', { ascending: true });
 
       if (error) {
         console.error('Error fetching products:', error);
