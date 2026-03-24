@@ -129,14 +129,9 @@ export const ProductPageUI = ({ logic }: ProductPageUIProps) => {
           {logic.product.description && (
             <div>
               <h3 className="font-semibold mb-2">Descripción</h3>
-              <div 
-                className="text-muted-foreground prose prose-sm max-w-none whitespace-pre-line"
-                dangerouslySetInnerHTML={{ 
-                  __html: /<[a-z][\s\S]*>/i.test(logic.product.description)
-                    ? logic.product.description
-                    : logic.product.description.replace(/\n/g, '<br />')
-                }}
-              />
+              <div className="text-muted-foreground text-sm leading-relaxed whitespace-pre-line">
+                {logic.product.description}
+              </div>
             </div>
           )}
 
