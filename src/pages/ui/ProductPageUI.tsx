@@ -128,10 +128,23 @@ export const ProductPageUI = ({ logic }: ProductPageUIProps) => {
 
           {logic.product.description && (
             <div>
-              <h3 className="font-semibold mb-2">Descripción</h3>
-              <div className="text-muted-foreground text-sm leading-relaxed whitespace-pre-line">
-                {logic.product.description}
-              </div>
+              <h3 className="font-semibold mb-2">Description</h3>
+              <div 
+                className="text-muted-foreground prose prose-sm max-w-none"
+                dangerouslySetInnerHTML={{ __html: logic.product.description }}
+              />Miel de Abeja de Alta Montaña
+-3000 metros de altura
+
+Ingredientes: miel de abeja 100% pura
+
+- 100% cruda, sin calentar y mínima filtración.
+- Textura naturalmente mantequillosa y suave
+- Multifloral
+- Apicultura silvestre
+- Abejas alimentadas con su propia miel (NO agua con azúcar o melaza)
+- Entorno libre de pesticidas, insecticidas, químicos y antibióticos. 
+
+Contenido neto: 350 gramos
             </div>
           )}
 
@@ -172,7 +185,7 @@ export const ProductPageUI = ({ logic }: ProductPageUIProps) => {
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
               <Label htmlFor="quantity" className="text-base font-medium">
-                Cantidad
+                Quantity
               </Label>
               <div className="flex items-center space-x-2">
                 <Button
