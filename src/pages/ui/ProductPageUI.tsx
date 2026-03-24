@@ -132,7 +132,19 @@ export const ProductPageUI = ({ logic }: ProductPageUIProps) => {
               <div 
                 className="text-muted-foreground prose prose-sm max-w-none"
                 dangerouslySetInnerHTML={{ __html: logic.product.description }}
-              />
+              />Miel de Abeja de Alta Montaña
+-3000 metros de altura
+
+Ingredientes: miel de abeja 100% pura
+
+- 100% cruda, sin calentar y mínima filtración.
+- Textura naturalmente mantequillosa y suave
+- Multifloral
+- Apicultura silvestre
+- Abejas alimentadas con su propia miel (NO agua con azúcar o melaza)
+- Entorno libre de pesticidas, insecticidas, químicos y antibióticos. 
+
+Contenido neto: 350 gramos
             </div>
           )}
 
